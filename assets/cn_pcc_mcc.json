@@ -1,0 +1,917 @@
+[
+  {
+    "cn": "Albania",
+    "pcc": "355",
+    "mcc": "276"
+  },
+  {
+    "cn": "Algeria",
+    "pcc": "213",
+    "mcc": "603"
+  },
+  {
+    "cn": "Afghanistan",
+    "pcc": "93",
+    "mcc": "412"
+  },
+  {
+    "cn": "Andorra",
+    "pcc": "376",
+    "mcc": "213"
+  },
+  {
+    "cn": "Angola",
+    "pcc": "244",
+    "mcc": "631"
+  },
+  {
+    "cn": "Anguilla",
+    "pcc": "1264",
+    "mcc": "365"
+  },
+  {
+    "cn": "Antigua and Barbuda",
+    "pcc": "1268",
+    "mcc": "344"
+  },
+  {
+    "cn": "Argentina",
+    "pcc": "54",
+    "mcc": "722"
+  },
+  {
+    "cn": "Armenia",
+    "pcc": "374",
+    "mcc": "283"
+  },
+  {
+    "cn": "Australia",
+    "pcc": "61",
+    "mcc": "505"
+  },
+  {
+    "cn": "Austria",
+    "pcc": "43",
+    "mcc": "232"
+  },
+  {
+    "cn": "Azerbaijan",
+    "pcc": "994",
+    "mcc": "400"
+  },
+  {
+    "cn": "Bahamas",
+    "pcc": "1242",
+    "mcc": "364"
+  },
+  {
+    "cn": "Bahrain",
+    "pcc": "973",
+    "mcc": "426"
+  },
+  {
+    "cn": "Bangladesh",
+    "pcc": "880",
+    "mcc": "470"
+  },
+  {
+    "cn": "Barbados",
+    "pcc": "1246",
+    "mcc": "342"
+  },
+  {
+    "cn": "Belarus/Byelorussia",
+    "pcc": "375",
+    "mcc": "257"
+  },
+  {
+    "cn": "Belgium",
+    "pcc": "32",
+    "mcc": "206"
+  },
+  {
+    "cn": "Belize",
+    "pcc": "501",
+    "mcc": "702"
+  },
+  {
+    "cn": "Benin",
+    "pcc": "229",
+    "mcc": "616"
+  },
+  {
+    "cn": "Bermuda",
+    "pcc": "1441",
+    "mcc": "350"
+  },
+  {
+    "cn": "Bolivia",
+    "pcc": "591",
+    "mcc": "736"
+  },
+  {
+    "cn": "Botswana",
+    "pcc": "267",
+    "mcc": "652"
+  },
+  {
+    "cn": "Brazil",
+    "pcc": "55",
+    "mcc": "724"
+  },
+  {
+    "cn": "Brunei darussalam",
+    "pcc": "673",
+    "mcc": "528"
+  },
+  {
+    "cn": "Bulgaria",
+    "pcc": "359",
+    "mcc": "284"
+  },
+  {
+    "cn": "Burkina Faso",
+    "pcc": "226",
+    "mcc": "613"
+  },
+  {
+    "cn": "Burundi",
+    "pcc": "257",
+    "mcc": "642"
+  },
+  {
+    "cn": "Cambodia",
+    "pcc": "855",
+    "mcc": "456"
+  },
+  {
+    "cn": "Cameroon",
+    "pcc": "237",
+    "mcc": "624"
+  },
+  {
+    "cn": "Canada",
+    "pcc": "1",
+    "mcc": "302"
+  },
+  {
+    "cn": "Central African Rep.",
+    "pcc": "236",
+    "mcc": "623"
+  },
+  {
+    "cn": "Chad",
+    "pcc": "235",
+    "mcc": "622"
+  },
+  {
+    "cn": "Chile",
+    "pcc": "56",
+    "mcc": "730"
+  },
+  {
+    "cn": "China",
+    "pcc": "86",
+    "mcc": "460"
+  },
+  {
+    "cn": "Colombia",
+    "pcc": "57",
+    "mcc": "732"
+  },
+  {
+    "cn": "Congo(DRC)",
+    "pcc": "243",
+    "mcc": "630"
+  },
+  {
+    "cn": "Congo(Republic)",
+    "pcc": "242",
+    "mcc": "629"
+  },
+  {
+    "cn": "Cook Islands",
+    "pcc": "682",
+    "mcc": "548"
+  },
+  {
+    "cn": "Costa Rica",
+    "pcc": "506",
+    "mcc": "712"
+  },
+  {
+    "cn": "Cote D lvoire",
+    "pcc": "225",
+    "mcc": "612"
+  },
+  {
+    "cn": "Cuba",
+    "pcc": "53",
+    "mcc": "368"
+  },
+  {
+    "cn": "Cyprus",
+    "pcc": "357",
+    "mcc": "280"
+  },
+  {
+    "cn": "Czech Republic",
+    "pcc": "420",
+    "mcc": "230"
+  },
+  {
+    "cn": "Denmark",
+    "pcc": "45",
+    "mcc": "238"
+  },
+  {
+    "cn": "Djibouti",
+    "pcc": "253",
+    "mcc": "638"
+  },
+  {
+    "cn": "Dominican Rep.",
+    "pcc": "1809",
+    "mcc": "370"
+  },
+  {
+    "cn": "Ecuador",
+    "pcc": "593",
+    "mcc": "740"
+  },
+  {
+    "cn": "Egypt",
+    "pcc": "20",
+    "mcc": "602"
+  },
+  {
+    "cn": "El Salvador",
+    "pcc": "503",
+    "mcc": "706"
+  },
+  {
+    "cn": "Estonia",
+    "pcc": "372",
+    "mcc": "248"
+  },
+  {
+    "cn": "Ethiopia",
+    "pcc": "251",
+    "mcc": "636"
+  },
+  {
+    "cn": "Fiji",
+    "pcc": "679",
+    "mcc": "542"
+  },
+  {
+    "cn": "Finland",
+    "pcc": "358",
+    "mcc": "244"
+  },
+  {
+    "cn": "France",
+    "pcc": "33",
+    "mcc": "208"
+  },
+  {
+    "cn": "French Guiana",
+    "pcc": "594",
+    "mcc": "742"
+  },
+  {
+    "cn": "French Polynesia",
+    "pcc": "689",
+    "mcc": "547"
+  },
+  {
+    "cn": "Gabon",
+    "pcc": "241",
+    "mcc": "628"
+  },
+  {
+    "cn": "Gambia",
+    "pcc": "220",
+    "mcc": "607"
+  },
+  {
+    "cn": "Georgia",
+    "pcc": "995",
+    "mcc": "282"
+  },
+  {
+    "cn": "Germany",
+    "pcc": "49",
+    "mcc": "262"
+  },
+  {
+    "cn": "Ghana",
+    "pcc": "233",
+    "mcc": "620"
+  },
+  {
+    "cn": "Gibraltar",
+    "pcc": "350",
+    "mcc": "266"
+  },
+  {
+    "cn": "Greece",
+    "pcc": "30",
+    "mcc": "202"
+  },
+  {
+    "cn": "Grenada",
+    "pcc": "1809",
+    "mcc": "352"
+  },
+  {
+    "cn": "Guam",
+    "pcc": "1671",
+    "mcc": "535"
+  },
+  {
+    "cn": "Guatemala",
+    "pcc": "502",
+    "mcc": "704"
+  },
+  {
+    "cn": "Guinea",
+    "pcc": "224",
+    "mcc": "611"
+  },
+  {
+    "cn": "Guyana",
+    "pcc": "592",
+    "mcc": "738"
+  },
+  {
+    "cn": "Haiti",
+    "pcc": "509",
+    "mcc": "372"
+  },
+  {
+    "cn": "Honduras",
+    "pcc": "504",
+    "mcc": "708"
+  },
+  {
+    "cn": "Hong Kong",
+    "pcc": "852",
+    "mcc": "454"
+  },
+  {
+    "cn": "Hungary",
+    "pcc": "36",
+    "mcc": "216"
+  },
+  {
+    "cn": "Iceland",
+    "pcc": "354",
+    "mcc": "274"
+  },
+  {
+    "cn": "India",
+    "pcc": "91",
+    "mcc": "404"
+  },
+  {
+    "cn": "Indonesia",
+    "pcc": "62",
+    "mcc": "510"
+  },
+  {
+    "cn": "Iraq",
+    "pcc": "964",
+    "mcc": "418"
+  },
+  {
+    "cn": "Iran",
+    "pcc": "98",
+    "mcc": "432"
+  },
+  {
+    "cn": "Ireland",
+    "pcc": "353",
+    "mcc": "272"
+  },
+  {
+    "cn": "Israel",
+    "pcc": "972",
+    "mcc": "000"
+  },
+  {
+    "cn": "Italy",
+    "pcc": "39",
+    "mcc": "222"
+  },
+  {
+    "cn": "Jamaica",
+    "pcc": "1876",
+    "mcc": "338"
+  },
+  {
+    "cn": "Japan",
+    "pcc": "81",
+    "mcc": "440"
+  },
+  {
+    "cn": "Jordan",
+    "pcc": "962",
+    "mcc": "416"
+  },
+  {
+    "cn": "Kazakhstan",
+    "pcc": "7",
+    "mcc": "401"
+  },
+  {
+    "cn": "Kenya",
+    "pcc": "254",
+    "mcc": "639"
+  },
+  {
+    "cn": "Korea",
+    "pcc": "82",
+    "mcc": "450"
+  },
+  {
+    "cn": "Korea Democratic Rep.",
+    "pcc": "850",
+    "mcc": "467"
+  },
+  {
+    "cn": "Kuwait",
+    "pcc": "965",
+    "mcc": "419"
+  },
+  {
+    "cn": "Kyrgyzstan",
+    "pcc": "996",
+    "mcc": "437"
+  },
+  {
+    "cn": "Lao People s Democratic Rep.",
+    "pcc": "856",
+    "mcc": "457"
+  },
+  {
+    "cn": "Latvia",
+    "pcc": "371",
+    "mcc": "247"
+  },
+  {
+    "cn": "Lebanon",
+    "pcc": "961",
+    "mcc": "415"
+  },
+  {
+    "cn": "Lesotho",
+    "pcc": "266",
+    "mcc": "651"
+  },
+  {
+    "cn": "Liberia",
+    "pcc": "231",
+    "mcc": "618"
+  },
+  {
+    "cn": "Libya",
+    "pcc": "218",
+    "mcc": "606"
+  },
+  {
+    "cn": "Liechtenstein",
+    "pcc": "423",
+    "mcc": "295"
+  },
+  {
+    "cn": "Lithuania",
+    "pcc": "370",
+    "mcc": "246"
+  },
+  {
+    "cn": "Luxembourg",
+    "pcc": "352",
+    "mcc": "270"
+  },
+  {
+    "cn": "Macao",
+    "pcc": "853",
+    "mcc": "455"
+  },
+  {
+    "cn": "Madagascar",
+    "pcc": "261",
+    "mcc": "646"
+  },
+  {
+    "cn": "Malawi",
+    "pcc": "265",
+    "mcc": "650"
+  },
+  {
+    "cn": "Malaysia",
+    "pcc": "60",
+    "mcc": "502"
+  },
+  {
+    "cn": "Maldives",
+    "pcc": "960",
+    "mcc": "472"
+  },
+  {
+    "cn": "Mali",
+    "pcc": "223",
+    "mcc": "610"
+  },
+  {
+    "cn": "Malta",
+    "pcc": "356",
+    "mcc": "278"
+  },
+  {
+    "cn": "Mauritius",
+    "pcc": "230",
+    "mcc": "617"
+  },
+  {
+    "cn": "Mexico",
+    "pcc": "52",
+    "mcc": "334"
+  },
+  {
+    "cn": "Moldova",
+    "pcc": "373",
+    "mcc": "259"
+  },
+  {
+    "cn": "Monaco",
+    "pcc": "377",
+    "mcc": "212"
+  },
+  {
+    "cn": "Mongolia",
+    "pcc": "976",
+    "mcc": "428"
+  },
+  {
+    "cn": "Montserrat",
+    "pcc": "1664",
+    "mcc": "354"
+  },
+  {
+    "cn": "Morocco",
+    "pcc": "212",
+    "mcc": "604"
+  },
+  {
+    "cn": "Mozambique",
+    "pcc": "258",
+    "mcc": "643"
+  },
+  {
+    "cn": "Myanmar",
+    "pcc": "95",
+    "mcc": "414"
+  },
+  {
+    "cn": "Namibia",
+    "pcc": "264",
+    "mcc": "649"
+  },
+  {
+    "cn": "Nauru",
+    "pcc": "674",
+    "mcc": "536"
+  },
+  {
+    "cn": "Nepal",
+    "pcc": "977",
+    "mcc": "429"
+  },
+  {
+    "cn": "Netherlands",
+    "pcc": "31",
+    "mcc": "204"
+  },
+  {
+    "cn": "New Zealand",
+    "pcc": "64",
+    "mcc": "530"
+  },
+  {
+    "cn": "Nicaragua",
+    "pcc": "505",
+    "mcc": "710"
+  },
+  {
+    "cn": "Niger",
+    "pcc": "227",
+    "mcc": "614"
+  },
+  {
+    "cn": "Nigeria",
+    "pcc": "234",
+    "mcc": "621"
+  },
+  {
+    "cn": "Norway",
+    "pcc": "47",
+    "mcc": "242"
+  },
+  {
+    "cn": "Oman",
+    "pcc": "968",
+    "mcc": "422"
+  },
+  {
+    "cn": "Pakistan",
+    "pcc": "92",
+    "mcc": "410"
+  },
+  {
+    "cn": "Panama",
+    "pcc": "507",
+    "mcc": "714"
+  },
+  {
+    "cn": "Papua New Guinea",
+    "pcc": "675",
+    "mcc": "537"
+  },
+  {
+    "cn": "Paraguay",
+    "pcc": "595",
+    "mcc": "744"
+  },
+  {
+    "cn": "Peru",
+    "pcc": "51",
+    "mcc": "716"
+  },
+  {
+    "cn": "Philippines",
+    "pcc": "63",
+    "mcc": "515"
+  },
+  {
+    "cn": "Poland",
+    "pcc": "48",
+    "mcc": "260"
+  },
+  {
+    "cn": "Portugal",
+    "pcc": "351",
+    "mcc": "268"
+  },
+  {
+    "cn": "Puerto Rico",
+    "pcc": "1787",
+    "mcc": "330"
+  },
+  {
+    "cn": "Qatar",
+    "pcc": "974",
+    "mcc": "427"
+  },
+  {
+    "cn": "Romania",
+    "pcc": "40",
+    "mcc": "226"
+  },
+  {
+    "cn": "Russian Federation",
+    "pcc": "7",
+    "mcc": "250"
+  },
+  {
+    "cn": "Rwanda",
+    "pcc": "250",
+    "mcc": "635"
+  },
+  {
+    "cn": "San Marino",
+    "pcc": "378",
+    "mcc": "292"
+  },
+  {
+    "cn": "Sao-Tome and Principe",
+    "pcc": "239",
+    "mcc": "626"
+  },
+  {
+    "cn": "Saudi Arabia",
+    "pcc": "966",
+    "mcc": "420"
+  },
+  {
+    "cn": "Senegal",
+    "pcc": "221",
+    "mcc": "608"
+  },
+  {
+    "cn": "Seychelles",
+    "pcc": "248",
+    "mcc": "633"
+  },
+  {
+    "cn": "Sierra Leone",
+    "pcc": "232",
+    "mcc": "619"
+  },
+  {
+    "cn": "Singapore ",
+    "pcc": "65",
+    "mcc": "525"
+  },
+  {
+    "cn": "Slovakia",
+    "pcc": "421",
+    "mcc": "231"
+  },
+  {
+    "cn": "Slovenia",
+    "pcc": "386",
+    "mcc": "293"
+  },
+  {
+    "cn": "Solomon Islands",
+    "pcc": "677",
+    "mcc": "540"
+  },
+  {
+    "cn": "Somalia",
+    "pcc": "252",
+    "mcc": "637"
+  },
+  {
+    "cn": "South Africa",
+    "pcc": "27",
+    "mcc": "655"
+  },
+  {
+    "cn": "Spain",
+    "pcc": "34",
+    "mcc": "214"
+  },
+  {
+    "cn": "Sri Lanka",
+    "pcc": "94",
+    "mcc": "413"
+  },
+  {
+    "cn": "Saint Lucia",
+    "pcc": "1758",
+    "mcc": "358"
+  },
+  {
+    "cn": "St Vincent",
+    "pcc": "1784",
+    "mcc": "360"
+  },
+  {
+    "cn": "Sudan",
+    "pcc": "249",
+    "mcc": "634"
+  },
+  {
+    "cn": "Suriname",
+    "pcc": "597",
+    "mcc": "746"
+  },
+  {
+    "cn": "Swaziland",
+    "pcc": "268",
+    "mcc": "653"
+  },
+  {
+    "cn": "Sweden",
+    "pcc": "46",
+    "mcc": "240"
+  },
+  {
+    "cn": "Switzerland",
+    "pcc": "41",
+    "mcc": "228"
+  },
+  {
+    "cn": "Syria",
+    "pcc": "963",
+    "mcc": "417"
+  },
+  {
+    "cn": "Taiwan",
+    "pcc": "886",
+    "mcc": "466"
+  },
+  {
+    "cn": "Tajikistan",
+    "pcc": "992",
+    "mcc": "436"
+  },
+  {
+    "cn": "Tanzania",
+    "pcc": "255",
+    "mcc": "640"
+  },
+  {
+    "cn": "Thailand",
+    "pcc": "66",
+    "mcc": "520"
+  },
+  {
+    "cn": "Togo",
+    "pcc": "228",
+    "mcc": "615"
+  },
+  {
+    "cn": "Tonga",
+    "pcc": "676",
+    "mcc": "539"
+  },
+  {
+    "cn": "Trinidad & Tobago",
+    "pcc": "1809",
+    "mcc": "374"
+  },
+  {
+    "cn": "Tunisia",
+    "pcc": "216",
+    "mcc": "605"
+  },
+  {
+    "cn": "Turkey",
+    "pcc": "90",
+    "mcc": "286"
+  },
+  {
+    "cn": "Turkmenistan",
+    "pcc": "993",
+    "mcc": "438"
+  },
+  {
+    "cn": "Uganda",
+    "pcc": "256",
+    "mcc": "641"
+  },
+  {
+    "cn": "Ukraine",
+    "pcc": "380",
+    "mcc": "255"
+  },
+  {
+    "cn": "United Arab Emirates",
+    "pcc": "971",
+    "mcc": "424"
+  },
+  {
+    "cn": "United Kingdom",
+    "pcc": "44",
+    "mcc": "234"
+  },
+  {
+    "cn": "United States",
+    "pcc": "1",
+    "mcc": "310"
+  },
+  {
+    "cn": "Uruguay",
+    "pcc": "598",
+    "mcc": "748"
+  },
+  {
+    "cn": "Uzbekistan",
+    "pcc": "233",
+    "mcc": "434"
+  },
+  {
+    "cn": "Venezuela",
+    "pcc": "58",
+    "mcc": "734"
+  },
+  {
+    "cn": "Vietnam",
+    "pcc": "84",
+    "mcc": "452"
+  },
+  {
+    "cn": "Yemen",
+    "pcc": "967",
+    "mcc": "421"
+  },
+  {
+    "cn": "Yugoslavia",
+    "pcc": "381",
+    "mcc": "000"
+  },
+  {
+    "cn": "Zambia",
+    "pcc": "260",
+    "mcc": "645"
+  },
+  {
+    "cn": "Zimbabwe",
+    "pcc": "263",
+    "mcc": "648"
+  }
+]

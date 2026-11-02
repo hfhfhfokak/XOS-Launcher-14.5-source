@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/sixteen_dp"
+    android:paddingEnd="@dimen/sixteen_dp">
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/fourteen_sp"
+        android:textColor="@color/percentage_100_gray"
+        android:id="@+id/tips_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckedTextView
+        android:textSize="@dimen/fourteen_sp"
+        android:textColor="@color/percentage_100_gray"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/cb_import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twelve_dp"
+        android:text="@string/local_video_import_tip_not_show"
+        android:drawablePadding="@dimen/eight_dp"
+        android:drawableStart="@drawable/dialog_selector_checkbox"/>
+</LinearLayout>

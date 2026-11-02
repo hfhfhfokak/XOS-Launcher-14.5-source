@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="66"
+    android:viewportHeight="66">
+    <path
+        android:fillColor="@color/popup_container_system_icon_color"
+        android:pathData="M54,7C56.7614,7 59,9.2386 59,12L59,55C59,57.7614 56.7614,60 54,60L41,60L41,55.092L54.0926,55.0926L54.0926,11.9074L10.9074,11.9074L10.907,29L6,29L6,12C6,9.2386 8.2386,7 11,7L54,7ZM34,33C35.6569,33 37,34.3431 37,36L37,57C37,58.6569 35.6569,60 34,60L9,60C7.3431,60 6,58.6569 6,57L6,36C6,34.3431 7.3431,33 9,33L34,33ZM32,38L11,38L11,55L32,55L32,38Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/theme_common_item_padding"
+    android:layout_marginStart="@dimen/theme_common_item_half_padding"
+    android:layout_marginEnd="@dimen/theme_common_item_half_padding">
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/sixteen_sp"
+        android:textColor="@color/th_res_name_color"
+        android:gravity="center_vertical"
+        android:id="@+id/wallpaper_setting_text"
+        android:paddingTop="@dimen/thirty_dp"
+        android:paddingBottom="@dimen/four_dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="@dimen/two_dp"/>
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/wallpaper_setting_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/wallpaper_setting_text"
+        android:contentDescription="@string/local_wp_prview"
+        app:shapeAppearance="@style/ThemePreviewShapeCornerLarge"/>
+    <CheckBox
+        android:id="@+id/setting_choose"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_alignTop="@+id/wallpaper_setting_image"
+        android:layout_alignEnd="@+id/wallpaper_setting_image"/>
+</RelativeLayout>

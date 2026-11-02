@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.base.PaletteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12dp"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:paddingLeft="2dp"
+    android:paddingTop="0dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="0dp"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:lines="2"
+    android:layout_weight="1"
+    android:textAlignment="center"
+    android:stateListAnimator="@anim/overview_button_anim"/>

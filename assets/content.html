@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <style type="text/css">
+        * {
+        margin: 0;
+        padding: 0;
+        }
+        html {
+        font-size: 62.5%;
+        font-family: sans-serif;
+        }
+        .mainContent {
+        padding: 0 1.6rem ;
+        }
+        .title {
+        color: #333333;
+        font-size: 2.6rem;
+        font-family:  sans-serif-condensed;
+        font-weight:  bold;
+        line-height: 3.2rem;
+        font-weight: 700;
+        word-break: break-word;
+        }
+        .info {
+        padding-top: 1.2rem;
+        color: #888888;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        }
+        .info .author {
+        padding-right: .5rem;
+        margin-right: .5rem;
+        border-right: 1px solid #888888;
+        }
+        .article .text {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        color: #333;
+        word-break: break-word;
+        }
+        .article .img{
+        margin-top: 2rem;
+        }
+        .article .img img{
+        width: 100%;
+        }
+        .article .video {
+        margin-top: 2rem;
+        position: relative;
+        }
+        .article .video.iframeBox {
+            padding-top: 62.5%;
+        }
+        .article .video.iframeBox .videoArea {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .article .video .videoArea video {
+            width: 100%;
+        }
+        .article .floatBtn {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+        }
+        .article .floatBtn img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 42px;
+            height: 42px;
+            margin-top: -21px;
+            margin-left: -21px;
+            z-index: 6;
+        }
+        .article .replayBtn {
+            background: rgba(0,0,0,0.5);
+            display: none;
+        }
+        .article .controlsBox {
+            display: none;
+            position:absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 7;
+        }
+        .article .controls {
+            height: 40px;
+            background: rgba(0,0,0,.4);
+            width: 100%;
+            overflow: hidden;
+            display: -webkit-box;
+            display: box;
+            padding: 0 5px;
+            box-sizing:border-box;
+        }
+        .article .controls .playBtnBox {
+            -webkit-box-flex: 0;
+            box-flex: 0;
+        }
+        .article .controls .progressBox {
+            -webkit-box-flex: 1;
+            box-flex: 1;
+            display: -webkit-box;
+            display: box;
+        }
+        .article .controls .playBtnBox img {
+            height: 30px;
+            margin-top: 5px;
+        }
+        .article .controls .progressBox .progressWrap {
+            position: relative;
+            padding: 0 5px;
+            width: 100%;
+            box-sizing:border-box;
+            margin-top: 19px;
+            -webkit-box-flex: 1;
+            box-flex: 1;
+        }
+        .article .controls .progressBox .progressWrap .totalProgress {
+            display: inline-block;
+            width: 100%;
+            height: 2px;
+            background: #fff;
+            border-radius: 2px;
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 0;
+        }
+        .article .controls .progressBox .progressWrap .nowProgress {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 2px;
+            width: 0%;
+            background: #007bfd;
+            border-radius: 2px;
+            z-index: 2;
+        }
+        .article .controls .progressBox .progressWrap .progressBtn {
+                position: absolute;
+                left: -9%;
+                top: -20px;
+                width: 40px;
+                height: 40px;
+                background: url("progressBtn.png") 0 0 no-repeat;
+                background-size: 40px 40px;
+                z-index: 3;
+        }
+        .article .controls .progressBox .timesArea {
+            -webkit-box-flex: 0;
+            box-flex: 0;
+            line-height: 30px;
+            margin-top:7px;
+        }
+        .article .controls .progressBox .timesArea span {
+            display: inline-block;
+            color: #fff;
+            font-size: 10px;
+            width: 40px;
+        }
+        .article .controls .progressBox .timesArea .totalTimes {
+            text-align: right;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="mainContent">
+    <div id="contTitle">
+        <div class="title">
+        </div>
+    </div>
+    <div class="info" id="contInfo">
+        <span class="author" id="contAuthor"></span>
+        <span class="time" id="contTime"></span>
+    </div>
+    <div class="article" id="contArticle">
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+         function _getVideoType(link) {
+            console.log(link.indexOf(".mp4"));
+            console.log(link.indexOf(".ogg"));
+            console.log(link.indexOf(".webm"));
+            if(link.indexOf(".mp4") > -1 || link.indexOf(".ogg") > -1 || link.indexOf(".webm") >-1) {
+                return "mp4";
+            }
+            else {
+                return "other";
+            }
+        };
+        function transsformTime(seconds){
+           var hh;
+           var mm;
+           var ss;
+           if(seconds==null||seconds<0){
+               return;
+           }
+           hh=seconds/3600|0;
+           seconds=parseInt(seconds)-hh*3600;
+           if(parseInt(hh)<10){
+                  hh="0"+hh;
+           }
+           mm=seconds/60|0;
+           ss=parseInt(seconds)-mm*60;
+           if(parseInt(mm)<10){
+                 mm="0"+mm;
+           }
+           if(ss<10){
+               ss="0"+ss;
+           }
+           return mm+":"+ss;
+        };
+        function setFn(i) {
+            var vId = 'video'+i;
+            var pId = 'playVideo'+i;
+            var fId = 'floatBtn'+i;
+            var rbId = 'replayBtn'+i;
+            var rId = "replayVideo"+i;
+            var cpId = "cplayBtn"+i;
+            var npId = "nowProgress"+i;
+            var progressFlag = "progressFlag"+i;
+            var controlsFlag = "controlsFlag"+i;
+            var ttId = "totalTimes"+i;
+            var ntId = "nowTimes"+i;
+            var cbId = "controls"+i;
+            var pbId = "progressBtn"+i;
+            var ttpro = "totalProgress"+i;
+            var myVideo=document.getElementById(vId);
+            var pBtn = document.getElementById(pId);
+            var fBox = document.getElementById(fId);
+            var rBox = document.getElementById(rbId);
+            var rBtn = document.getElementById(rId);
+            var cpBtn = document.getElementById(cpId);
+            var nowProgress = document.getElementById(npId);
+            var tTime = document.getElementById(ttId);
+            var nTime = document.getElementById(ntId);
+            var cBox = document.getElementById(cbId);
+            var prBtn = document.getElementById(pbId);
+            var ttproBox = document.getElementById(ttpro);
+            function _getProgress(){
+                var percent = myVideo.currentTime / myVideo.duration;
+                nowProgress.style.width = percent * (100)+ "%";
+                nTime.innerHTML = transsformTime(myVideo.currentTime);
+                prBtn.style.left = (percent * (100)-9)+ "%";
+            };
+            function _showControls() {
+                cBox.style.display = "block";
+                controlsFlag = setTimeout(_hideControls,4000);
+            };
+            function _hideControls() {
+                cBox.style.display = "none";
+                clearTimeout(controlsFlag);
+            };
+            function _play() {
+                myVideo.play();
+                cpBtn.src="play.png";
+                progressFlag = setInterval(_getProgress, 60);
+                _showControls();
+            };
+            function _pause() {
+                myVideo.pause();
+                cpBtn.src="pause.png";
+                clearInterval(progressFlag);
+                clearTimeout(controlsFlag);
+            };
+            function _updateVideoProgress(x) {
+                var totalDuration = myVideo.duration;
+                var percentTag = x/ttproBox.clientWidth;
+                if(percentTag > 1) {
+                    percentTag = 1;
+                };
+                if(percentTag < 0) {
+                    percentTag = 0;
+                };
+                nowProgress.style.width = percentTag*100+'%';
+                myVideo.currentTime = totalDuration*percentTag;
+                nTime.innerHTML = transsformTime(myVideo.currentTime);
+                prBtn.style.left = (percentTag*100-9)+ "%";
+            };
+           myVideo.addEventListener("loadedmetadata", function() {
+                tTime.innerHTML = transsformTime(myVideo.duration);
+            });
+            myVideo.addEventListener("ended", function() {
+                nowProgress.style.width = "0%";
+                nTime.innerHTML = "00:00:00";
+                clearInterval(progressFlag);
+                rBox.style.display = "block";
+                cBox.style.display = "none";
+            });
+            rBtn.addEventListener("click", function() {
+                _play();
+                rBox.style.display = "none";
+            });
+            myVideo.addEventListener("click", function() {
+                if(cBox.style.display == "none") {
+                    _showControls();
+                }
+                if(myVideo.paused || myVideo.ended) {
+                    _play();
+                }
+                else {
+                    _pause();
+                }
+            });
+            cpBtn.addEventListener("click", function() {
+                if(myVideo.paused || myVideo.ended) {
+                    _play();
+                }
+                else {
+                    _pause();
+                }
+            });
+            pBtn.addEventListener("click", function() {
+                _play();
+                fBox.style.display = "none";
+            });
+            ttproBox.addEventListener("click", function(e) {
+                _updateVideoProgress(e.layerX);
+            });
+            nowProgress.addEventListener("click", function(e) {
+                _updateVideoProgress(e.layerX);
+            });
+            prBtn.addEventListener("touchstart", function(e) {
+                _pause();
+            });
+            prBtn.addEventListener("touchmove", function(e) {
+                _updateVideoProgress(e.changedTouches[0].pageX-94);
+            });
+            prBtn.addEventListener("touchend", function(e) {
+                if(!myVideo.ended) {
+                    _play();
+                }
+
+            });
+
+        }
+        function _setTitle(t) {
+            var html = '<div class="title">'+t+'</div>';
+            document.getElementById('contTitle').innerHTML = html;
+        };
+        function _setAuthor(t) {
+            document.getElementById('contAuthor').innerHTML = t;
+        };
+        function _setTime(t) {
+            document.getElementById('contTime').innerHTML = t;
+        };
+        function _setContent(t) {
+            var videoIds = [];
+            var html = "";
+            for(var i = 0; i < t.length; i++) {
+                var d = t[i];
+                if(d.hasOwnProperty("text")) {
+                    html += '<div class="text">'+d.text+'</div>';
+                }
+                else if(d.hasOwnProperty("imgurl")) {
+                    html += '<div class="img"><img src="'+d.imgurl+'" alt="">';
+                    if(d.hasOwnProperty("imgdesc")) {
+                        html+= '<p class="imgdesc" style="padding-top:1rem">'+d.imgdesc+'</p>';
+                    }
+                    html += '</div>';
+                }
+                else if(d.hasOwnProperty("video")) {
+                    var type = _getVideoType(d.video);
+                    if(type == "mp4") {
+                        html += '<div class="video"><div class="videoArea"><video width="100%" src="'+d.video+'" poster="mp4defultbg.png" id="video'+i+'"></video></div>'+
+                                    '<p class="floatBtn" id="floatBtn'+i+'"><img id="playVideo'+i+'" src="mp4play.png" /></p>'+
+                                    '<p class="floatBtn replayBtn" id="replayBtn'+i+'"><img id="replayVideo'+i+'" src="refresh.png" /></p>'+
+                                    '<div  id="controls'+i+'" class="controlsBox"><div class="controls"><div class="playBtnBox"><img src="play.png" id="cplayBtn'+i+'"/></div><div class="progressBox"><p class="timesArea"><span class="nowTimes" id="nowTimes'+i+'">00:00:00</span></p><p class="progressWrap"><span class="totalProgress" id="totalProgress'+i+'"></span><span class="nowProgress" id="nowProgress'+i+'"></span><span class="progressBtn" id="progressBtn'+i+'"></span></p><p class="timesArea"><span class="totalTimes" id="totalTimes'+i+'"></span></p></div></div></div>'+
+                                    '</div>';
+                        videoIds.push(i);
+                    } else{
+                        html += '<div class="video iframeBox"><div class="videoArea"><iframe id="ytplayer'+i+'" frameborder="0"  type="text/html" height="100%"  width="100%" src="'+d.video+'?fs=0&rel=0&showinfo=0"></iframe></div></div>';
+                    }
+
+                }
+            }
+            document.getElementById("contArticle").innerHTML = html;
+            if(videoIds.length > 0) {
+                for(var i = 0; i < videoIds.length; i++) {
+                    setFn(videoIds[i]);
+                }
+            }
+        };
+
+        function getContent(data) {
+            if(data.title) {
+                _setTitle(data.title);
+            } else {
+                document.getElementById("contTitle").remove();
+            };
+            if(data.author) {
+                _setAuthor(data.author);
+            } else {
+                document.getElementById('contAuthor').remove();
+            };
+            if(data.publishAt) {
+                _setTime(data.publishAt.substring(0,10));
+            } else {
+                document.getElementById('contTime').remove();
+            };
+            if(data.content.length > 0) {
+                _setContent(data.content);
+            };
+        };
+        var data = TranssionJson;
+        getContent(data);
+
+
+
+</script>
+</html>

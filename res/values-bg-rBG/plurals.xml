@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s приложение е активно</item>
+        <item quantity="other">%s приложения са активни</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">Замразено е %1$d приложение, освободени са %2$.2f GB пространство.</item>
+        <item quantity="other">Замразени са %1$d приложения, освободени са %2$.2f GB пространство.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Замразено е %1$d приложение, освободени са %2$d MB пространство.</item>
+        <item quantity="other">Замразени са %1$d приложения, освободени са %2$d MB пространство.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d крачки</item>
+        <item quantity="one">%d стъпка</item>
+        <item quantity="other">%d крачки</item>
+    </plurals>
+</resources>

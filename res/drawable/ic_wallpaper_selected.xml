@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@drawable/_ic_wallpaper_selected__0_res_0x7f080141"
+        android:pathData="M63,13L63,18.756L62.999,18.757L62.999,27.242L63,27.241L63,59L31.241,59L31.242,58.999L22.757,58.999L22.756,59L9,59L9,13L63,13ZM56.999,24.757L28.757,52.999L37.242,52.999L56.999,33.242L56.999,24.757ZM26,23C22.141,23 19,26.14 19,30C19,33.86 22.141,37 26,37C29.859,37 33,33.86 33,30C33,26.14 29.859,23 26,23Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

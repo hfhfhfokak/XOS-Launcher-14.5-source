@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@color/zs_common_color4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="34dp">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/x_search_item_foot_pb"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:indeterminateOnly="true"
+        android:indeterminateDrawable="@anim/pn_rotate"
+        android:indeterminateBehavior="repeat"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/x_search_item_foot_iv"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/ic_crick_refresh"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#80222222"
+        android:id="@+id/x_search_item_foot_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"/>
+</LinearLayout>

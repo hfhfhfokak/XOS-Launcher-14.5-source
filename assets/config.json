@@ -1,0 +1,187 @@
+{
+  "config_update_time": 600,
+  "ad_flag": 0,
+  "ads_config": {
+    "ads_pool": {
+      "reload_time": 0,
+      "ids": [
+        {
+          "id": "2008104",
+          "max_count": 20
+        },
+        {
+          "id": "2008105",
+          "max_count": 20
+        },
+        {
+          "id": "2008324",
+          "max_count": 20
+        },
+        {
+          "id": "2008325",
+          "max_count": 20
+        },
+        {
+          "id": "2008099",
+          "client_request": true
+        },
+        {
+          "id": "2008106",
+          "number": 1,
+          "expire_time": 2880,
+          "cache_priority": false
+        },
+        {
+          "id": "2008536",
+          "number": 1,
+          "expire_time": 2880,
+          "cache_priority": false
+        },
+        {
+          "id": "2008747",
+          "number": 1,
+          "expire_time": 2880,
+          "cache_priority": false,
+          "client_request": true,
+          "check_cache": false
+        },
+        {
+          "id": "2008107",
+          "client_request": true
+        },
+        {
+          "id": "2008108",
+          "max_count": 20,
+          "client_loaded": true
+        },
+        {
+          "id": "2008207",
+          "client_request": true,
+          "check_cache": false
+        }
+      ],
+      "groups": [
+        {
+          "ids": ["2008104","2008105"],
+          "threshold": 0
+        }
+      ],
+      "frequency": [10,10,10,10,10,10,10,30,50,70,70,100,100,100,100,100,100,100,100,70,70,70,70,60],
+      "new_groups": [
+        {
+          "ids": ["2008324","2008104"]
+        },
+        {
+          "ids": ["2008325","2008105"]
+        }
+      ]
+    },
+    "freq_ad": {
+      "ids": ["2008104","2008105","2008325","2008324","2008107","2008106","2008536"],
+      "push_max": 8,
+      "push_interval": 3
+    },
+    "clean_ad": {
+      "ids": ["2008107","2008104","2008105","2008325","2008324"],
+      "preload_ids": ["2008107"],
+      "image_rate": 70,
+      "correct_rate": 100,
+      "push_ad": false,
+      "push_pm": true
+    },
+    "bottom_ad": {
+      "ids": ["2008104","2008105","2008325","2008324","2008107","2008106","2008536"],
+      "number": 4,
+      "push_max": 15,
+      "push_interval": 3
+    },
+    "folder_ad": {
+      "ids": ["2008104","2008105","2008325","2008324","2008107","2008106","2008536"],
+      "number": 20,
+      "min_number": 1,
+      "interval": 10,
+      "loc": 3,
+      "push_max": 30,
+      "push_interval": 3
+    },
+    "program_ad": {
+      "ids": ["2008108"],
+      "preload_ids": ["2008108"],
+      "content_ad": true,
+      "loc": 2,
+      "push_ad": false
+    },
+    "hotword_ad": {
+      "ids": ["2008104","2008105","2008325","2008324","2008107","2008106","2008536"]
+    },
+    "callback_ad": {
+      "ids": ["2008325","2008324","2008104","2008105","2008107"]
+    },
+    "weekly_ad": {
+      "ids": ["2008099","2008324","2008325","2008104","2008105","2008107","2008106","2008536"],
+      "repeat_ad": true,
+      "push_ad": false,
+      "pre_request": true,
+      "preload_ids": ["2008099"]
+    },
+    "detail_ad": {
+      "ids": ["2008324","2008325","2008104","2008105","2008107","2008106","2008536"],
+      "push_ad": false
+    },
+    "zero_ad": {
+      "ids": ["2008747"],
+      "preload_ids": ["2008747"],
+      "push_ad": false,
+      "push_zs": true
+    },
+    "zero_freq_ad": {
+      "ids": ["2008104","2008105","2008325","2008324","2008107","2008106","2008536"]
+    },
+    "wp_detail_ad": {
+      "ids": ["2008324","2008325","2008104","2008105","2008107","2008106","2008536"],
+      "push_ad": true
+    },
+    "flow_ad": {
+      "ids": ["2008207","2008324","2008325","2008104","2008105","2008107","2008106","2008536"],
+      "preload_ids": ["2008207"],
+      "repeat_ad": true,
+      "push_ad": false
+    },
+    "clean_notify": {
+      "interval": 90,
+      "memory": {
+        "max_count": 7,
+        "threshold": 68,
+        "progress": "70;80",
+        "low_progress": "80;92"
+      },
+      "battery": {
+        "max_count": 3,
+        "threshold": 50
+      }
+    },
+    "launcher_push": {
+      "desktop_enable": true,
+      "program_enable": true,
+      "picture_enable": true,
+      "picture_more_enable": true,
+      "url": "http://msg.transacme.com/poll-api/api/launcher.api/1.0.0/getResource"
+    },
+    "search_suggest": {
+      "enable": false,
+      "limit": 2,
+      "shopping": true,
+      "toggle": true,
+      "size": 5
+    }
+  },
+  "custom_search_config": {
+    "enable": true,
+    "custom_search": [
+      {
+        "enable": true,
+        "url": "https://www.google.com/search?source=android-browser&q="
+      }
+    ]
+  }
+}

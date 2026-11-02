@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">הרצה שנייה אחת (%d) קדימה</item>
+        <item quantity="two">הרצה %d שניות קדימה</item>
+        <item quantity="many">הרצה %d שניות קדימה</item>
+        <item quantity="other">הרצה %d שניות קדימה</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">הרצה שנייה אחת (%d) אחורה</item>
+        <item quantity="two">הרצה %d שניות אחורה</item>
+        <item quantity="many">הרצה %d שניות אחורה</item>
+        <item quantity="other">הרצה %d שניות אחורה</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">אפליקציה אחת (%s) פעילה</item>
+        <item quantity="two">%s אפליקציות פעילות</item>
+        <item quantity="many">%s אפליקציות פעילות</item>
+        <item quantity="other">%s אפליקציות פעילות</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">הוקפאו %1$d אפליקציות,נשמרו %2$.2f GB, של מקום.</item>
+        <item quantity="two">הוקפאו %1$d אפליקציות,נשמרו %2$.2f GB, של מקום.</item>
+        <item quantity="many">הוקפאו %1$d אפליקציות,נשמרו %2$.2f GB, של מקום.</item>
+        <item quantity="other">הוקפאו %1$d אפליקציות,נשמרו %2$.2f GB, של מקום.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">הוקפאו %1$d אפליקציות,נשמרו %2$d MB, של מקום.</item>
+        <item quantity="two">הוקפאו %1$d אפליקציות,נשמרו %2$d MB, של מקום.</item>
+        <item quantity="many">הוקפאו %1$d אפליקציות,נשמרו %2$d MB, של מקום.</item>
+        <item quantity="other">הוקפאו %1$d אפליקציות,נשמרו %2$d MB, של מקום.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">התראה חדשה אחת (%d)</item>
+        <item quantity="two">%d התראות חדשות</item>
+        <item quantity="many">%d התראות חדשות</item>
+        <item quantity="other">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d צעדים</item>
+        <item quantity="one">צעד %d</item>
+        <item quantity="other">%d צעדים</item>
+    </plurals>
+</resources>

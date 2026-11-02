@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.cloud.tmc.miniapp.widget.NativeTitleBar
+        android:id="@+id/layout_title"
+        android:background="@color/mini_color_bg_01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mini_dp_56"
+        app:bar_line="true"
+        app:bar_title="@string/mini_permission_manager_title"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.cloud.tmc.miniapp.widget.StatusLayout
+        android:id="@+id/sl_permission_layout"
+        android:background="@color/mini_color_bg_02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:background="@color/mini_color_bg_02"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mini_dp_44">
+            <TextView
+                android:textSize="@dimen/mini_sp_16"
+                android:textColor="@color/mini_color_element_03"
+                android:id="@+id/tv_second_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mini_dp_16"
+                android:text="@string/mini_allowed_permissions_title"
+                android:maxLines="1"
+                android:layout_marginStart="@dimen/mini_dp_16"
+                android:layout_marginEnd="@dimen/mini_dp_16"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_permission_list"
+            android:background="@color/mini_color_bg_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mini_dp_44"/>
+    </com.cloud.tmc.miniapp.widget.StatusLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">Ikpad isañ %d</item>
+        <item quantity="one">mkpad isañ %d</item>
+        <item quantity="other">Ikpad isañ %d</item>
+    </plurals>
+</resources>

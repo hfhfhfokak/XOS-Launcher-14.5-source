@@ -1,0 +1,284 @@
+[
+  {
+    "id": "1003",
+    "slot": "T_0M_0M",
+    "defPriority": 1000000,
+    "majorPriority": -1
+  },
+  {
+    "id": "1009",
+    "slot": "T_5M_0M",
+    "defPriority": 8008000,
+    "majorPriority": 9000000
+  },
+  {
+    "id": "1010",
+    "slot": "T_0M_0M",
+    "defPriority": 7050000,
+    "majorPriority": -1
+  },
+  {
+    "id": "14",
+    "slot": "T_0M_0M",
+    "defPriority": 4500000,
+    "majorPriority": -1
+  },
+  {
+    "id": "15",
+    "slot": "T_0M_0M",
+    "defPriority": 8000500,
+    "majorPriority": -1
+  },
+  {
+    "id": "16",
+    "slot": "T_0M_0M",
+    "defPriority": 7800000,
+    "majorPriority": 3500000
+  },
+  {
+    "id": "4000",
+    "slot": "T_0M_0M",
+    "defPriority": 8014000,
+    "majorPriority": -1
+  },
+  {
+    "id": "4001",
+    "slot": "T_0M_0M",
+    "defPriority": 8014001,
+    "majorPriority": -1
+  },
+  {
+    "id": "4002",
+    "slot": "T_0M_0M",
+    "defPriority": 8014002,
+    "majorPriority": -1
+  },
+  {
+    "id": "4003",
+    "slot": "T_0M_0M",
+    "defPriority": 8014003,
+    "majorPriority": -1
+  },
+  {
+    "id": "4004",
+    "slot": "T_0M_0M",
+    "defPriority": 8014004,
+    "majorPriority": -1
+  },
+  {
+    "id": "4100",
+    "slot": "T_0M_0M",
+    "defPriority": 8014000,
+    "majorPriority": 5500000
+  },
+  {
+    "id": "4101",
+    "slot": "T_0M_0M",
+    "defPriority": 8014001,
+    "majorPriority": 5500001
+  },
+  {
+    "id": "4102",
+    "slot": "T_0M_0M",
+    "defPriority": 8014002,
+    "majorPriority": 5500002
+  },
+  {
+    "id": "4103",
+    "slot": "T_0M_0M",
+    "defPriority": 8014003,
+    "majorPriority": 5500003
+  },
+  {
+    "id": "4104",
+    "slot": "T_0M_0M",
+    "defPriority": 8014004,
+    "majorPriority":5500004
+  },
+  {
+    "id": "2000",
+    "slot": "T_0M_0M",
+    "defPriority": 5010000,
+    "majorPriority": -1
+  },
+  {
+    "id": "2001",
+    "slot": "T_0M_0M",
+    "defPriority": 5010001,
+    "majorPriority": -1
+  },
+  {
+    "id": "2002",
+    "slot": "T_0M_0M",
+    "defPriority": 5010002,
+    "majorPriority": -1
+  },
+  {
+    "id": "2003",
+    "slot": "T_0M_0M",
+    "defPriority": 5010003,
+    "majorPriority": -1
+  },
+  {
+    "id": "2004",
+    "slot": "T_0M_0M",
+    "defPriority": 5010004,
+    "majorPriority": -1
+  },
+  {
+    "id": "3000",
+    "slot": "T_0M_0M",
+    "defPriority": 8011000,
+    "majorPriority": -1
+  },
+  {
+    "id": "3001",
+    "slot": "T_0M_0M",
+    "defPriority": 8011001,
+    "majorPriority": -1
+  },
+  {
+    "id": "3002",
+    "slot": "T_0M_0M",
+    "defPriority": 8011002,
+    "majorPriority": -1
+  },
+  {
+    "id": "3003",
+    "slot": "T_0M_0M",
+    "defPriority": 8011003,
+    "majorPriority": -1
+  },
+  {
+    "id": "3004",
+    "slot": "T_0M_0M",
+    "defPriority": 8011004,
+    "majorPriority": -1
+  },
+  {
+    "id": "3100",
+    "slot": "T_0M_0M",
+    "defPriority": 8011000,
+    "majorPriority":7300000
+  },
+  {
+    "id": "3101",
+    "slot": "T_0M_0M",
+    "defPriority": 8011001,
+    "majorPriority":7300001
+  },
+  {
+    "id": "3102",
+    "slot": "T_0M_0M",
+    "defPriority": 8011002,
+    "majorPriority":7300002
+  },
+  {
+    "id": "3103",
+    "slot": "T_0M_0M",
+    "defPriority": 8011003,
+    "majorPriority":7300003
+  },
+  {
+    "id": "3104",
+    "slot": "T_0M_0M",
+    "defPriority": 8011004,
+    "majorPriority":7300004
+  },
+  {
+    "id": "3200",
+    "slot": "T_0M_0M",
+    "defPriority": 8011001,
+    "majorPriority": 7700000
+  },
+  {
+    "id": "3201",
+    "slot": "T_0M_0M",
+    "defPriority": 8011001,
+    "majorPriority": 7700001
+  },
+  {
+    "id": "3202",
+    "slot": "T_0M_0M",
+    "defPriority": 8011002,
+    "majorPriority": 7700002
+  },
+  {
+    "id": "3203",
+    "slot": "T_0M_0M",
+    "defPriority": 8011003,
+    "majorPriority": 7700003
+  },
+  {
+    "id": "3204",
+    "slot": "T_0M_0M",
+    "defPriority": 8011004,
+    "majorPriority": 7700004
+  },
+  {
+    "id": "8292",
+    "slot":"T_0M_0M",
+    "defPriority": 5000000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8293",
+    "slot":"T_0M_0M",
+    "defPriority": 5010100,
+    "majorPriority": -1
+  },
+  {
+    "id": "8492",
+    "slot":"T_0M_0M",
+    "defPriority": 3000000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8592",
+    "slot":"T_0M_0M",
+    "defPriority": 8005000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8692",
+    "slot":"T_0M_0M",
+    "defPriority": 7010000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8693",
+    "slot": "T_0M_0M",
+    "defPriority":  7010000,
+    "majorPriority": 6000000
+  },
+  {
+    "id": "8792",
+    "slot": "T_0M_0M",
+    "defPriority": 8009000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8793",
+    "slot": "T_0M_0M",
+    "defPriority": 7920000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8794",
+    "slot": "T_0M_0M",
+    "defPriority": 7950000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8795",
+    "slot": "T_0M_0M",
+    "defPriority": 4010000,
+    "majorPriority": -1
+  },
+  {
+    "id": "8796",
+    "slot": "T_0M_0M",
+    "defPriority": 4001000,
+    "majorPriority": -1
+  }
+]

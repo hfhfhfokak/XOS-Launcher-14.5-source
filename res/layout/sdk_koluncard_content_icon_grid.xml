@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/sdk_koluncard_primary_info_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+            android:id="@+id/sdk_koluncard_primary_info_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/dp_6"
+            style="@style/SdkKolunCardPrimaryInfoTextStyle"/>
+        <com.transsion.kolun.cardtemplate.customwidget.CustomLabelView
+            android:id="@+id/sdk_koluncard_primary_info_text_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:sdk_koluncard_corner_radius="@dimen/dp_8"
+            style="@style/SdkKolunCardTextLabelStyle"/>
+        <com.transsion.kolun.cardtemplate.customwidget.CustomCardImageView
+            android:id="@+id/sdk_koluncard_primary_info_image_label"
+            android:layout_width="@dimen/dp_19"
+            android:layout_height="@dimen/dp_19"/>
+    </LinearLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        layout="@layout/sdk_koluncard_icon_grid_view"/>
+</LinearLayout>

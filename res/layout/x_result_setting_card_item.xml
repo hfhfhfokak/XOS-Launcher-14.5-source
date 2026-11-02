@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/x_rl_search_item"
+    android:background="@drawable/x_search_card_item_selector"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <com.transsion.xlauncher.search.view.SaFreezeImageView
+        android:id="@+id/x_iv_search_img"
+        android:layout_width="@dimen/search_settings_item_icon_size"
+        android:layout_height="@dimen/search_settings_item_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="12dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/search_result_item_text_color"
+        android:ellipsize="end"
+        android:id="@+id/x_tv_search_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAlignment="viewStart"
+        android:layout_marginEnd="16dp"
+        style="@style/TextAppearance_Roboto_Content"/>
+</LinearLayout>

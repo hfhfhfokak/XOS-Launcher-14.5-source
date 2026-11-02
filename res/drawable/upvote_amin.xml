@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_00"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_01"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_02"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_03"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_04"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_05"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_06"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_07"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_08"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_09"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_10"/>
+    <item
+        android:duration="50"
+        android:drawable="@drawable/upvote_11"/>
+</animation-list>

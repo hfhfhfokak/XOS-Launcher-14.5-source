@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/dp_14"/>
+            <solid android:color="@color/zs_step_bt_color_day_night"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/zs_bt_pressed_layer_day_night"/>
+</layer-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/popup_item_size"
+    android:textColor="@color/popup_item_color"
+    android:ellipsize="end"
+    android:id="@+id/menu_item"
+    android:background="@color/popup_menu_bg"
+    android:paddingTop="@dimen/popup_item_padding_tb"
+    android:paddingBottom="@dimen/popup_item_padding_tb"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/popup_item_height"
+    android:maxWidth="280dp"
+    android:minWidth="64dp"
+    android:singleLine="true"
+    android:paddingStart="@dimen/popup_item_padding_lr"
+    android:paddingEnd="@dimen/popup_item_padding_lr"/>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="330dp">
+        <com.android.launcher3.CellLayout
+            android:layout_gravity="center"
+            android:id="@+id/preview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:display="icon_size_preview"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/content"
+        android:background="?attr/OsBgPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.transsion.widgetslib.widget.seekbar.OSSectionSeekbar
+            android:layout_gravity="center"
+            android:id="@+id/seekBar"
+            android:paddingTop="2sp"
+            android:paddingBottom="2sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/icon_size_setting_seekbar_margin_start_end"
+            android:layout_marginEnd="@dimen/icon_size_setting_seekbar_margin_start_end"/>
+    </FrameLayout>
+</LinearLayout>

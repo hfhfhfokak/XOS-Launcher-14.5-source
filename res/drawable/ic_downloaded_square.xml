@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="32dp"
+    android:width="32dp"
+    android:viewportWidth="75"
+    android:viewportHeight="75">
+    <group
+        android:translateX="-975"
+        android:translateY="-904">
+        <group
+            android:translateX="975"
+            android:translateY="904">
+            <path
+                android:fillColor="#f3bc05"
+                android:pathData="M74.8303913,0 L75,0 L75,75 L0,75 L0,74.8303913 L74.8303913,-4.4408921e-16 Z"
+                android:strokeWidth="1"
+                android:fillType="evenOdd"/>
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M50.2123064,58.0323991 L50.2123064,41 C50.2123064,39.8954305 51.1077369,39 52.2123064,39 C53.3168759,39 54.2123064,39.8954305 54.2123064,41 L54.2123064,57.9287422 L59.8696658,52.7810358 C60.694982,52.0300697 61.9646925,52.0599979 62.7537098,52.8490153 C63.4963545,53.5916599 63.4963545,54.7957247 62.7537098,55.5383693 C62.7325826,55.5594965 62.7109604,55.5801229 62.6888613,55.6002312 L54.4410275,63.1050446 C54.1347876,63.3836963 53.7673619,63.5548316 53.3860117,63.6195643 C53.0563654,63.8588746 52.6508167,64 52.2123064,64 C51.7855212,64 51.3899585,63.8663206 51.0652058,63.6385493 C50.6341635,63.5951019 50.213377,63.417792 49.8696658,63.1050446 L41.621832,55.6002312 C41.5997329,55.5801229 41.5781107,55.5594965 41.5569835,55.5383693 C40.8143388,54.7957247 40.8143388,53.5916599 41.5569835,52.8490153 C42.3460008,52.0599979 43.6157113,52.0300697 44.4410275,52.7810358 L50.2123064,58.0323991 Z"
+                android:strokeWidth="1"
+                android:fillType="evenOdd"/>
+            <path
+                android:fillColor="#d8d8d8"
+                android:pathData="M 0 0 H 75 V 75 H 0 V 0 Z"
+                android:strokeWidth="1"
+                android:strokeAlpha="0"
+                android:fillAlpha="0"
+                android:fillType="evenOdd"/>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/sdk_koluncard_image_text_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        layout="@layout/sdk_koluncard_content_basic_text"/>
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        layout="@layout/sdk_koluncard_label_image"/>
+    <com.transsion.kolun.cardtemplate.customwidget.CustomCardImageView
+        android:id="@+id/sdk_koluncard_circle_image_view"
+        android:layout_width="@dimen/dp_61"
+        android:layout_height="@dimen/dp_61"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        app:sdk_koluncard_is_circle="true"/>
+</RelativeLayout>

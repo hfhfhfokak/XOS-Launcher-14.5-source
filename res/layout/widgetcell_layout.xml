@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.dockmenu.widgetmenu.WidgetCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/widget_cell_preview_parent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_widget_preview_height"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/widget_cell_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="@dimen/widget_cell_preview_padding_start_end"
+            android:layout_marginEnd="@dimen/widget_cell_preview_padding_start_end"
+            style="@style/WidgetCellImageViewStyle"/>
+    </LinearLayout>
+    <com.transsion.xlauncher.base.PaletteTextView
+        android:textSize="@dimen/app_widget_text_size"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/widget_cell_title"
+        android:paddingBottom="2dp"
+        android:fadingEdge="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        style="@style/WidgetCellTitleStyle"/>
+</com.transsion.xlauncher.dockmenu.widgetmenu.WidgetCell>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/theme_title_lr7_layout"/>
+    <View style="@style/HorizontalLine"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.transsion.xlauncher.library.springview.SpringRecyclerView
+            android:id="@+id/diy_theme_gridview"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="@integer/theme_local_list_column"
+            android:layout_marginStart="@dimen/theme_common_screen_padding_with_item_padding"
+            android:layout_marginEnd="@dimen/theme_common_screen_padding_with_item_padding"/>
+        <include
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/local_no_theme_tip"/>
+    </FrameLayout>
+</LinearLayout>

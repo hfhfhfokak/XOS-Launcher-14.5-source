@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">កម្មវិធីកំពុងដំណើរការ %s</item>
+        <item quantity="other">កម្មវិធីកំពុងដំណើរការ %s</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="other">បានបង្កក%1$d កម្មវិធី, បានធ្វើឲ្យទំនេរ %2$d ទំហំ MB។</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d ជំហាន</item>
+        <item quantity="one">%d ជំហាន</item>
+        <item quantity="other">%d ជំហាន</item>
+    </plurals>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="start|center_vertical"
+    android:id="@+id/recents_small_window"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/ts_recents_left_small_window_container"
+        android:layout_width="@dimen/recent_task_small_window_focus_background_size"
+        android:layout_height="@dimen/recent_task_small_window_focus_background_size"
+        android:layout_marginStart="@dimen/recent_task_small_window_icon_margin_start"
+        app:layout_ignoreInsets="true"
+        app:lottie_autoPlay="false"
+        app:lottie_fileName="left_small_to_big.json"
+        app:lottie_imageAssetsFolder="left_small_to_big/"
+        app:lottie_loop="false"/>
+    <Space
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/ts_recents_right_small_window_container"
+        android:layout_width="@dimen/recent_task_small_window_focus_background_size"
+        android:layout_height="@dimen/recent_task_small_window_focus_background_size"
+        android:layout_marginEnd="@dimen/recent_task_small_window_icon_margin_end"
+        app:layout_ignoreInsets="true"
+        app:lottie_autoPlay="false"
+        app:lottie_fileName="right_small_to_big.json"
+        app:lottie_imageAssetsFolder="right_small_to_big/"
+        app:lottie_loop="false"/>
+</LinearLayout>

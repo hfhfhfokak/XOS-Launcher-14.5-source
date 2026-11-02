@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/recent_apps_card"
+    android:background="@drawable/x_sa_used_app_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsion.xlauncher.search.view.SaGridView
+        android:id="@+id/x_gv_gs_apps"
+        android:paddingTop="22dp"
+        android:paddingBottom="18dp"
+        android:visibility="visible"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:horizontalSpacing="12dp"
+        android:numColumns="@integer/search_item_display_columns"/>
+</FrameLayout>

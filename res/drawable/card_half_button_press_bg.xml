@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/card_library_10dp"/>
+    <solid android:color="@color/card_half_button_press_color"/>
+    <stroke
+        android:width="@dimen/card_library_1dp"
+        android:color="@color/card_text_main_color"/>
+</shape>

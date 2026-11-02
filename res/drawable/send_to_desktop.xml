@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:autoMirrored="true"
+    android:viewportWidth="66"
+    android:viewportHeight="66">
+    <path
+        android:fillColor="@color/popup_container_system_icon_color"
+        android:pathData="M28.417,10.083L28.417,14.667L15.583,14.667L15.583,50.417L51.333,50.417L51.333,37.583L55.917,37.583L55.917,50.417C55.917,52.881 53.971,54.892 51.532,54.996L51.333,55L15.583,55C13.052,55 11,52.948 11,50.417L11,14.667C11,12.135 13.052,10.083 15.583,10.083L28.417,10.083ZM53.625,10.083C54.891,10.083 55.917,11.109 55.917,12.375L55.916,12.4L55.917,27.958C55.917,29.224 54.891,30.25 53.625,30.25C52.359,30.25 51.333,29.224 51.333,27.958L51.332,17.941L35.041,34.233C34.146,35.128 32.695,35.128 31.8,34.233C30.905,33.338 30.905,31.887 31.8,30.992L48.124,14.667L38.042,14.667C36.776,14.667 35.75,13.641 35.75,12.375C35.75,11.109 36.776,10.083 38.042,10.083L53.625,10.083Z"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/ten_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/seven_dp"
+    android:paddingEnd="@dimen/theme_common_text_screen_padding">
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/fourteen_dp"
+        android:textColor="@color/th_search_result_text_color"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/thirty_four_dp"
+        android:maxLines="2"
+        android:textAlignment="viewStart"/>
+</FrameLayout>

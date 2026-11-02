@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="8dp"
+    android:width="6dp"
+    android:viewportWidth="18"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/zs_weather_location_icon_color"
+        android:pathData="M0,0h18v24h-18z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0"
+        android:fillAlpha="0"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@color/zs_weather_location_icon_color"
+        android:pathData="M9,1C11.4005,1 13.6981,1.9299 15.3665,3.5767C18.8778,7.0419 18.8778,12.5394 15.3665,16.0045L15.3665,16.0045L9.5141,21.7227C9.2283,22.002 8.7717,22.002 8.4859,21.7227L8.4859,21.7227L2.6335,16.0045C-0.8778,12.5394 -0.8778,7.0419 2.6335,3.5767C4.3019,1.9299 6.5995,1 9,1ZM8.9948,6.3063C7.3253,6.3088 5.89,7.4486 5.5666,9.0288C5.2432,10.6089 6.1218,12.1895 7.665,12.804C9.2083,13.4184 10.9865,12.8957 11.9124,11.5554C12.8383,10.2151 12.654,8.4304 11.4722,7.2927C10.8164,6.6574 9.9241,6.3022 8.9948,6.3063Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

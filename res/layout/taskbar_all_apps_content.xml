@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.widgetslib.view.letter.LetterSelectorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.launcher3.allapps.LauCoordinatorLayout
+        android:orientation="vertical"
+        android:id="@+id/coordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp">
+        <com.android.quickstep.src.com.android.launcher3.taskbar.transsion.allapps.TaskbarAllAppsRecyclerView
+            android:theme="@style/Theme.Light.CustomOverscroll"
+            android:layout_gravity="top|center_horizontal"
+            android:id="@+id/taskbar_apps_list_view"
+            android:focusable="true"
+            android:clipToPadding="false"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    </com.android.launcher3.allapps.LauCoordinatorLayout>
+</com.transsion.widgetslib.view.letter.LetterSelectorLayout>

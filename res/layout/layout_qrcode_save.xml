@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center"
+        android:background="@drawable/mini_shape_share_dialog_bg"
+        android:layout_width="@dimen/mini_dp_232"
+        android:layout_height="@dimen/mini_dp_276">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_logo_save"
+            android:layout_width="@dimen/mini_dp_30"
+            android:layout_height="@dimen/mini_dp_30"
+            android:layout_marginTop="@dimen/mini_dp_16"
+            android:layout_marginStart="@dimen/mini_dp_16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:textSize="@dimen/mini_sp_14"
+            android:textColor="@color/mini_color_black_white"
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="@dimen/mini_dp_8"
+            app:layout_constraintStart_toEndOf="@+id/iv_logo_save"
+            app:layout_constraintTop_toTopOf="@+id/iv_logo_save"/>
+        <TextView
+            android:textSize="@dimen/mini_sp_10"
+            android:textColor="@color/mini_color_666666"
+            android:id="@+id/tv_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mini_dp_8"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_logo_save"
+            app:layout_constraintStart_toEndOf="@+id/iv_logo_save"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_qrcode"
+            android:layout_width="@dimen/mini_dp_200"
+            android:layout_height="@dimen/mini_dp_200"
+            android:layout_marginTop="@dimen/mini_dp_12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_logo_save"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="@drawable/selectable_item_with_bg_color_hideapp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/preference_item_min_height"
+    android:paddingStart="16dp"
+    android:paddingEnd="13dp">
+    <include layout="@layout/preference_item_widget_icon"/>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <com.transsion.xlauncher.library.settingbase.MarqueeText
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            style="@style/PreferenceText.Title.HideApp"/>
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_alignStart="@android:id/title"
+            style="@style/PreferenceText.Summary"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"/>
+</LinearLayout>

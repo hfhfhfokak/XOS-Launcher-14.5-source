@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/shortcut_deep_drag_handle_size"
+    android:width="@dimen/shortcut_deep_drag_handle_size"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <path
+        android:fillColor="@color/popup_container_system_icon_color"
+        android:pathData="M46.958,38.25C48.224,38.25 49.25,39.276 49.25,40.542C49.25,41.807 48.224,42.833 46.958,42.833L13.042,42.833C11.776,42.833 10.75,41.807 10.75,40.542C10.75,39.276 11.776,38.25 13.042,38.25L46.958,38.25ZM46.958,28.167C48.224,28.167 49.25,29.193 49.25,30.458C49.25,31.724 48.224,32.75 46.958,32.75L13.042,32.75C11.776,32.75 10.75,31.724 10.75,30.458C10.75,29.193 11.776,28.167 13.042,28.167L46.958,28.167ZM46.958,18.083C48.224,18.083 49.25,19.109 49.25,20.375C49.25,21.641 48.224,22.667 46.958,22.667L13.042,22.667C11.776,22.667 10.75,21.641 10.75,20.375C10.75,19.109 11.776,18.083 13.042,18.083L46.958,18.083Z"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

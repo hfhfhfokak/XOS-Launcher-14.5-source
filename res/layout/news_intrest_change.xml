@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dp_16"
+    android:paddingBottom="@dimen/dp_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp_32"
+    android:paddingStart="@dimen/dp_22"
+    android:paddingEnd="@dimen/dp_22">
+    <com.scene.zeroscreen.view.DrawableLeftCenterTextView
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/os_text_primary_color"
+        android:gravity="center_vertical"
+        android:id="@+id/news_item_change"
+        android:background="@drawable/zs_news_change_selector"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingBottom="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/news_not_interest_content"
+        android:includeFontPadding="false"
+        android:drawablePadding="@dimen/dp_10"
+        android:drawableStart="@drawable/zs_news_drawable_left_selector"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <ViewStub
+        android:id="@+id/current_version"
+        android:layout="@layout/current_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/launcher_content_margin_start_end"
+        android:layout_marginEnd="@dimen/launcher_content_margin_start_end"/>
+    <ViewStub
+        android:id="@+id/default_launcher_tip"
+        android:layout="@layout/setting_notification_tip"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/launcher_content_margin_start_end"
+        android:layout_marginEnd="@dimen/launcher_content_margin_start_end"/>
+    <ViewStub
+        android:id="@+id/setting_notification_tip"
+        android:layout="@layout/setting_notification_tip"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="@dimen/launcher_content_margin_start_end"
+        android:layout_marginEnd="@dimen/launcher_content_margin_start_end"/>
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/preference_item_divider_height"
+        android:layout_marginStart="@dimen/launcher_content_margin_start_end"
+        android:layout_marginEnd="@dimen/launcher_content_margin_start_end"/>
+</LinearLayout>

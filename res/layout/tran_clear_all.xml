@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.ClearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/ts_recents_memory_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_ignoreInsets="true">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/ts_btn_recents_clear"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="@dimen/recent_clear_button_size"
+        android:layout_height="@dimen/recent_clear_button_size"
+        android:src="@drawable/recent_ic_h_clean_selector"
+        android:contentDescription="@string/recents_delete_all"/>
+</com.android.quickstep.src.com.android.quickstep.views.ClearLayout>

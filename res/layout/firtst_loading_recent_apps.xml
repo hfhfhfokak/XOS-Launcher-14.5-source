@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView
+        android:id="@+id/blur_target"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zs_recent_app_card_height"
+        android:columnWidth="@dimen/zs_recent_app_card_icon_wh"
+        android:paddingStart="@dimen/dp_16"
+        android:paddingEnd="@dimen/dp_16"/>
+</merge>

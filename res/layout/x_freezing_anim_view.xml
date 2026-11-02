@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.freezer.FreezerAnimView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/freeze_anim_view"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    launcher:layout_ignoreInsets="true">
+    <ImageView
+        android:id="@+id/freeze_gaosi_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/freeze_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:layout_width="136dp"
+        android:layout_height="189dp"
+        android:translationY="@dimen/freeze_anim_translationY">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/freeze_anim"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+</com.transsion.xlauncher.freezer.FreezerAnimView>

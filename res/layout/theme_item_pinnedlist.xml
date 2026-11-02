@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.theme.common.ThemeCoverView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/theme_cover"
+    android:paddingTop="@dimen/sixteen_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/theme_common_item_half_padding"
+    android:paddingEnd="@dimen/theme_common_item_half_padding"
+    app:isNeedText="true"
+    app:priceTextColor="@color/percentage_50_gray"
+    app:priceTextSize="12sp"
+    app:radios="@dimen/theme_preview_corner_radius"
+    app:themePrice="@string/theme_free_label"
+    app:themeTitleTextColor="@color/th_all_list_name_color"
+    app:themeTitleTextSize="12sp"
+    app:titleLeftGap="@dimen/four_dp"
+    app:verticalPrice="true"/>

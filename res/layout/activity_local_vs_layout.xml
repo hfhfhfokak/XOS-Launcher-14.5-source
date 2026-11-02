@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/theme_title_lr7_layout"/>
+    <View style="@style/HorizontalLine"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/res_list"
+            android:paddingTop="@dimen/ten_dp"
+            android:paddingBottom="@dimen/twelve_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/theme_common_screen_padding_with_item_padding"
+            android:paddingEnd="@dimen/theme_common_screen_padding_with_item_padding"/>
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sixty_dp"
+            android:indeterminate="true"
+            android:layout_centerHorizontal="true"
+            style="@style/mProgress_circle"/>
+        <com.transsion.theme.common.customview.FloatingOvalButton
+            android:id="@+id/video_import_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/twelve_dp"
+            android:layout_alignParentEnd="true"
+            apps:float_image_src="@drawable/ic_local_video_add"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/progress_import"
+            android:background="@color/screen_background_color"
+            android:focusable="true"
+            android:visibility="gone"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.transsion.widgetslib.view.OSLoadingView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/loading_view"
+                android:layout_width="@dimen/os_loading_size"
+                android:layout_height="@dimen/os_loading_size"/>
+            <com.transsion.theme.common.customview.ElegantTextView
+                android:textSize="@dimen/twelve_sp"
+                android:textColor="@color/percentage_60_gray"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:text="@string/local_video_importing"
+                android:paddingStart="@dimen/sixteen_dp"
+                android:paddingEnd="@dimen/sixteen_dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

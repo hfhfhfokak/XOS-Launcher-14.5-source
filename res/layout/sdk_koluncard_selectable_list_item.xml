@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp_44"
+    app:sdk_koluncard_corner_radius="@dimen/dp_8">
+    <ImageButton
+        android:id="@+id/sdk_koluncard_selectable_image_button"
+        android:background="@android:color/transparent"
+        android:layout_width="@dimen/dp_34"
+        android:layout_height="match_parent"
+        android:src="@drawable/sdk_koluncard_selector_radio_button_bg_hios_8_6"
+        android:scaleType="centerInside"
+        android:paddingEnd="@dimen/dp_16"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/sdk_koluncard_default_text_color_2"
+        android:id="@+id/sdk_koluncard_selectable_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SdkKolunCardSingleLineTextStyle"/>
+</com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout>

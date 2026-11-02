@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lau_bottom_sheet_outside_alpha_day_night">@dimen/lau_bottom_sheet_outside_alpha_night</dimen>
+    <dimen name="os_action_bar_elevation">1dp</dimen>
+    <dimen name="os_background_dim_amount">0.6</dimen>
+    <dimen name="os_background_dim_amount_gdpr">0.6</dimen>
+    <dimen name="widget_search_bg_corner">12dp</dimen>
+</resources>

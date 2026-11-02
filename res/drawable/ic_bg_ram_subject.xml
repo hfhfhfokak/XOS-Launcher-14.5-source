@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="100dp"
+    android:width="64dp"
+    android:viewportWidth="192"
+    android:viewportHeight="300">
+    <path
+        android:fillColor="@drawable/_ic_bg_ram_subject__0_res_0x7f08010f"
+        android:pathData="M192,51l-96,51.003l-0,197.997l96,-50.465z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_bg_ram_subject__1_res_0x7f080110"
+        android:pathData="M0,51l96,50.991l0,198.009l-96,-50.5z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_bg_ram_subject__2_res_0x7f080111"
+        android:pathData="M0,51l95.503,-51l96.497,51l-96.497,51z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

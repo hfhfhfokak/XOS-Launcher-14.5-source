@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/os_dialog_background_inset"
+    android:insetRight="@dimen/os_dialog_background_inset"
+    android:insetTop="@dimen/os_dialog_background_inset"
+    android:insetBottom="@dimen/os_dialog_background_inset_bottom">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/os_dialog_background_corner"/>
+        <solid android:color="@color/os_dialog_background_color"/>
+    </shape>
+</inset>

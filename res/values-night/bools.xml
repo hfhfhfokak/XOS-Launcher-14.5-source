@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="launcher_account_light_status_bar">false</bool>
+    <bool name="os_is_light_status_bar">false</bool>
+    <bool name="theme_light_nav_bar">false</bool>
+    <bool name="theme_light_status_bar">false</bool>
+</resources>

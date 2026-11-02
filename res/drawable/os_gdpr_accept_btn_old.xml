@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/os_gdpr_accept_btn_ripple_color">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/os_gdpr_btn_corner_old"/>
+            <solid android:color="?attr/positiveBtnBgColor"/>
+        </shape>
+    </item>
+</ripple>

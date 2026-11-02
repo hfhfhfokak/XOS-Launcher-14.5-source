@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="end"
+        android:id="@+id/iv_triangle"
+        android:layout_width="@dimen/mini_dp_8"
+        android:layout_height="@dimen/mini_dp_6"
+        android:layout_marginTop="@dimen/mini_dp_4"
+        android:src="@drawable/mini_ic_triangle"
+        android:layout_marginEnd="@dimen/mini_dp_96"/>
+    <TextView
+        android:textSize="@dimen/mini_sp_14"
+        android:textColor="@color/color_white"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/add_home_tost"
+        android:background="@drawable/mini_shape_popwindow_bg"
+        android:paddingLeft="@dimen/mini_dp_12"
+        android:paddingTop="@dimen/mini_dp_10"
+        android:paddingRight="@dimen/mini_dp_12"
+        android:paddingBottom="@dimen/mini_dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/mini_dp_42"
+        android:text="@string/mini_toast_add_home_tips"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/mini_dp_16"
+        android:paddingHorizontal="@dimen/mini_dp_12"
+        android:paddingVertical="@dimen/mini_dp_10"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

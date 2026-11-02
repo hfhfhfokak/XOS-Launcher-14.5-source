@@ -1,0 +1,133 @@
+{
+  "config_update_time": 600,
+  "ads_config": {
+    "ads_pool": {
+      "reload_time": 0,
+      "ids": [
+        {
+          "id": "2000270",
+          "max_count": 17,
+		  "client_request": true
+        },
+		{
+          "id": "2000263",
+          "max_count": 17,
+          "expire_time": 55
+        },
+		{
+          "id": "2000260"
+        }
+      ],
+      "groups": [
+        {
+          "ids": "2000270",
+          "threshold": 0
+        }
+      ],
+      "frequency": "10;10;10;10;10;10;10;30;50;70;70;100;100;100;100;100;100;100;100;100;100;70;70;60",
+      "new_groups": [
+      ]
+    },
+    "freq_ad": {
+      "ids": "2000270;2000260;2000263",
+      "push_max": 10,
+      "push_interval": 5
+    },
+    "clean_ad": {
+      "ids": "2000270;2000260;2000263",
+      "preload_ids": "2000270",
+      "image_rate": 70,
+      "correct_rate": 100,
+      "push_max": 5,
+      "push_interval": 5,
+      "push_ad": false,
+      "push_pm": true
+    },
+    "bottom_ad": {
+      "ids": "2000270;2000260;2000263",
+      "number": 4,
+      "push_max": 25,
+      "push_interval": 5
+    },
+    "folder_ad": {
+      "ids": "2000270;2000260;2000263",
+      "number": 20,
+      "min_number": 1,
+      "interval": 10,
+      "loc": 3,
+      "push_max": 40,
+      "push_interval": 5
+    },
+    "program_ad": {
+      "ids": "2000270",
+      "content_ad": true,
+      "loc": 2,
+      "push_ad": false
+    },
+    "hotword_ad": {
+      "ids": "2000270;2000260;2000263"
+    },
+    "callback_ad": {
+      "ids": "2000270;2000260;2000263"
+    },
+    "weekly_ad": {
+      "ids": "2000270;2000260;2000263",
+      "repeat_ad": true,
+      "push_ad": false,
+      "pre_request": true,
+      "preload_ids": "2008088"
+    },
+    "detail_ad": {
+      "ids": "2000270;2000263;2000260",
+      "push_ad": false
+    },
+    "zero_ad": {
+      "ids": "2000270",
+      "preload_ids": "2000270",
+      "pre_request": true,
+      "push_ad": false
+    },
+    "flow_ad": {
+      "ids": "2000270;2000263;2000260",
+      "preload_ids": "2000270",
+      "repeat_ad": true,
+      "push_ad": false
+    },
+    "clean_notify": {
+      "interval": 90,
+      "memory": {
+        "max_count": 7,
+        "threshold": 68,
+        "progress": "70;80",
+        "low_progress": "80;92"
+      },
+      "battery": {
+        "max_count": 3,
+        "threshold": 50
+      }
+    },
+    "launcher_push": {
+      "desktop_enable": true,
+      "program_enable": true,
+      "picture_enable": true,
+      "picture_more_enable": true,
+      "url": "http://msg.transacme.com/poll-api/api/launcher.api/1.0.0/getResource"
+    },
+    "search_suggest": {
+      "enable": true,
+      "limit": 2,
+      "shopping": true,
+      "toggle": true,
+      "size": 5
+    }
+  },
+  "custom_search_config": {
+    "enable": true,
+    "custom_search": [
+      {
+        "enable": true,
+        "url": "http://www.homesearchcat.com/launcher/launcher.html?q="
+      }
+    ]
+  }
+}

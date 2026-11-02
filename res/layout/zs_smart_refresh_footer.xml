@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:minHeight="32dp">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/refresh_footer_progress_bar"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:indeterminateOnly="true"
+        android:indeterminateDrawable="@anim/pn_rotate"
+        android:indeterminateBehavior="repeat"/>
+</LinearLayout>

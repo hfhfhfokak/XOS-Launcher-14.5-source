@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/zeroscreen_news_item"
+    android:paddingStart="@dimen/dp_14"
+    android:paddingEnd="@dimen/dp_14">
+    <TextView
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/os_text_primary_color"
+        android:ellipsize="end"
+        android:id="@+id/x_search_big_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:maxLines="2"
+        android:lineSpacingMultiplier="1.1"
+        android:fontFamily="sans-serif"/>
+    <ImageView
+        android:id="@+id/x_search_big_iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zs_dimen_180dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:textSize="@dimen/sp_11"
+        android:textColor="@color/os_text_tertiary_color"
+        android:id="@+id/x_search_big_come_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:singleLine="true"/>
+    <View
+        android:background="@color/os_gray_tertiary_color"
+        android:layout_width="match_parent"
+        android:layout_height="0.33dp"
+        android:layout_marginTop="@dimen/dp_12"/>
+</LinearLayout>

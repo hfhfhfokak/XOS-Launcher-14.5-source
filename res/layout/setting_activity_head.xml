@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.library.settingbase.LauRoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rounded_container"
+    android:background="@drawable/preference_item_normal_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        layout="@layout/zs_preference_item_account"/>
+    <include
+        android:id="@+id/ll_settings_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        layout="@layout/preference_item_horizontal"/>
+    <include
+        android:id="@+id/ll_settings_smart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        layout="@layout/preference_item_with_right_direction_arrow"/>
+    <include
+        android:id="@+id/switch_sharp_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        layout="@layout/zs_preference_item_with_switch"/>
+</com.transsion.xlauncher.library.settingbase.LauRoundLinearLayout>

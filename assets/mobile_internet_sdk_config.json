@@ -1,0 +1,46 @@
+{
+  "xos_a-z_SearcherBar_key": "xos_a-z_SearcherBar",
+  "xos_forderreco_tools_key": "xos_forderreco_tools",
+  "xos_forderreco_sports_key": "xos_forderreco_sports",
+  "xos_forderreco_social_key": "xos_forderreco_social",
+  "xos_forderreco_shopping_key": "xos_forderreco_shopping",
+  "xos_forderreco_news_books_key": "xos_forderreco_news_books",
+  "xos_forderreco_photography_key": "xos_forderreco_photography",
+  "xos_forderreco_media_key": "xos_forderreco_media",
+  "xos_forderreco_lifestyle_key": "xos_forderreco_lifestyle",
+  "xos_forderreco_games_key": "xos_forderreco_games",
+  "xos_forderreco_productivity_key": "xos_forderreco_productivity",
+  "xos_zeroscreen_appreco_key": "xos_zeroscreen_appreco",
+  "hios_zeroscreen_appreco_key": "hios_zeroscreen_appreco",
+  "uscreen_zeroscreen_appreco_key": "uscreen_zeroscreen_appreco",
+  "hios_zeroscreen_gamereco_key": "hios_zeroscreen_gamereco",
+  "xos_zeroscreen_gamereco_key": "xos_zeroscreen_gamereco",
+  "xos_shortcut_gamereco_key": "xos_shortcut_gamereco",
+  "uscreen_zeroscreen_gamereco_key": "uscreen_zeroscreen_gamereco",
+  "HIOSLauncher_ZeroScreen_GameLobby_SlotId": "62100610125,62100610127",
+  "XOSLauncher_ZeroScreen_GameLobby_SlotId": "62100610126,62101110129",
+  "XOSLauncher_shortcut_slot_id": "62101110131,62101110130",
+  "UScreen_ZeroScreen_GameLobby_SlotId": "62102310187,62102310188",
+  "HIOSLauncher_ZeroScreen_News_SlotId": "62100610168,62100610128",
+  "HIOSLauncher_ZeroScreen_Video_SlotId": "62100610165,62100610123",
+  "XOSLauncher_ZeroScreen_News_SlotId": "62101110171,62101110163",
+  "XOSLauncher_ZeroScreen_Video_SlotId": "62101110164,62101110122",
+  "UScreen_ZeroScreen_News_SlotId": "62102310184,62102310183",
+  "UScreen_ZeroScreen_Video_SlotId": "62102310185,62102310186",
+  "en": [
+    "CARD_NEWS"
+  ],
+  "fr": [
+    "CARD_NEWS"
+  ],
+  "ar": [
+    "CARD_NEWS"
+  ],
+  "default": [
+    "CARD_NEWS"
+  ],
+  "game_lobby_banner_is_turning_key": "false"
+}
+
+
+//"game_lobby_default_game_key" : "false",

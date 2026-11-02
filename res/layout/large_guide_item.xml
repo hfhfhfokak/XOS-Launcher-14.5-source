@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/large_lt_gift"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:layout_centerHorizontal="true"
+    app:lottie_autoPlay="false"
+    app:lottie_fileName="setting_guide/guide_one/data.json"
+    app:lottie_imageAssetsFolder="setting_guide/guide_one/images/"
+    app:lottie_loop="false"
+    app:lottie_repeatMode="restart"/>

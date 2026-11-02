@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.popup.PopupContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/deep_shortcuts_container"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:elevation="@dimen/deep_shortcuts_elevation"
+    style="@style/PopupContainerPadding"/>

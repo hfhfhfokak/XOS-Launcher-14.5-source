@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
+    </array>
+    <array name="login_class">
+        <item>com.transsion.login.impl.FacebookLogin</item>
+    </array>
+    <array name="settings_nav_direction">
+        <item>@string/nav_right</item>
+        <item>@string/nav_left</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="100dp"
+    android:width="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:name="ic_bg"
+        android:pathData="M91.7154,91.7148 C85.7538,97.6763,78.3404,100,62.7667,100 L37.2333,100 C21.6269,100,14.2532,97.6788,8.28461,91.7148 C2.29166,85.7251,0,78.3815,0,62.7663 L0,37.2331 C0,21.6479,2.29359,14.2666,8.28461,8.2852 C14.2538,2.3237,21.6256,0,37.2333,0 L62.7667,0 C78.3192,0,85.7519,2.32499,91.7154,8.2852 C97.7032,14.2698,100,21.5793,100,37.2331 L100,62.7663 C100,78.2809,97.7064,85.7225,91.7154,91.7148 Z"
+        android:strokeColor="#cccccc"
+        android:strokeWidth="4"/>
+</vector>

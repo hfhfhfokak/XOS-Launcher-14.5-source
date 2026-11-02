@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:id="@+id/recent_dock_guide_text"
+        android:background="@drawable/popup_widget_guide"
+        android:paddingTop="18dp"
+        android:paddingBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="240dp"
+        android:minHeight="44dp"
+        android:text="@string/popup_widget_guide_text"
+        android:maxLines="2"
+        android:fontFamily="Roboto Regular"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+</merge>

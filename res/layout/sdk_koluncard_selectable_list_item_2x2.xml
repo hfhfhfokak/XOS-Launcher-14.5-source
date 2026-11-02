@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_44"
+    android:layoutDirection="locale">
+    <ImageButton
+        android:id="@+id/sdk_koluncard_2x2_selectable_image_button"
+        android:background="@android:color/transparent"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:src="@drawable/sdk_koluncard_selector_radio_button_bg_14_0"
+        android:scaleType="centerInside"
+        android:layout_marginEnd="@dimen/dp_6"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:id="@+id/sdk_koluncard_2x2_selectable_content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SdkKolunCardSelectableTextStyle2X2"/>
+</LinearLayout>

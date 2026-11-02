@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s aplikacion është aktiv</item>
+        <item quantity="other">%s aplikacione janë aktive</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">Është ngrirë %1$d aplikacion. U lirua %2$.2f GB hapësirë.</item>
+        <item quantity="other">Janë ngrirë %1$d aplikacion(e). U lirua %2$.2f GB hapësirë.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Është ngrirë %1$d aplikacion. U lirua %2$d MB hapësirë.</item>
+        <item quantity="other">Janë ngrirë %1$d aplikacion(e). U lirua %2$d MB hapësirë.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d hapa</item>
+        <item quantity="one">%d hap</item>
+        <item quantity="other">%d hapa</item>
+    </plurals>
+</resources>

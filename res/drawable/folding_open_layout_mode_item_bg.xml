@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/folding_open_mode_item_bg_color"/>
+    <corners
+        android:topLeftRadius="@dimen/preference_item_card_radius"
+        android:topRightRadius="@dimen/preference_item_card_radius"
+        android:bottomLeftRadius="@dimen/preference_item_card_radius"
+        android:bottomRightRadius="@dimen/preference_item_card_radius"/>
+</shape>

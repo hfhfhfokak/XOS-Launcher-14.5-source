@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <group
+        android:translateX="8"
+        android:translateY="7">
+        <path
+            android:fillColor="@color/popup_container_system_icon_color"
+            android:pathData="M28.5,0 C44.2401154,0 57,12.7598846 57,28.5 C57,44.2401154 44.2401154,57 28.5,57 C12.7598846,57 0,44.2401154 0,28.5 C0,12.7598846 12.7598846,0 28.5,0 Z M28.5,5 C15.5213084,5 5,15.5213084 5,28.5 C5,41.4786916 15.5213084,52 28.5,52 C41.4786916,52 52,41.4786916 52,28.5 C52,15.5213084 41.4786916,5 28.5,5 Z"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@color/popup_container_system_icon_color"
+            android:pathData="M28.5,24 C29.8807119,24 31,25.1192881 31,26.5 L31,39.5 C31,40.8807119 29.8807119,42 28.5,42 C27.1192881,42 26,40.8807119 26,39.5 L26,26.5 C26,25.1192881 27.1192881,24 28.5,24 Z M28.5,15 C30.1568542,15 31.5,16.3431458 31.5,18 C31.5,19.6568542 30.1568542,21 28.5,21 C26.8431458,21 25.5,19.6568542 25.5,18 C25.5,16.3431458 26.8431458,15 28.5,15 Z"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

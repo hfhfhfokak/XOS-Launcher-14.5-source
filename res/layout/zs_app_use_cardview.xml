@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_app_use"
+    android:background="@drawable/zs_card_view_shape_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/zs_card_padding_start_end"
+    android:paddingEnd="@dimen/dp_1">
+    <TextView
+        android:textSize="@dimen/dp_12"
+        android:textColor="@color/zs_app_use_title_color_day_night"
+        android:ellipsize="end"
+        android:id="@+id/tv_screen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_13"
+        android:text="1h 30M"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="0dp"
+        android:paddingEnd="1px"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/app_use_first_item"
+            android:visibility="invisible"
+            layout="@layout/app_use_time_item_2x2"/>
+        <include
+            android:id="@+id/app_use_second_item"
+            android:visibility="invisible"
+            layout="@layout/app_use_time_item_2x2"/>
+    </LinearLayout>
+</LinearLayout>

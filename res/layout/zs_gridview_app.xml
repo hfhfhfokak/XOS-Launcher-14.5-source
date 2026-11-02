@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@+id/zs_rl_gs_title"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/zs_dimen_10dp"
+        android:paddingStart="@dimen/zs_dimen_10dp">
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:id="@+id/zs_tv_recent_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:text="@string/zs_recent_app"
+            android:lines="1"
+            android:fontFamily="sans-serif-medium"
+            android:layout_alignParentStart="true"/>
+        <ImageView
+            android:id="@+id/zs_switch_iv"
+            android:paddingTop="@dimen/zs_dimen_8dp"
+            android:paddingBottom="@dimen/zs_dimen_8dp"
+            android:visibility="gone"
+            android:layout_width="@dimen/zs_zero_40dp"
+            android:layout_height="@dimen/zs_zero_32dp"
+            android:src="@drawable/zs_common_fold"
+            android:layout_centerVertical="true"
+            android:paddingStart="@dimen/zs_dimen_12dp"
+            android:paddingEnd="@dimen/zs_dimen_12dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <include layout="@layout/zs_app_row0"/>
+    <include
+        android:visibility="gone"
+        layout="@layout/zs_app_row1"/>
+    <include layout="@layout/zs_xads_freq_root"/>
+</LinearLayout>

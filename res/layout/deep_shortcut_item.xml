@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.popup.DeepShortcutView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/shortcut_item_min_height"
+    android:layoutDirection="locale">
+    <com.transsion.xlauncher.popup.DeepShortcutTextView
+        android:textSize="@dimen/shortcut_deep_text_size"
+        android:textColor="@color/popup_container_text_color"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/bubble_text"
+        android:background="@drawable/shortcuts_pop_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/shortcut_item_min_height"
+        android:singleLine="true"
+        android:drawableEnd="@drawable/deep_shortcuts_drag_handle"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/shortcut_text_padding_start"
+        android:paddingEnd="@dimen/shortcut_deep_text_padding_end"
+        android:lineHeight="@dimen/shortcut_deep_text_line_height"
+        launcher:display="locale"
+        launcher:iconSizeOverride="@dimen/shortcut_deep_icon_size"
+        launcher:layoutHorizontal="true"/>
+    <View
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/icon"
+        android:layout_width="@dimen/shortcut_deep_icon_size"
+        android:layout_height="@dimen/shortcut_deep_icon_size"
+        android:layout_marginStart="@dimen/shortcut_deep_icon_margin_start"/>
+</com.transsion.xlauncher.popup.DeepShortcutView>

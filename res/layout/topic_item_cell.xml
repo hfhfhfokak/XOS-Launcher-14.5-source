@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.theme.common.ThemeCoverView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_cover"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/one_hundred_forty_four_dp"
+    app:isNeedText="false"
+    app:radios="@dimen/theme_preview_corner_radius"/>

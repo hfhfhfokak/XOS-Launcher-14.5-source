@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/theme_common_item_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="first">
+    <com.transsion.theme.common.WallpaperSortView
+        android:id="@+id/wsv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.transsion.theme.common.WallpaperSortView
+        android:id="@+id/wsv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/theme_common_item_padding"
+        android:layout_toEndOf="@+id/wsv_1"/>
+    <com.transsion.theme.common.WallpaperSortView
+        android:id="@+id/wsv_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/theme_common_item_padding"
+        android:layout_below="@+id/wsv_2"
+        android:layout_marginStart="@dimen/theme_common_item_padding"
+        android:layout_toEndOf="@+id/wsv_1"/>
+</RelativeLayout>

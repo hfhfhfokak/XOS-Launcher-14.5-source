@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/sdk_koluncard_content_image_text"/>
+    <include
+        android:id="@+id/sdk_koluncard_image_grid_view_one"
+        android:visibility="gone"
+        layout="@layout/sdk_koluncard_image_grid_view_one"/>
+    <include
+        android:id="@+id/sdk_koluncard_image_grid_view_two"
+        android:visibility="gone"
+        layout="@layout/sdk_koluncard_image_grid_view_two"/>
+    <include
+        android:id="@+id/sdk_koluncard_image_grid_view_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_17"
+        layout="@layout/sdk_koluncard_image_grid_view_three"/>
+    <include
+        android:id="@+id/sdk_koluncard_image_grid_view_four"
+        android:visibility="gone"
+        layout="@layout/sdk_koluncard_image_grid_view_four"/>
+</LinearLayout>

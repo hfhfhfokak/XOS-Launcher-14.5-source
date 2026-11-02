@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/PopupItemIconOnly"
+    android:padding="@dimen/system_shortcut_header_icon_padding"
+    android:layout_width="@dimen/system_shortcut_header_icon_touch_size"
+    android:layout_height="@dimen/system_shortcut_header_icon_touch_size"
+    android:paddingStart="@dimen/system_shortcut_header_icon_padding_outer"
+    android:paddingEnd="@dimen/system_shortcut_header_icon_padding_inner"
+    android:tintMode="src_in"/>

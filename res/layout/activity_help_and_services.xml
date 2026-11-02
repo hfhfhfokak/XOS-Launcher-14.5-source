@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/theme_title_lr4_layout"/>
+    <View
+        android:background="@color/theme_dialog_divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_px"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        android:layout_marginEnd="@dimen/sixteen_dp"/>
+    <TextView
+        android:textSize="@dimen/fifteen_sp"
+        android:textColor="@color/th_title_text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:text="@string/theme_assets_recovery"
+        android:textDirection="locale"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/sixteen_dp"/>
+    <RelativeLayout
+        android:id="@+id/assets_recovery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/five_dp">
+        <TextView
+            android:textColor="@color/percentage_60_black"
+            android:layout_width="@dimen/two_hundred_and_eighty_eight_dp"
+            android:layout_height="wrap_content"
+            android:text="@string/theme_assets_recovery_tips"
+            android:textDirection="locale"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="@dimen/sixteen_dp"
+            android:layout_alignParentStart="true"/>
+        <ImageView
+            android:layout_width="@dimen/sixteen_dp"
+            android:layout_height="@dimen/sixteen_dp"
+            android:src="@drawable/ic_next"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/sixteen_dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

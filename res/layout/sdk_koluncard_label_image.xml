@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.kolun.cardtemplate.customwidget.RoundCornerRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/label_image_rl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:sdk_koluncard_corner_radius="@dimen/sdk_koluncard_image_out_corner_radius">
+    <com.transsion.kolun.cardtemplate.customwidget.CustomCardImageView
+        android:id="@+id/sdk_koluncard_label_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:sdk_koluncard_corner_radius="@dimen/sdk_koluncard_image_out_corner_radius"/>
+    <com.transsion.kolun.cardtemplate.customwidget.CustomLabelView
+        android:id="@+id/sdk_koluncard_label_image_operation_label"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sp_11"
+        android:layout_alignTop="@+id/sdk_koluncard_label_image_view"
+        android:layout_alignStart="@+id/sdk_koluncard_label_image_view"
+        app:sdk_koluncard_left_top_corner_radius="@dimen/sdk_koluncard_image_out_corner_radius"
+        app:sdk_koluncard_right_bottom_corner_radius="@dimen/sdk_koluncard_image_in_corner_radius"
+        style="@style/SdkKolunCardImageTextLabelStyle"/>
+    <com.transsion.kolun.cardtemplate.customwidget.CustomLabelView
+        android:id="@+id/sdk_koluncard_label_image_function_label"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/sp_9"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:layout_alignBottom="@+id/sdk_koluncard_label_image_view"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:layout_alignEnd="@+id/sdk_koluncard_label_image_view"
+        app:sdk_koluncard_background_color="@color/sdk_koluncard_function_label_bg_color"
+        app:sdk_koluncard_corner_radius="@dimen/sp_4_5"
+        style="@style/SdkKolunCardImageTextLabelStyle"/>
+</com.transsion.kolun.cardtemplate.customwidget.RoundCornerRelativeLayout>

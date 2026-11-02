@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_tab">3. الأيقون</string>
+    <string name="lock_screen_tab">1. خلفية شاشة القفل</string>
+    <string name="policy_smart_content_normal">1. لمساعدتك في تنظيم حياتك من خلال الجداول الزمنية والتذكيرات ، يحتاج %1$s إلى الوصول إلى البيانات مثل الرسائل القصيرة وبطاقة SIM والموقع.</string>
+    <string name="policy_smart_content_normal_ext">2. سيتم التعامل مع البيانات بشكل آمن واستخدامها فقط لتقديم الخدمات وتحسين تجربتك.</string>
+    <string name="policy_smart_content_update1">1. قام %1$s بمراجعة سياسته واتفاقه. لمتابعة استخدام هذه الخدمة ، يرجى مراجعة التحديثات والموافقة عليها. لمزيد من التفاصيل ، تحقق من سياسة الخصوصية واتفاقية المستخدم.</string>
+    <string name="policy_smart_content_update3">2. بالنقر على\"%1$s\" ، فإنك توافق على التحديثات المذكورة أعلاه.</string>
+    <string name="text_freezer_tips_content">1. سيتم منع التطبيقات الموجودة في أداة التعليق من البدء في الخلفية.\n2. قد لا تعمل بعض وظائف التطبيقات في أداة التعليق بشكل صحيح.</string>
+    <string name="text_freezer_tips_content1">3. بعد إضافة تطبيق إلى أداة التعليق ، سيختفي رمز التطبيق وأحرف الفهرس من سطح المكتب ومن A إلى Z. يمكنك العثور على التطبيق في أداة التعليق.</string>
+    <string name="text_freezer_tips_content2">4. لاستعادة عرض رمز التطبيق وأحرف الفهرس على سطح المكتب و A-Z ، اضغط مع الاستمرار على أيقونة التطبيق في أداة التعليق لإزالة التطبيق.</string>
+    <string name="wallpaper_tab">2. الخلفية</string>
+    <string name="xn_account_id_format_list_2">يتطلب 6-50 حرفا</string>
+    <string name="xn_pwd_format_list_2">يكون من 4 إلى 16 حرفا</string>
+</resources>

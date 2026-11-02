@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center"
+        android:id="@+id/add_btn"
+        android:height="54dp"
+        android:width="54dp"
+        android:drawable="@drawable/bg_folder_btn"/>
+    <item
+        android:gravity="right"
+        android:id="@+id/add_btn_red_point"
+        android:height="8dp"
+        android:width="8dp"
+        android:left="43dp"
+        android:top="3dp"
+        android:right="3dp"
+        android:bottom="43dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/text_red_color"/>
+        </shape>
+    </item>
+</layer-list>

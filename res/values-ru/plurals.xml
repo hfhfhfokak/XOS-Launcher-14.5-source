@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">Активно %s приложение</item>
+        <item quantity="few">Активно %s приложения</item>
+        <item quantity="many">Активно %s приложений</item>
+        <item quantity="other">Активно %s приложения</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">Заморозка %1$d приложений, освободит %2$.2f Гб памяти.</item>
+        <item quantity="few">Заморозка %1$d приложений, освободит %2$.2f Гб памяти.</item>
+        <item quantity="many">Заморозка %1$d приложений, освободит %2$.2f Гб памяти.</item>
+        <item quantity="other">Заморозка %1$d приложений, освободит %2$.2f Гб памяти.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Заморозка %1$d приложений, освободит %2$d Мб памяти.</item>
+        <item quantity="few">Заморозка %1$d приложений, освободит %2$d Мб памяти.</item>
+        <item quantity="many">Заморозка %1$d приложений, освободит %2$d Мб памяти.</item>
+        <item quantity="other">Заморозка %1$d приложений, освободит %2$d Мб памяти.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">Шагов: %d</item>
+        <item quantity="one">%d шаг</item>
+        <item quantity="other">Шагов: %d</item>
+    </plurals>
+</resources>

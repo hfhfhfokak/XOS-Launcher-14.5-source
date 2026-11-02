@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.launcher3.taskbar.folder.TaskbarFolderExpandView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f2444444"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

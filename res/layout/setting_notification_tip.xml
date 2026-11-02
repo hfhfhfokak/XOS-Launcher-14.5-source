@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/setting_notification_tip_bg"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawablePadding="14dp"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="12dp"
+        app:drawableEndCompat="@drawable/ic_point_red"
+        style="@style/PreferenceText.Tip"/>
+    <View
+        android:background="@color/preference_divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/preference_tips_divider_height"/>
+</LinearLayout>

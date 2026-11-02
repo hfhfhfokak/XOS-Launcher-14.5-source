@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="128dp"
+    android:width="200dp"
+    android:autoMirrored="true"
+    android:viewportWidth="600"
+    android:viewportHeight="384">
+    <group>
+        <path
+            android:fillColor="@drawable/_xn_contacts_empty__0_res_0x7f080224"
+            android:pathData="M68,329.756C68,329.756 143.705,-12.948 237.283,290.169"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:strokeAlpha="0.5"
+            android:fillAlpha="0.5"
+            android:fillType="nonZero"/>
+    </group>
+    <path
+        android:fillColor="@drawable/_xn_contacts_empty__1_res_0x7f080225"
+        android:pathData="M119.219,328.177C119.219,328.177 230.756,-2.732 267.335,308.958"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5"
+        android:fillAlpha="0.5"
+        android:fillType="nonZero"/>
+    <group>
+        <path
+            android:fillColor="@drawable/_xn_contacts_empty__2_res_0x7f080226"
+            android:pathData="M303.311,265.176C303.311,265.176 414.517,-65.316 450.82,245.925"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:strokeAlpha="0.5"
+            android:fillAlpha="0.5"
+            android:fillType="nonZero"/>
+    </group>
+    <path
+        android:fillColor="@drawable/_xn_contacts_empty__3_res_0x7f080227"
+        android:pathData="M329.594,257.912C329.594,257.912 450.245,22.808 525.718,256.359"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5"
+        android:fillAlpha="0.5"
+        android:fillType="nonZero"/>
+    <group>
+        <path
+            android:fillColor="@drawable/_xn_contacts_empty__4_res_0x7f080228"
+            android:pathData="M56,292C56,327.346 167.704,356 305.5,356L305.5,356C443.093,356 554.673,327.431 555,292.156L555,292.156L555,291.844C554.673,256.569 443.093,228 305.5,228L305.5,228C167.704,228 56,256.654 56,292"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillType="nonZero"/>
+    </group>
+    <path
+        android:fillColor="@drawable/_xn_contacts_empty__5_res_0x7f080229"
+        android:pathData="M334.967,188.754C352.253,188.754 366.267,202.712 366.267,219.931L366.267,253C366.267,255.209 364.476,257 362.267,257L237.267,257C235.058,257 233.267,255.209 233.267,253L233.267,219.931C233.267,202.712 247.28,188.754 264.566,188.754L334.967,188.754ZM337.501,104L337.501,141.029C337.501,161.275 321.159,177.726 300.875,178.053L300.259,178.057C279.691,178.057 263.017,161.479 263.017,141.029C263.017,120.578 279.691,104 300.259,104L337.501,104Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

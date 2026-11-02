@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsion.widgetslib.view.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_32"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen_32"/>
+    <TextView
+        android:textAppearance="@style/font_black_14_t65"
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_32"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_toEndOf="@+id/loading"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M46.2,10l-1.4,13h19.8L56,62L9.9,62L9.9,27h12.9L31,10L46.2,10zM20.9,33h-5v23h5L20.9,33zM39.5,16h-4.8l-7.9,16.4L26.8,56h24.3l6,-27h-19L39.5,16z"/>
+</vector>

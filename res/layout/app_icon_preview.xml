@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.iconstyle.views.PreViewBubbleTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    style="@style/Icon"/>

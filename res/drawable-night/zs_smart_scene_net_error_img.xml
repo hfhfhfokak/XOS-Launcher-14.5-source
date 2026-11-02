@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="80dp"
+    android:width="80dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="@drawable/_zs_smart_scene_net_error_img__0_res_0x7f080243"
+        android:pathData="M150.859,161C150.859,179.777 137.107,195 119.957,195C102.806,195 88.903,179.777 88.903,161L150.859,161Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillAlpha="0.5"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#7b7b7b"
+        android:pathData="M146,147C148.761,147 151,149.239 151,152L151,162L89,162L89,152C89,149.239 91.239,147 94,147L146,147ZM178,103C180.761,103 183,105.239 183,108L183,113C183,115.761 180.761,118 178,118L61,118C58.239,118 56,115.761 56,113L56,108C56,105.239 58.239,103 61,103L178,103ZM201.5,58C205.642,58 209,61.358 209,65.5C209,69.642 205.642,73 201.5,73L36.5,73C32.358,73 29,69.642 29,65.5C29,61.358 32.358,58 36.5,58L201.5,58Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

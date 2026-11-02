@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="zero">%s تطبيق نشط</item>
+        <item quantity="one">تطبيق واحد نشط (%s)</item>
+        <item quantity="two">تطبيقَان نشطَان (%s)</item>
+        <item quantity="few">%s تطبيقات نشطة</item>
+        <item quantity="many">%s تطبيقًا نشطًا</item>
+        <item quantity="other">%s تطبيق نشط</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="zero">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+        <item quantity="one">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+        <item quantity="two">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+        <item quantity="few">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+        <item quantity="many">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+        <item quantity="other">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$.2f غب</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="zero">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+        <item quantity="one">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+        <item quantity="two">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+        <item quantity="few">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+        <item quantity="many">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+        <item quantity="other">تم تعليق %1$d تطبيقات، تم تفريغ مساحة %2$d ميجابايت</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d خطوة</item>
+        <item quantity="one">%d خطوة</item>
+        <item quantity="other">%d خطوة</item>
+    </plurals>
+</resources>

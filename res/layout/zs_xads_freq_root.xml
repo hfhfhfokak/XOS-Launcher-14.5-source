@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ad_parent"
+    android:paddingLeft="@dimen/zs_dimen_14dp"
+    android:paddingRight="@dimen/zs_dimen_14dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.scene.zeroscreen.view.ZSArrowView
+        android:id="@+id/ad_arrow"
+        android:layout_width="@dimen/zs_dimen_14dp"
+        android:layout_height="@dimen/zs_dimen_7dp"/>
+    <FrameLayout
+        android:id="@+id/ad_container"
+        android:background="@drawable/zs_xads_ad_bg"
+        android:paddingLeft="@dimen/zs_dimen_8dp"
+        android:paddingTop="@dimen/zs_dimen_13dp"
+        android:paddingRight="@dimen/zs_dimen_8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/zs_dimen_7dp"/>
+</RelativeLayout>

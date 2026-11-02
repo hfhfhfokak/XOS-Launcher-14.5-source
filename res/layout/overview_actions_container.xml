@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.OverviewActionsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/action_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/overview_actions_height">
+        <Button
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:id="@+id/action_screenshot"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_screenshot"
+            android:drawableStart="@drawable/ic_screenshot"
+            style="@style/OverviewActionButton"/>
+        <Button
+            android:theme="@style/ThemeControlHighlightWorkspaceColor"
+            android:id="@+id/action_split"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_split"
+            style="@style/OverviewActionButton"/>
+    </LinearLayout>
+</com.android.quickstep.src.com.android.quickstep.views.OverviewActionsView>

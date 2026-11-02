@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/th_tab_icon_normal_color"
+        android:pathData="M36,7C52.0163,7 65,19.9837 65,36C65,52.0163 52.0163,65 36,65C19.9837,65 7,52.0163 7,36C7,19.9837 19.9837,7 36,7ZM36,13C23.2975,13 13,23.2975 13,36C13,48.7025 23.2975,59 36,59C48.7025,59 59,48.7025 59,36C59,23.2975 48.7025,13 36,13ZM46,22L46,28L35,28L35,35L44,35L44,41L35,41L35,50L29,50L29,22L46,22Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

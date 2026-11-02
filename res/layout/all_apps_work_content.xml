@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.AllAppsWorkPageContent xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/page_item_work"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsion.xlauncher.library.springview.SpringRecyclerView
+        android:theme="@style/Theme.Light.CustomOverscroll"
+        android:layout_gravity="top|center_horizontal"
+        android:id="@+id/work_list_view"
+        android:focusable="true"
+        android:clipToPadding="false"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</com.android.launcher3.allapps.AllAppsWorkPageContent>

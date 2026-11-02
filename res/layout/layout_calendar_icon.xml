@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="162px"
+    android:layout_height="162px">
+    <TextView
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22"
+        android:includeFontPadding="false"
+        android:fontFamily="sans-serif"/>
+    <TextView
+        android:textSize="8dp"
+        android:textStyle="bold"
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:text="Wed"
+        android:includeFontPadding="false"
+        android:fontFamily="Roboto Bold"/>
+</LinearLayout>

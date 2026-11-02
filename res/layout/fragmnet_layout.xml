@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/os_bg_primary_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/content_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include
+        android:id="@+id/ly_nodata"
+        android:visibility="gone"
+        layout="@layout/fa_nodata_layout"/>
+    <include
+        android:id="@+id/ly_loading"
+        android:visibility="gone"
+        layout="@layout/fa_loading_layout"/>
+    <include
+        android:id="@+id/ly_error"
+        android:visibility="gone"
+        layout="@layout/fa_error_layout"/>
+</RelativeLayout>

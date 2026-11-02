@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.theme.common.TopicCarouselView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipChildren="@bool/clip_list_child"
+    android:clipToPadding="@bool/clip_list_child"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/theme_common_item_half_padding"
+    android:paddingEnd="@dimen/theme_common_item_half_padding"
+    app:viewType="0">
+    <include layout="@layout/base_header_view_content_layout"/>
+</com.transsion.theme.common.TopicCarouselView>

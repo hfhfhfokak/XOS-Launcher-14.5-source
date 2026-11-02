@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/icon_shape_title_container"
+        layout="@layout/icon_style_item_title"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/icon_shape_list"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:overScrollMode="never"/>
+    <include
+        android:id="@+id/icon_round_corner_title_container"
+        layout="@layout/icon_style_item_title"/>
+    <com.transsion.widgetslib.widget.seekbar.OSSeekbar
+        android:layout_gravity="center"
+        android:id="@+id/icon_round_corner_seekbar"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginStart="@dimen/icon_setting_content_img_margin_start"
+        android:layout_marginEnd="@dimen/icon_setting_content_img_margin_start"/>
+</LinearLayout>

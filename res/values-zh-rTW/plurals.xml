@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒轉 %d 秒</item>
+        <item quantity="other">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s 個應用程式正在運作</item>
+        <item quantity="other">%s 個應用程式正在運作</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="other">凍結 %1$d 個應用程式，釋放 %2$d MB 空間。</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 則新通知</item>
+        <item quantity="other">%d 則新通知</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d 步數</item>
+        <item quantity="one">%d 步</item>
+        <item quantity="other">%d 步數</item>
+    </plurals>
+</resources>

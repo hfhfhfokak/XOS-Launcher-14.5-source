@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.popup.PopupContainerWithArrow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/popup_container"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/deep_shortcuts_container"
+        android:tag="@string/popup_container_iterate_children"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/deep_shortcuts_elevation"/>
+    <com.transsion.xlauncher.popup.NotificationContainer
+        android:id="@+id/notification_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.transsion.xlauncher.popup.PopupContainerWithArrow>

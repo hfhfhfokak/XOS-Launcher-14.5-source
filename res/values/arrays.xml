@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ad_mark_drawables">
+        <item>@drawable/ic_ads_app_mark1</item>
+        <item>@drawable/ic_ads_app_mark2</item>
+        <item>@drawable/ic_ads_app_mark3</item>
+        <item>@drawable/ic_ads_app_mark4</item>
+        <item>@drawable/ic_ads_app_mark5</item>
+    </array>
+    <array name="analytics_recent_task_black_list">
+        <item>com.transsion.childmode</item>
+        <item>com.transsion.XOSLauncher.upgrade</item>
+        <item>com.transsion.hilauncher.upgrade</item>
+        <item>com.transsion.itel.launcher</item>
+        <item>com.transsion.XOSLauncher</item>
+        <item>com.transsion.hilauncher</item>
+        <item>com.android.systemui</item>
+        <item>com.android.settings</item>
+        <item>com.transsion.ossettingsext</item>
+    </array>
+    <array name="blur_package_white_list">
+        <item>com.phonepe.app</item>
+        <item>com.google.android.apps.nbu.paisa.user</item>
+        <item>com.wave.personal</item>
+        <item>net.one97.paytm</item>
+        <item>pk.com.telenor.phoenix</item>
+        <item>com.firstbank.firstmobile</item>
+        <item>com.accessbank.nextgen</item>
+        <item>com.techlogix.mobilinkcustomer</item>
+        <item>com.globe.gcash.android</item>
+        <item>com.zenithBank.eazymoney</item>
+        <item>com.uba.vericash</item>
+        <item>com.bKash.customerapp</item>
+        <item>com.binance.dev</item>
+        <item>com.gtbank.gtworldv1</item>
+        <item>id.dana</item>
+        <item>com.bca</item>
+        <item>com.wallet.crypto.trustapp</item>
+        <item>team.opay.pay</item>
+        <item>com.safaricom.mpesa.lifestyle</item>
+        <item>com.kudabank.app</item>
+        <item>com.vanso.gtbankapp</item>
+        <item>ng.com.fairmoney.fairmoney</item>
+        <item>com.appzonegroup.fcmb</item>
+        <item>com.easybuy.client</item>
+        <item>id.co.bri.brimo</item>
+        <item>com.app.ecobank</item>
+        <item>com.ceva.ubmobile.stallion</item>
+        <item>com.loan.cash.credit.barwaqt.tez.paisa.jazz.financial.ready.easy</item>
+        <item>com.bankofbaroda.mconnect</item>
+        <item>com.hbl.android.hblmobilebanking</item>
+        <item>com.konasl.nagad</item>
+        <item>ke.co.equitybank.equitel</item>
+        <item>com.ubanquity.redd.uba</item>
+        <item>com.dollarade.ade</item>
+        <item>com.vulte.app</item>
+        <item>id.bmri.livin</item>
+        <item>com.sbi.lotusintouch</item>
+        <item>com.bnc.finance</item>
+        <item>com.loan.cash.credit.easemoni.nigeria</item>
+        <item>com.iexceed.appzillon.ippbMB</item>
+        <item>team.opay.pay.merchant.service</item>
+        <item>com.wemabank.alat.prod</item>
+        <item>ovo.id</item>
+        <item>com.interswitchng.www</item>
+        <item>ktbcs.netbank</item>
+        <item>com.accessbank.accessbankapp</item>
+        <item>com.kasikorn.retail.mbanking.wap</item>
+        <item>capitec.acuity.mobile.prod</item>
+        <item>th.co.truemoney.wallet</item>
+        <item>com.transsnet.palmpay</item>
+    </array>
+    <array name="can_show_in_freezer_apps">
+        <item>com.google.android.apps.tachyon</item>
+        <item>com.transsion.scanningrecharger</item>
+    </array>
+    <array name="cleaner_color_keys">
+        <item>0x40</item>
+        <item>0x41</item>
+        <item>0x42</item>
+        <item>0x43</item>
+        <item>0x44</item>
+        <item>0x45</item>
+    </array>
+    <array name="cleaner_color_name">
+        <item>cleaner_progress_color</item>
+        <item>cleaner_progress_bg_color</item>
+        <item>cleaner_progress_gap_color</item>
+        <item>cleaner_text_color</item>
+        <item>cleaner_progress_color_start</item>
+        <item>cleaner_progress_color_end</item>
+    </array>
+    <array name="config_google_order_class">
+        <item>com.google.android.googlequicksearchbox.SearchActivity</item>
+        <item>com.google.android.apps.searchlite.ui.SearchActivity</item>
+        <item>com.google.android.apps.youtube.lite.frontend.activities.SplashActivity</item>
+        <item>com.google.android.apps.assistant.go.MainActivity</item>
+        <item>org.chromium.webapk.shell_apk.MainActivity</item>
+        <item>com.google.android.apps.chrome.Main</item>
+        <item>com.google.android.gm.ConversationListActivityGmail</item>
+        <item>com.google.android.maps.MapsActivity</item>
+        <item>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+        <item>com.google.android.apps.docs.app.NewMainProxyActivity</item>
+        <item>com.google.android.apps.youtube.music.activities.MusicActivity</item>
+        <item>com.android.music.activitymanagement.TopLevelActivity</item>
+        <item>com.google.android.youtube.videos.EntryPoint</item>
+        <item>com.google.android.talk.SigningInActivity</item>
+        <item>com.google.android.apps.tachyon.MainActivity</item>
+        <item>com.google.android.apps.photos.home.HomeActivity</item>
+        <item>com.android.calendar.AllInOneActivity</item>
+        <item>com.google.android.googlequicksearchbox.VoiceSearchActivity</item>
+        <item>com.google.android.apps.nbu.files.home.HomeActivity</item>
+    </array>
+    <array name="deepshort_config">
+        <item>com.example.weizhu.test/id_test</item>
+        <item>com.transsnet.store/id_palmstore_shortcuts</item>
+        <item>com.transsnet.store/id_test</item>
+        <item>com.transsion.appupdate/id_palmstore_shortcuts</item>
+        <item>com.transsion.appupdate/id_aha_shortcuts</item>
+        <item>com.transsion.appupdate/id_test</item>
+        <item>com.transsion.plat.appupdate/id_palmstore_shortcuts</item>
+        <item>com.transsion.plat.appupdate/id_aha_shortcuts</item>
+        <item>com.transsion.plat.appupdate/id_test</item>
+        <item>com.transsion.mars.update/id_palmstore_shortcuts</item>
+        <item>com.transsion.mars.update/id_aha_shortcuts</item>
+        <item>com.transsion.mars.update/id_test</item>
+    </array>
+    <array name="default_theme_info">
+        <item>@string/theme_xui_display_name_01</item>
+        <item>@string/theme_xui_file_name_01</item>
+        <item>@string/theme_xui_file_path_01</item>
+        <item>@integer/theme_xui_id_01</item>
+        <item>@string/theme_xui_display_name_02</item>
+        <item>@string/theme_xui_file_name_02</item>
+        <item>@string/theme_xui_file_path_02</item>
+        <item>@integer/theme_xui_id_02</item>
+    </array>
+    <array name="disable_remove_shortcut_config">
+        <item>com.transsion.dualsystem</item>
+        <item>com.transsion.myapplication</item>
+    </array>
+    <array name="driving_mode_black_list">
+        <item>com.transsion.auto</item>
+        <item>com.afmobi.boomplayer</item>
+        <item>com.google.android.apps.maps</item>
+    </array>
+    <array name="drop_shake_animation_scale">
+        <item>0dp</item>
+        <item>-4dp</item>
+        <item>2dp</item>
+        <item>-1dp</item>
+        <item>0dp</item>
+    </array>
+    <array name="excluded_phone_models">
+        <item>tecno_kb2j</item>
+        <item>TECNO KB2</item>
+        <item>tecno_kb2</item>
+        <item>TECNO KB2h</item>
+        <item>TECNO KB2j</item>
+        <item>TECNO B1</item>
+        <item>TECNO B1f</item>
+        <item>tecno_b1p</item>
+        <item>tecno_b1</item>
+        <item>TECNO B1p</item>
+        <item>tecno_cf7</item>
+        <item>TECNO CF7</item>
+        <item>TECNO CF7k</item>
+        <item>tecno_cf7k</item>
+        <item>TECNO CF7kS</item>
+        <item>tecno_cf7s</item>
+        <item>TECNO CF7S</item>
+        <item>TECNO CF8</item>
+        <item>tecno_cf8</item>
+        <item>TECNO CF8S</item>
+        <item>TECNO ID5</item>
+        <item>tecno_id5</item>
+        <item>TECNO ID5a</item>
+        <item>tecno_id5a</item>
+        <item>tecno_id5b</item>
+        <item>TECNO ID5b</item>
+        <item>tecno_id6</item>
+        <item>TECNO ID6</item>
+        <item>TECNO ID3k</item>
+        <item>tecno_id3k</item>
+        <item>tecno_lc6</item>
+        <item>TECNO LC6</item>
+        <item>TECNO KB3</item>
+        <item>tecno_kb3</item>
+        <item>tecno_b2</item>
+        <item>TECNO B2</item>
+        <item>itel A52 Lite</item>
+        <item>TECNO RA8</item>
+        <item>tecno_ra8</item>
+        <item>itel_a52s lite</item>
+        <item>itel A52S Lite</item>
+        <item>TECNO BA2</item>
+        <item>TECNO LC6a</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="freezable_packages">
+        <item>com.transsion.scanningrecharger</item>
+    </array>
+    <array name="gesture_blocking_activities">
+    </array>
+    <array name="hijri_c_name">
+        <item>@string/hijri_c_name_default</item>
+        <item>@string/hijri_c_name_xjl</item>
+    </array>
+    <array name="hijri_c_num">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="hijri_c_num_symbol">
+        <item>-</item>
+        <item>-</item>
+        <item />
+        <item>+</item>
+        <item>+</item>
+    </array>
+    <array name="hijri_months">
+        <item>@string/hijri_month1</item>
+        <item>@string/hijri_month2</item>
+        <item>@string/hijri_month3</item>
+        <item>@string/hijri_month4</item>
+        <item>@string/hijri_month5</item>
+        <item>@string/hijri_month6</item>
+        <item>@string/hijri_month7</item>
+        <item>@string/hijri_month8</item>
+        <item>@string/hijri_month9</item>
+        <item>@string/hijri_month10</item>
+        <item>@string/hijri_month11</item>
+        <item>@string/hijri_month12</item>
+    </array>
+    <array name="login_class">
+        <item>com.transsion.login.impl.FacebookLogin</item>
+    </array>
+    <array name="muslims_packages">
+        <item>net.devsimply.salaatfirst</item>
+        <item>com.AppRocks.i.muslim.prayer.times</item>
+        <item>ma.maznet.eladan</item>
+        <item>com.adhansalat.asalatmuslimm</item>
+        <item>salaat_first.quran_azkar.adhan</item>
+        <item>org.adannmaroc.adan</item>
+        <item>com.adhan.aw9at.salat.prayer</item>
+        <item>com.masarat.salati</item>
+        <item>com.bitsmedia.android.muslimpro</item>
+        <item>com.mobileappsteam.myprayer</item>
+        <item>com.electronicmoazen_new</item>
+        <item>com.parfield.prayers.lite</item>
+        <item>com.AppRocks.now.prayer</item>
+        <item>com.EmyPro.prayertimes</item>
+        <item>com.arabboxx.moazen</item>
+        <item>com.abdo.azan.zikr</item>
+        <item>com.athan</item>
+        <item>com.muslimheart.islampro</item>
+    </array>
+    <array name="muslims_prayers">
+        <item>@string/prayer_fajr</item>
+        <item>@string/prayer_sunrise</item>
+        <item>@string/prayer_duhur</item>
+        <item>@string/prayer_asr</item>
+        <item>@string/prayer_maghrib</item>
+        <item>@string/prayer_isha</item>
+    </array>
+    <array name="other_freq_apps">
+        <item>com.android.vending</item>
+        <item>com.google.android.apps.photos</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.android.settings</item>
+    </array>
+    <array name="pin_black_package_list">
+        <item>com.transsion.applock</item>
+        <item>com.transsion.childmode</item>
+        <item>com.transsion.XOSLauncher.upgrade</item>
+        <item>com.transsion.hilauncher.upgrade</item>
+        <item>com.transsion.itel.launcher</item>
+        <item>com.transsion.XOSLauncher</item>
+        <item>com.transsion.hilauncher</item>
+        <item>com.xui.xhide</item>
+        <item>com.transsion.datatransfer</item>
+        <item>com.sh.smart.caller</item>
+        <item>com.android.incallui</item>
+    </array>
+    <array name="preview_colors">
+        <item>#75c725</item>
+        <item>#f9a524</item>
+        <item>#f2662a</item>
+        <item>#f02718</item>
+        <item>#bd2bf4</item>
+        <item>#7850dc</item>
+        <item>#3386f8</item>
+        <item>#18cfec</item>
+    </array>
+    <array name="push_font_latin_code">
+        <item>af</item>
+        <item>sq</item>
+        <item>az</item>
+        <item>eu</item>
+        <item>ca</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>et</item>
+        <item>fo</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gl</item>
+        <item>ka</item>
+        <item>de</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>id</item>
+        <item>it</item>
+        <item>kk</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>ms</item>
+        <item>no</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>es</item>
+        <item>sw</item>
+        <item>sv</item>
+        <item>tt</item>
+        <item>tr</item>
+        <item>uz</item>
+        <item>vi</item>
+    </array>
+    <array name="recent_task_exclude">
+        <item>com.transsion.ossettingsext/com.transsion.minilauncher.MainActivity</item>
+    </array>
+    <array name="recent_task_exclude_multi">
+        <item>com.transsion.ossettingsext/com.transsion.minilauncher.MainActivity</item>
+        <item>com.transsion.applock/com.transsion.applock.activity.ConfirmLockActivity</item>
+    </array>
+    <array name="religion_names">
+        <item>@string/religion_names_01</item>
+        <item>@string/religion_names_02</item>
+        <item>@string/religion_names_03</item>
+        <item>@string/religion_names_04</item>
+        <item>@string/religion_names_05</item>
+        <item>@string/religion_names_06</item>
+        <item>@string/religion_names_07</item>
+        <item>@string/religion_names_08</item>
+        <item>@string/religion_names_09</item>
+        <item>@string/religion_names_10</item>
+    </array>
+    <array name="screen_effcet_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="screen_effect">
+        <item>0</item>
+        <item>screen_effect_classic</item>
+        <item>1</item>
+        <item>screen_effect_overshoot</item>
+        <item>2</item>
+        <item>screen_effect_stack</item>
+        <item>3</item>
+        <item>screen_effect_cube</item>
+        <item>4</item>
+        <item>screen_effect_rotate</item>
+        <item>5</item>
+        <item>screen_effect_tumble</item>
+    </array>
+    <array name="scrren_effect_entries">
+        <item>@string/screen_effect_classic</item>
+        <item>@string/screen_effect_overshoot</item>
+        <item>@string/screen_effect_stack</item>
+        <item>@string/screen_effect_cube</item>
+        <item>@string/screen_effect_rotate</item>
+        <item>@string/screen_effect_tumble</item>
+    </array>
+    <array name="setting_folder_column_entries">
+        <item>4x3</item>
+        <item>4x4</item>
+    </array>
+    <array name="setting_folder_column_values">
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="setting_folder_thunmnail_entries">
+        <item>2x2</item>
+        <item>3x3</item>
+    </array>
+    <array name="setting_folder_thunmnail_values">
+        <item>4</item>
+        <item>9</item>
+    </array>
+    <array name="setting_gesture">
+        <item>@string/gesture_function_all_apps</item>
+        <item>@string/gesture_function_notification</item>
+        <item>@string/gesture_function_search</item>
+        <item>@string/gesture_function_voice_search</item>
+        <item>@string/gesture_function_launcher_setting</item>
+        <item>@string/hide_apps_title</item>
+        <item>@string/gesture_function_start_app</item>
+        <item>@string/gesture_function_do_nothing</item>
+    </array>
+    <array name="setting_grid_entries">
+        <item>6x4</item>
+        <item>6x5</item>
+        <item>7x4</item>
+        <item>7x5</item>
+    </array>
+    <array name="setting_grid_entries_foldingscreen">
+        <item>5x5</item>
+        <item>6x5</item>
+    </array>
+    <array name="setting_grid_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </array>
+    <array name="setting_grid_values_foldingscreen">
+        <item>4</item>
+        <item>6</item>
+    </array>
+    <array name="setting_icon_scale_entries">
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </array>
+    <array name="setting_icon_scale_values">
+        <item>@string/setting_icon_min_scale</item>
+        <item>@string/setting_icon_second_scale</item>
+        <item>@string/setting_icon_third_scale</item>
+        <item>@string/setting_icon_fourth_scale</item>
+        <item>@string/setting_icon_max_scale</item>
+    </array>
+    <array name="setting_text_color_primary">
+        <item>@string/setting_text_color_auto</item>
+        <item>@string/setting_text_color_white</item>
+        <item>@string/setting_text_color_black</item>
+        <item>@string/setting_text_color_custom</item>
+    </array>
+    <array name="settings_nav_direction">
+        <item>@string/nav_right</item>
+        <item>@string/nav_left</item>
+    </array>
+    <array name="short_weekdays">
+        <item>@string/short_sunday</item>
+        <item>@string/short_monday</item>
+        <item>@string/short_tuesday</item>
+        <item>@string/short_wednesday</item>
+        <item>@string/short_thursday</item>
+        <item>@string/short_friday</item>
+        <item>@string/short_saturday</item>
+    </array>
+    <array name="shortcut_white_list">
+        <item>com.vapp.aide.intl</item>
+        <item>com.example.weizhu.test</item>
+        <item>com.transsnet.store</item>
+        <item>com.transsion.appupdate</item>
+        <item>com.transsion.plat.appupdate</item>
+        <item>com.transsion.mars.update</item>
+        <item>com.reallytek.wg</item>
+        <item>com.transsion.dualsystem</item>
+        <item>com.transsion.myapplication</item>
+    </array>
+    <array name="single_split_apps">
+    </array>
+    <array name="split_horizontal_app">
+        <item>com.dts.freefireth</item>
+        <item>com.mobile.legends</item>
+        <item>com.dts.freefiremax</item>
+        <item>com.supercell.clashofclans</item>
+        <item>com.firsttouchgames.dls3</item>
+        <item>com.firsttouchgames.dls7</item>
+        <item>com.outfit7.mytalkingtomfriends</item>
+        <item>jp.konami.pesam</item>
+        <item>com.miniclip.eightballpool</item>
+        <item>com.fingersoft.hillclimb</item>
+        <item>com.ea.gp.fifamobile</item>
+        <item>com.wildspike.wormszone</item>
+        <item>com.beachracingpinpin.yingjia</item>
+        <item>com.neptune.domino</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.lolm</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.snake.io.slither.worms</item>
+        <item>com.slither.io.hungry.snake.worms.free.game</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.youku.phone</item>
+        <item>com.qiyi.video</item>
+        <item>com.hunantv.imgo.activity</item>
+    </array>
+    <array name="split_pair_default_left_mains">
+        <item>com.gallery20/com.gallery20.HomeActivity</item>
+        <item>com.google.android.gm/com.google.android.gm.welcome.WelcomeTourActivity</item>
+    </array>
+    <array name="split_pair_default_right_sides">
+        <item>com.transsion.notebook/com.transsion.notebook.NotesList</item>
+        <item>com.transsion.notebook/com.transsion.notebook.NotesList</item>
+    </array>
+    <array name="split_screen_black_list">
+        <item>com.transsion.camera</item>
+    </array>
+    <array name="split_screen_right_taskinfo_judge">
+        <item>com.transsion.ossettingsext/com.transsion.minilauncher.MainActivity</item>
+    </array>
+    <array name="systemtoolwidgets">
+        <item>com.rlk.weathers.widget.WeatherWidget2_2Provider</item>
+        <item>com.rlk.weathers.widget.WeatherWidgetProvider</item>
+        <item>com.sprd.soundrecorder.widget.RecorderWidgetProvider</item>
+    </array>
+    <array name="theme_wallpaper_names">
+        <item>idle_wp_name</item>
+        <item>lock_wp_name</item>
+    </array>
+    <array name="tran_activity_orientation_overlay_app">
+        <item>com.transsion.deskclock</item>
+    </array>
+    <array name="tran_dual_split_packages">
+        <item>com.instagram.android</item>
+        <item>com.facebook.katana</item>
+    </array>
+    <array name="tran_gesture_blocking_activities">
+        <item>com.transsion.microintelligence/.GestureNavigationActivity</item>
+        <item>com.google.android.googlequicksearchbox/com.google.android.apps.gsa.sidekick.main.optin.OptInActivity</item>
+        <item>com.transsion.XOSLauncher/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.hilauncher/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.hilauncher.upgrade/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.itel.launcher/com.transsion.theme.SplashActivity</item>
+        <item>com.android.settings/com.transsion.microintelligence.GestureNavigationActivity</item>
+        <item>com.transsion.system.navigation/com.transsion.microintelligence.GestureNavigationActivity</item>
+    </array>
+    <array name="tran_gesture_deferStarting_activities">
+        <item>com.transsion.powercenter/.view.UltraPowerDialogActivity</item>
+        <item>com.google.android.apps.maps/com.google.android.apps.gmm.directions.appwidget.CreateDirectionsShortcutActivity</item>
+        <item>com.android.systemui/.screenrecord.ScreenRecordDialog</item>
+        <item>com.transsion.XOSLauncher/com.transsion.xlauncher.switchwallpaper</item>
+        <item>com.transsion.hilauncher/com.transsion.xlauncher.switchwallpaper</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.transsion.xlauncher.switchwallpaper</item>
+        <item>com.transsion.hilauncher.upgrade/com.transsion.xlauncher.switchwallpaper</item>
+        <item>com.transsion.itel.launcher/com.transsion.xlauncher.switchwallpaper</item>
+        <item>com.sh.smart.caller/com.android.incallui.InCallActivity</item>
+        <item>com.twitter.android/.TweetDetailActivity</item>
+        <item>com.twitter.android/com.twitter.tweetdetail.TweetDetailActivity2</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.transsion.xlauncher.search.CustomerSearchActivity</item>
+        <item>com.transsion.hilauncher.upgrade/com.transsion.xlauncher.search.CustomerSearchActivity</item>
+        <item>com.transsion.XOSLauncher/com.transsion.xlauncher.search.CustomerSearchActivity</item>
+        <item>com.transsion.hilauncher/com.transsion.xlauncher.search.CustomerSearchActivity</item>
+        <item>com.transsion.itel.launcher/com.transsion.xlauncher.search.CustomerSearchActivity</item>
+        <item>share.sharekaro.pro/com.sharekaro.app.video.ui.DetailFeedListActivity</item>
+        <item>com.transsion.smartpanel/com.talpa.inner.media.projection.ui.MultiTranslateActivity</item>
+        <item>com.transsion.ossettingsext/com.transsion.minilauncher.MainActivity</item>
+        <item>com.transsion.calendar/com.android.calendar.AllInOneActivity</item>
+        <item>com.transsion.resolver/.ChooserActivity</item>
+        <item>com.transsion.resolver/.ResolverActivity</item>
+        <item>com.transsion.ossettingsext/com.android.commonphrase.PhraseAddActivity</item>
+        <item>com.transsion.calculator/com.transsion.calculator.Calculator</item>
+        <item>com.gallery20/com.gallery20.app.photo.PhotoPageActivity</item>
+        <item>com.gallery20/com.gallery20.app.album.AlbumActivity</item>
+        <item>com.gallery20/com.gallery20.app.photo.InternalPhotoPageActivity</item>
+        <item>com.gallery20/com.gallery20.app.photo.ExternalPhotoPageActivity</item>
+        <item>com.gallery20/com.gallery20.HomeActivity</item>
+        <item>com.vkontakte.android/com.vkontakte.android.MainActivity</item>
+        <item>com.ss.android.lark.transsion/com.ss.android.lark.widget.photo.preview.PhotoPagerActivity3</item>
+        <item>com.ss.android.lark.transsion/com.ss.android.lark.chat.video.VideoPreviewActivity2</item>
+        <item>com.netease.similar/com.netease.cloudmusic.live.demo.room.message.PartySessionListDialogActivity</item>
+        <item>com.netease.similar/com.netease.cloudmusic.live.demo.room.PartyActivity</item>
+        <item>com.android.settings/com.android.settings.applications.InstalledAppDetails</item>
+        <item>com.android.settings/com.android.settings.applications.InstalledAppDetailsTop</item>
+        <item>jp.naver.line.android/jp.naver.line.android.activity.chathistory.ChatHistoryActivity</item>
+        <item>com.discord/com.discord.main.MainActivity</item>
+        <item>org.telegram.messenger/org.telegram.messenger.DefaultIcon</item>
+        <item>org.telegram.messenger/org.telegram.ui.LaunchActivity</item>
+        <item>com.whatsapp/com.whatsapp.Conversation</item>
+        <item>com.whatsapp.w4b/com.whatsapp.Conversation</item>
+        <item>com.whatsapp/com.whatsapp.camera.CameraActivity</item>
+        <item>com.tencent.mm/com.tencent.mm.ui.LauncherUI</item>
+        <item>com.android.vending/com.google.android.finsky.activities.MainActivity</item>
+        <item>com.android.vending/com.google.android.finsky.inlinevideo.fullscreenactivity.FullscreenYoutubeActivity</item>
+        <item>com.baidu.searchbox/.MainActivity</item>
+        <item>com.baidu.searchbox/com.baidu.browser.search.LightSearchActivity</item>
+        <item>com.android.wallpaper.livepicker/com.transsion.livewallpaper.preview.theme.TranLiveWallpaperPreview</item>
+        <item>com.sofeh.android.musicstudio3/com.sofeh.android.musicstudio3.MainActivity</item>
+        <item>com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity</item>
+        <item>com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity</item>
+        <item>com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.MainActivity</item>
+        <item>com.aigallery.clipper/com.aigallery.clipper.aiclipper.activity.AiClipperActivity</item>
+        <item>com.aigallery.clipper/com.aigallery.clipper.aiclipper.activity.MediaMaterialActivity</item>
+    </array>
+    <array name="tran_gesture_deferStarting_packages">
+        <item>com.android.chrome</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.whatsapp</item>
+        <item>com.facebook.orca</item>
+        <item>com.getir</item>
+        <item>com.amazon.mShop.android.shopping</item>
+        <item>com.mobilatolye.android.enuygun</item>
+        <item>com.tokopedia.tkpd</item>
+    </array>
+    <array name="tran_gesture_voice_assistant_deferStarting_activities">
+        <item>com.whatsapp/com.whatsapp.Conversation</item>
+        <item>com.whatsapp.w4b/com.whatsapp.Conversation</item>
+    </array>
+    <array name="tran_launcher_activities">
+        <item>com.transsion.XOSLauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher</item>
+        <item>com.transsion.hilauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher</item>
+        <item>com.transsion.hilauncher.upgrade/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher</item>
+        <item>com.transsion.itel.launcher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher</item>
+        <item>com.transsion.XOSLauncher/com.android.quickstep.recents_ui_overrides.src.com.android.quickstep.RecentsActivity</item>
+        <item>com.transsion.hilauncher/com.android.quickstep.recents_ui_overrides.src.com.android.quickstep.RecentsActivity</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.android.quickstep.recents_ui_overrides.src.com.android.quickstep.RecentsActivity</item>
+        <item>com.transsion.hilauncher.upgrade/com.android.quickstep.recents_ui_overrides.src.com.android.quickstep.RecentsActivity</item>
+        <item>com.transsion.itel.launcher/com.android.quickstep.recents_ui_overrides.src.com.android.quickstep.RecentsActivity</item>
+    </array>
+    <array name="tran_taskbar_black_list_activities">
+        <item>com.android.settings/com.transsion.usbdialog.UsbMTPChooserActivity</item>
+        <item>com.android.systemui/.usb.UsbDebuggingActivity</item>
+        <item>com.transsion.multiwindow/.MultiWindowGuideSplashActivity</item>
+    </array>
+    <array name="tran_three_button_blocking_activities">
+        <item>com.transsion.XOSLauncher/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.hilauncher/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.XOSLauncher.upgrade/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.hilauncher.upgrade/com.transsion.theme.SplashActivity</item>
+        <item>com.transsion.itel.launcher/com.transsion.theme.SplashActivity</item>
+    </array>
+    <array name="unFreezable_packages">
+        <item>com.fooview.android.fooview.transsion</item>
+        <item>com.google.android.videos</item>
+        <item>com.afwsamples.testdpc</item>
+        <item>com.safaricom.android.financing</item>
+        <item>com.trustonic.telecoms.standard.dlc</item>
+        <item>com.trustonic.telecoms.client.standard.dlc.playground</item>
+        <item>com.transsion.demomode</item>
+        <item>com.google.android.devicelockcontroller</item>
+        <item>com.google.android.apps.sample.kioskvnext</item>
+        <item>com.safaricom.android.financing</item>
+    </array>
+    <array name="virtual_launcher_config">
+        <item>com.example.weizhu.test</item>
+        <item>com.transsnet.store</item>
+        <item>com.transsion.magicfont</item>
+        <item>com.android.settings</item>
+        <item>com.transsion.appupdate</item>
+        <item>com.transsion.plat.appupdate</item>
+        <item>com.transsion.mars.update</item>
+    </array>
+</resources>

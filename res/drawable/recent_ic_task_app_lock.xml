@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="37dp"
+    android:width="37dp"
+    android:viewportWidth="136"
+    android:viewportHeight="136">
+    <path
+        android:fillColor="@color/recent_task_app_lock_ic_color_1"
+        android:pathData="M116.35,34.11C124.11,101.78 77.67,121.6 69.37,124.59C68.55,124.88 67.67,124.88 66.85,124.59C58.55,121.6 12.12,101.78 19.87,34.12C20.02,32.76 20.91,31.59 22.16,31.06L66.68,12.3C67.61,11.9 68.67,11.9 69.61,12.3L114.06,31.06C115.31,31.59 116.2,32.76 116.35,34.11"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@color/recent_task_app_lock_ic_color_2"
+        android:pathData="M68,42C74.63,42 80,47.37 80,54L80,58C83.31,58 86,60.69 86,64L86,84C86,87.31 83.31,90 80,90L56,90C52.69,90 50,87.31 50,84L50,64C50,60.69 52.69,58 56,58L56,54C56,47.37 61.37,42 68,42ZM68,46C63.59,46 60,49.59 60,54L60,58L76,58L76,54C76,49.67 72.55,46.14 68.25,46Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/icon_style_list_item"
+    android:layout_width="@dimen/icon_style_list_item_width"
+    android:layout_height="wrap_content">
+    <com.transsion.xlauncher.iconstyle.views.IconOutLineView
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/style_outline"
+        android:layout_width="@dimen/icon_style_list_item_out_line_width_height"
+        android:layout_height="@dimen/icon_style_list_item_out_line_width_height"
+        app:outline_round_rect_radius="16dp"
+        app:outline_style="round_rect_ex">
+        <ImageView
+            android:id="@+id/style_icon"
+            android:background="@drawable/icon_style_theme_item_bg"
+            android:padding="4dp"
+            android:layout_width="@dimen/icon_style_list_item_img_width_height"
+            android:layout_height="@dimen/icon_style_list_item_img_width_height"
+            android:scaleType="centerCrop"/>
+    </com.transsion.xlauncher.iconstyle.views.IconOutLineView>
+    <TextView
+        android:textSize="10sp"
+        android:textColor="@color/os_text_secondary_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/style_name"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        android:text="style_name"
+        android:maxLines="1"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/twelve_sp"
+        android:textColor="@color/percentage_60_black"
+        android:gravity="center"
+        android:id="@+id/theme_version"
+        android:paddingBottom="@dimen/thirty_six_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="@dimen/thirty_six_dp"
+        android:paddingEnd="@dimen/thirty_six_dp"/>
+</RelativeLayout>

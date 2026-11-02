@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <group android:name="ic_实心下拉">
+        <group
+            android:translateX="10"
+            android:translateY="18">
+            <path
+                android:fillColor="#606060"
+                android:pathData="M1.8 0 L26.2 0 C27.2 0 28 0.8 28 1.8 C28 2.3 27.8 2.7 27.5 3 L15.4 15.4 C14.6 16.2 13.4 16.2 12.6 15.4 C12.6 15.4 12.6 15.4 12.6 15.4 L0.5 3 C0.2 2.7 0 2.2 0 1.8 C0 0.8 0.8 0 1.8 0 Z"
+                android:fillType="nonZero"/>
+        </group>
+        <path
+            android:name="Rectangle"
+            android:fillColor="#000000"
+            android:pathData="M 0,0 L 48,0 L 48,48 L 0,48 z"
+            android:fillAlpha="0"/>
+    </group>
+</vector>

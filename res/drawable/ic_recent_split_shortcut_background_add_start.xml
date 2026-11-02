@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:useLevel="false">
+    <size
+        android:height="@dimen/recent_split_shortcut_background_height"
+        android:width="@dimen/recent_split_shortcut_background_width"/>
+    <stroke
+        android:width="@dimen/recent_split_shortcut_stroke_width"
+        android:color="@color/recent_split_shortcut_background_stroke_add_start_color"
+        android:dashWidth="@dimen/recent_split_shortcut_stroke_dash_width"
+        android:dashGap="@dimen/recent_split_shortcut_stroke_dash_gap"/>
+    <solid android:color="@color/recent_split_shortcut_background_add_solid_color"/>
+    <corners android:radius="@dimen/recent_split_shortcut_background_adding_radius"/>
+</shape>

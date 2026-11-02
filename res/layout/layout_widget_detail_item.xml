@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/widget_snapshot_bg"
+        android:layout_width="@dimen/widget_detail_item_size"
+        android:layout_height="@dimen/widget_detail_item_size">
+        <ImageView
+            android:id="@+id/widget_detail_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+</LinearLayout>

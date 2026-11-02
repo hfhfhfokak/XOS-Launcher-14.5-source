@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/theme_title_lr4_layout"/>
+        <View style="@style/HorizontalLine"/>
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/theme_list"
+            android:paddingTop="@dimen/ten_dp"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@android:color/transparent"
+            android:divider="@null"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrDrawable="@drawable/ic_down"
+            ptr:ptrScrollingWhileRefreshingEnabled="true"/>
+        <com.transsion.theme.common.customview.RefreshView
+            android:id="@+id/refresh_view"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.transsion.theme.common.customview.FloatingOvalButton
+        android:id="@+id/diy_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/twelve_dp"
+        android:layout_alignParentEnd="true"
+        ptr:float_image_src="@drawable/weekly_diy_btn_selector"/>
+</RelativeLayout>

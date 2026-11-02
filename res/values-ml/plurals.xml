@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">വേഗത്തിൽ %d സെക്കൻഡ് മുന്നോട്ട് നീക്കുക</item>
+        <item quantity="other">വേഗത്തിൽ %d സെക്കൻഡ് മുന്നോട്ട് നീക്കുക</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d സെക്കൻഡ് പിന്നോട്ട് നീക്കുക</item>
+        <item quantity="other">%d സെക്കൻഡ് പിന്നോട്ട് നീക്കുക</item>
+    </plurals>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s ആപ്പ് സജീവമാണ്</item>
+        <item quantity="other">%s ആപ്പുകൾ സജീവമാണ്</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">%1$d ആപ്പ് ഫ്രീസ് ചെയ്തു, %2$.2f GB ഇടം സ്വതന്ത്രമാക്കി.</item>
+        <item quantity="other">%1$d ആപ്പ്(കൾ) ഫ്രീസ് ചെയ്തു, %2$.2f GB ഇടം സ്വതന്ത്രമാക്കി.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">%1$d ആപ്പ് ഫ്രീസ് ചെയ്തു, %2$d MB ഇടം സ്വതന്ത്രമാക്കി.</item>
+        <item quantity="other">%1$d ആപ്പ്(കൾ) ഫ്രീസ് ചെയ്തു, %2$d MB ഇടം സ്വതന്ത്രമാക്കി.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d ചുവടുകൾ</item>
+        <item quantity="one">%d ഘട്ടം</item>
+        <item quantity="other">%d ചുവടുകൾ</item>
+    </plurals>
+</resources>

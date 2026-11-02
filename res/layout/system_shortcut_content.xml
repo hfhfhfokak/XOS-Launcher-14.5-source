@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.BubbleTextView
+        android:textSize="14sp"
+        android:textColor="#1f1f1f"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/bubble_text"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="false"
+        android:minHeight="@dimen/bg_popup_item_height"
+        android:lines="1"
+        android:textAlignment="viewStart"
+        android:paddingStart="@dimen/deep_shortcuts_text_padding_start"
+        android:paddingEnd="@dimen/popup_padding_end"
+        android:hyphenationFrequency="full"
+        launcher:layoutHorizontal="true"
+        style="@style/BaseIconUnBounded"/>
+    <View
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/icon"
+        android:layout_width="@dimen/system_shortcut_icon_size"
+        android:layout_height="@dimen/system_shortcut_icon_size"
+        android:layout_marginStart="@dimen/system_shortcut_margin_start"/>
+</merge>

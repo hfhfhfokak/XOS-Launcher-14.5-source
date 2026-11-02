@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s ແອັບນຳໃຊ້ຢູ່</item>
+        <item quantity="other">%s ແອັບນຳໃຊ້ຢູ່</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="other">ຕຶງ %1$d ແອບພິເຄຊັນ, ອິດສະຫຼະ%2$d ວ່າງ ເມັກກາໄບ.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d ຂັ້ນຕອນ</item>
+        <item quantity="one">%d ຂັ້ນຕອນ</item>
+        <item quantity="other">%d ຂັ້ນຕອນ</item>
+    </plurals>
+</resources>

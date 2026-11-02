@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/ic_selector_boomplay_icon"
+        android:pathData="M45,10C47.2091,10 49,11.7909 49,14L48.9993,38.999L59.0397,39C60.1443,39 61.0397,39.8954 61.0397,41C61.0397,41.5435 60.8185,42.0636 60.427,42.4406L38.3873,63.6641C37.6128,64.4099 36.3872,64.4099 35.6127,63.6641L13.573,42.4406C12.7773,41.6745 12.7534,40.4084 13.5196,39.6127C13.8966,39.2212 14.4167,39 14.9603,39L24.9993,38.999L25,14C25,11.7909 26.7909,10 29,10L45,10Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"/>
+</vector>

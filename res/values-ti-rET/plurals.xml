@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s ዝሰርሕ ዘሎ ዓዉደሞያ(ታት)</item>
+        <item quantity="other">%s ዝሰርሕ ዘሎ ዓዉደሞያ(ታት)</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">%1$d ዓዉደሞያታት ጠጠዉ ኣቢሎም፣ %2$d ሜባ ክፍቲ ቦታ ነፃ ኾይኑ</item>
+        <item quantity="other">%1$d ዓዉደሞያታት ጠጠዉ ኣቢሎም፣ %2$d ሜባ ክፍቲ ቦታ ነፃ ኾይኑ</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d ብርኪታት</item>
+        <item quantity="one">%d ብርኪ</item>
+        <item quantity="other">%d ብርኪታት</item>
+    </plurals>
+</resources>

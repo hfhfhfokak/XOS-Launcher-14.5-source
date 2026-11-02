@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/dp_16"
+    android:insetRight="@dimen/dp_16">
+    <shape android:shape="rectangle">
+        <padding
+            android:top="@dimen/dp_8"
+            android:bottom="@dimen/dp_8"/>
+        <corners android:radius="@dimen/dp_12"/>
+        <solid android:color="@color/sdk_koluncard_hios_menu_background_color"/>
+    </shape>
+</inset>

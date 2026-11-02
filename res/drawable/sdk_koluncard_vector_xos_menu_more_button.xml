@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="18dp"
+    android:width="18dp"
+    android:viewportWidth="54"
+    android:viewportHeight="54">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M0,0h54v54h-54z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillAlpha="0"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@color/sdk_koluncard_xos_menu_more_button_color"
+        android:pathData="M27,15.75C29.0711,15.75 30.75,14.0711 30.75,12C30.75,9.9289 29.0711,8.25 27,8.25C24.9289,8.25 23.25,9.9289 23.25,12C23.25,14.0711 24.9289,15.75 27,15.75ZM27,45.75C29.0711,45.75 30.75,44.0711 30.75,42C30.75,39.9289 29.0711,38.25 27,38.25C24.9289,38.25 23.25,39.9289 23.25,42C23.25,44.0711 24.9289,45.75 27,45.75ZM27,30.75C29.0711,30.75 30.75,29.0711 30.75,27C30.75,24.9289 29.0711,23.25 27,23.25C24.9289,23.25 23.25,24.9289 23.25,27C23.25,29.0711 24.9289,30.75 27,30.75Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

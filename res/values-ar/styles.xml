@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FontStyle" parent="">
+        <item name="android:textStyle">0x0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="FontStyle.Medium" parent="@style/FontStyle">
+        <item name="android:textStyle">0x1</item>
+    </style>
+    <style name="FontStyle.Regular" parent="@style/FontStyle">
+    </style>
+    <style name="FontStyle.Regular.Bold" parent="@style/FontStyle">
+        <item name="android:textStyle">0x1</item>
+    </style>
+    <style name="FontStyle.Regular.Italic" parent="@style/FontStyle.Regular">
+        <item name="android:textStyle">0x2</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/x_search_audio_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="16dp">
+        <com.transsion.xlauncher.admedia.widget.CustomRoundImageView
+            android:id="@+id/x_search_audio_item_cover"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/zs_default_audio"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:roundCornerRadius="4dp"/>
+        <View
+            android:id="@+id/x_search_audio_item_place_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/divider_height"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/x_search_audio_item_cover"/>
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/search_result_item_big_title_color"
+            android:id="@+id/x_search_audio_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_above="@+id/x_search_audio_item_place_holder"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/x_search_audio_item_cover"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/search_result_item_audio_tv_color"
+            android:id="@+id/x_search_audio_item_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_below="@+id/x_search_audio_item_place_holder"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/x_search_audio_item_cover"/>
+    </RelativeLayout>
+</LinearLayout>

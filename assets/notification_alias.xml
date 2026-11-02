@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Transsion Top Secret-->
+<resources>
+    <package>
+        <name>phone</name>
+        <aliasName>com.android.server.telecom</aliasName>
+    </package>
+</resources>
+

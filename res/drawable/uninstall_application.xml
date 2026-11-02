@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="73">
+    <path
+        android:fillColor="@color/popup_container_system_icon_color"
+        android:pathData="M44.5,9 C45.8807119,9 47,10.1192881 47,11.5 L47,11.5 L47,19 L59.5,19 C60.8807119,19 62,20.1192881 62,21.5 C62,22.8807119 60.8807119,24 59.5,24 L56,24 L56,59 C56,61.209139 54.209139,63 52,63 L19,63 C16.790861,63 15,61.209139 15,59 L15,24 L11.5,24 C10.1192881,24 9,22.8807119 9,21.5 C9,20.1192881 10.1192881,19 11.5,19 L24,19 L24,11.5 C24,10.1745166 25.0315359,9.08996133 26.3356243,9.00531768 L26.5,9 Z M51,24 L20,24 L20,58 L51,58 L51,24 Z M35.5,32 C36.8807119,32 38,33.1192881 38,34.5 L38,47.5 C38,48.8807119 36.8807119,50 35.5,50 C34.1192881,50 33,48.8807119 33,47.5 L33,34.5 C33,33.1192881 34.1192881,32 35.5,32 Z M42,14 L29,14 L29,19 L42,19 L42,14 Z"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

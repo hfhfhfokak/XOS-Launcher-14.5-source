@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="login_class">
+        <item>com.transsion.login.impl.FacebookLogin</item>
+    </array>
+</resources>

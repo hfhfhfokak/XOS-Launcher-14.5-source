@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_zs_news_title"
+        android:background="@color/zs_feeds_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_54">
+        <TextView
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/os_text_primary_color"
+            android:gravity="center_vertical"
+            android:id="@+id/zs_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/sharpnews"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_16"/>
+    </RelativeLayout>
+    <com.scene.zeroscreen.view.ZsFeedsEmptyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

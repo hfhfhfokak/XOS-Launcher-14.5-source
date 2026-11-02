@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s एप सक्रिय छ</item>
+        <item quantity="other">%s वटा एप सक्रिय छन्</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">स्थिर %1$d अनुप्रयोगहरू फ्रिज गरियो, %2$d MB ठाउँ खाली गरियो</item>
+        <item quantity="other">स्थिर %1$d अनुप्रयोगहरू फ्रिज गरियो, %2$d MB ठाउँ खाली गरियो</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d पाइला</item>
+        <item quantity="one">%d पाइला</item>
+        <item quantity="other">%d पाइला</item>
+    </plurals>
+</resources>

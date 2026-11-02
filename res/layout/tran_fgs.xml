@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.FgsContainerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    app:layout_ignoreInsets="true">
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:layout_gravity="end"
+        android:id="@+id/fgs_text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:textAppearance="@style/TextAppearance.QS.SecurityFooter"
+            android:textColor="@android:color/white"
+            android:ellipsize="end"
+            android:id="@+id/footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"/>
+        <ImageView
+            android:id="@+id/footer_icon"
+            android:layout_width="@dimen/qs_footer_icon_size"
+            android:layout_height="@dimen/qs_footer_icon_size"
+            android:src="@drawable/ic_chevron_icon"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/dp6"
+            android:autoMirrored="true"
+            app:tint="@android:color/white"/>
+    </LinearLayout>
+</com.android.quickstep.src.com.android.quickstep.views.FgsContainerView>

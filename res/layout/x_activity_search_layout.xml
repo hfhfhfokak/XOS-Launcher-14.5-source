@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.search.view.SearchBgView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_bg"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsion.xlauncher.search.view.SearchBoxView
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/search_item_margin"/>
+    <com.transsion.xlauncher.search.view.SearchProductView
+        android:id="@+id/search_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_box"/>
+    <com.transsion.xlauncher.search.view.SearchResultItemView
+        android:id="@+id/search_result"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_box"/>
+</com.transsion.xlauncher.search.view.SearchBgView>

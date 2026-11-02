@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/lau_dialog_panel_padding_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:gravity="center_horizontal"
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/lau_dialog_title_margin_bottom"
+        android:src="@drawable/hide_apps_enter_dialog_con_img"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:maxWidth="@dimen/hide_apps_enter_prompt_dialog_width"
+        android:maxHeight="@dimen/hide_apps_enter_prompt_dialog_img_max_height"
+        android:layout_marginStart="@dimen/os_dialog_padding_left_right"
+        android:layout_marginEnd="@dimen/os_dialog_padding_left_right"/>
+    <TextView
+        android:textSize="@dimen/os_body_font"
+        android:textColor="@color/os_text_primary2_color"
+        android:gravity="center_horizontal"
+        android:id="@+id/text"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hide_apps_guide_title"
+        android:fontFamily="sans-serif"
+        android:layout_marginStart="@dimen/os_dialog_padding_left_right"
+        android:layout_marginEnd="@dimen/os_dialog_padding_left_right"/>
+    <include
+        android:id="@+id/btn_divider_line"
+        layout="@layout/os_dialog_horizontal_divider"/>
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/os_dialog_button_height"
+        android:text="@android:string/ok"
+        style="@style/DialogButtonStyle_Positive"/>
+</LinearLayout>

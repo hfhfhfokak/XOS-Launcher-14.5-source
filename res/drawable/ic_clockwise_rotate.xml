@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="23.6712dp"
+    android:width="24dp"
+    android:viewportWidth="73"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M60.5038,8.4273L62.703,35.145L72.5963,40.1609L67.6683,71.9388L33.6351,71.9388L21.617,47.3495L31.125,38.8324L35.988,43.255L35.9886,16.2489L45.007,14.023L45.0075,9.9638L60.5038,8.4273ZM55.0247,15L51.0075,15.3983L51.0075,38.9793L46.0076,38.9793L46.0076,19.9559L41.9886,20.948L41.9886,50.9477L38.4203,53.5754L31.0949,46.9146L29,48.7912L37.3809,65.9388L62.5271,65.9388L66,43.5434L56.9992,38.9793L55.0247,15ZM20.6451,0.6297L35.074,11.6233L24.1803,25.9194L20.2033,22.8889L25.5104,15.9226C14.5527,17.9805 6.1823,27.4141 5.9943,38.6206L5.991,39.006L0.991,39.006C0.991,24.7702 11.7949,12.8479 25.7596,10.8125L17.6149,4.6069L20.6451,0.6297Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

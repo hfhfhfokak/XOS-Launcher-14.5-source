@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.scene.zeroscreen.cards.TitleView
+        android:id="@+id/fl_root_title_view"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.scene.zeroscreen.firstLoadingAnim.ZsFirstLoadingRecentAppView
+        android:id="@+id/fl_root_recentApp_view"
+        android:background="@drawable/zs_card_view_shape_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"/>
+    <com.scene.zeroscreen.firstLoadingAnim.ZsFirstLoading4x2CardView
+        android:id="@+id/fl_root_4x2_card_view"
+        android:background="@drawable/zs_card_view_shape_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zs_card_default_size"
+        android:layout_marginTop="@dimen/zs_recyclerview_item_decoration"/>
+    <com.scene.zeroscreen.firstLoadingAnim.ZsFirstLoading2x2CardListView
+        android:orientation="vertical"
+        android:id="@+id/fl_root_2x2_card_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_320"
+        android:layout_marginTop="@dimen/zs_recyclerview_item_decoration"/>
+    <com.scene.zeroscreen.firstLoadingAnim.ZsFirstLoadingButtonView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/fl_root_button_view"
+        android:background="@drawable/zs_card_view_shape_bg"
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_28"
+        android:layout_marginTop="@dimen/zs_recyclerview_item_decoration"/>
+</merge>

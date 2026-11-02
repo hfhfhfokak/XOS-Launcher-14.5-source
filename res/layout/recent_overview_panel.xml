@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        android:id="@+id/split_short_container"
+        layout="@layout/split_shortcut_list"/>
+    <include
+        android:id="@+id/recents_small_window_container"
+        android:visibility="gone"
+        layout="@layout/tran_small_window_folding"/>
+    <com.android.quickstep.src.com.android.quickstep.views.LauncherRecentsView
+        android:theme="@style/HomeScreenElementTheme"
+        android:id="@+id/recent_overview_panel"
+        android:visibility="invisible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:accessibilityPaneTitle="@string/accessibility_recent_apps"/>
+    <include
+        android:id="@+id/recents_fg_container"
+        android:visibility="gone"
+        layout="@layout/tran_fgs"/>
+    <include
+        android:id="@+id/recents_memory_container"
+        layout="@layout/tran_clear_all"/>
+    <include
+        android:id="@+id/overview_actions_view"
+        layout="@layout/overview_actions_container"/>
+</merge>

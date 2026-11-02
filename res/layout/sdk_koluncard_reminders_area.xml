@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:id="@+id/sdk_koluncard_reminder_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_10"
+        app:sdk_koluncard_text_style="medium"
+        style="@style/SdkKolunCardRemindersTextStyle"/>
+</merge>

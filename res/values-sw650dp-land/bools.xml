@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="clip_list_child">false</bool>
+    <bool name="theme_detail_praise_display_end">false</bool>
+    <bool name="topic_banner_with_point">false</bool>
+</resources>

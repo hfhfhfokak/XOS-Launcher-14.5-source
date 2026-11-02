@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="22dp"
+    android:width="22dp"
+    android:viewportWidth="66"
+    android:viewportHeight="66">
+    <path
+        android:fillColor="@color/popup_container_system_icon_color"
+        android:pathData="M54.4966,51.2481C55.7623,51.2481 56.7883,52.2741 56.7883,53.5398C56.7883,54.8054 55.7623,55.8314 54.4966,55.8314L54.4966,55.8314L33.4133,55.8314C32.1477,55.8314 31.1216,54.8054 31.1216,53.5398C31.1216,52.2741 32.1477,51.2481 33.4133,51.2481L33.4133,51.2481ZM43.3621,18.4505L46.6025,21.6919L13.9941,54.1883C13.0987,55.0806 11.6498,55.0793 10.7559,54.1855L10.7559,54.1855L10.7519,54.1815C9.8588,53.2852 9.8612,51.8369 10.7561,50.9451L10.7561,50.9451L43.3621,18.4505ZM50.9404,10.7545C51.8353,9.8596 53.2863,9.8596 54.1813,10.7545C55.0762,11.6495 55.0762,13.1005 54.1813,13.9955L54.1813,13.9955L49.9681,18.2086L46.7189,14.976Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

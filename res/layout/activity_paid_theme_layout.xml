@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/theme_title_lr7_layout"/>
+    <View style="@style/HorizontalLine"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/theme_list"
+            android:paddingTop="@dimen/six_dp"
+            android:paddingBottom="@dimen/twelve_dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/twelve_dp"
+            android:paddingEnd="@dimen/six_dp"/>
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/loading_progress"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sixty_dp"
+            android:indeterminate="true"
+            style="@style/mProgress_circle"/>
+    </FrameLayout>
+</LinearLayout>

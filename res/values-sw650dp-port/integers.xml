@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="column_of_recent_apps">5</integer>
+    <integer name="diy_icon_grid_column">6</integer>
+    <integer name="diy_list_cover_height">132</integer>
+    <integer name="diy_list_cover_width">306</integer>
+    <integer name="diy_theme_list_column">5</integer>
+    <integer name="search_theme_list_column">2</integer>
+    <integer name="theme_all_fragment_column">5</integer>
+    <integer name="theme_all_fragment_display_number">5</integer>
+    <integer name="theme_list_item_column">2</integer>
+    <integer name="theme_local_list_column">5</integer>
+    <integer name="theme_sort_fragment_column">2</integer>
+    <integer name="theme_topic_list_column">5</integer>
+    <integer name="theme_topic_recommend_column">5</integer>
+    <integer name="theme_widget_list_display_num">3</integer>
+    <integer name="video_show_list_column">4</integer>
+    <integer name="wallpaper_all_fragment_column">4</integer>
+</resources>

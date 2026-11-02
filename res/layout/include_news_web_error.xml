@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="14sp"
+    android:textColor="#7f444444"
+    android:layout_gravity="center"
+    android:id="@+id/webview_error_tip"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/webview_error_mark"
+    android:textAlignment="center"
+    app:drawableTopCompat="@drawable/ic_no_network"/>

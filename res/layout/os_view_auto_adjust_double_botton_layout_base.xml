@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/os_auto_aj_linear_layout"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp">
+        <com.transsion.widgetslib.view.OSAutoAdjustButton
+            android:id="@+id/os_auto_aj_left_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:layout_weight="1"
+            style="@style/OS.Widget.OSAutoAdjustButton"/>
+        <View
+            android:id="@+id/os_auto_aj_occupation"
+            android:visibility="invisible"
+            android:layout_width="12dp"
+            android:layout_height="16dp"/>
+        <com.transsion.widgetslib.view.OSAutoAdjustButton
+            android:id="@+id/os_auto_aj_right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Button"
+            android:layout_weight="1"
+            style="@style/OS.Widget.OSAutoAdjustButton"/>
+    </LinearLayout>
+</merge>

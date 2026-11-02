@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="152dp"
+    android:width="243dp"
+    android:viewportWidth="730"
+    android:viewportHeight="456">
+    <path
+        android:fillColor="#a1a1a1"
+        android:pathData="M57,182L650,182A9,9 0,0 1,659 191L659,207A9,9 0,0 1,650 216L57,216A9,9 0,0 1,48 207L48,191A9,9 0,0 1,57 182z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#a1a1a1"
+        android:pathData="M131,43L348,43A9,9 0,0 1,357 52L357,68A9,9 0,0 1,348 77L131,77A9,9 0,0 1,122 68L122,52A9,9 0,0 1,131 43z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#a1a1a1"
+        android:pathData="M367,374L595,374A9,9 0,0 1,604 383L604,399A9,9 0,0 1,595 408L367,408A9,9 0,0 1,358 399L358,383A9,9 0,0 1,367 374z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#a1a1a1"
+        android:pathData="M57,33L93,33A9,9 0,0 1,102 42L102,78A9,9 0,0 1,93 87L57,87A9,9 0,0 1,48 78L48,42A9,9 0,0 1,57 33z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#a1a1a1"
+        android:pathData="M57,240L479,240A9,9 0,0 1,488 249L488,265A9,9 0,0 1,479 274L57,274A9,9 0,0 1,48 265L48,249A9,9 0,0 1,57 240z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.2"
+        android:fillAlpha="0.2"
+        android:fillType="evenOdd"/>
+</vector>

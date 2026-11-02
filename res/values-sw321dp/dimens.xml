@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_full_combine_container">216dp</dimen>
+    <dimen name="card_full_combine_height">253dp</dimen>
+    <dimen name="card_full_combine_img">158dp</dimen>
+    <dimen name="card_half_image_height">88dp</dimen>
+</resources>

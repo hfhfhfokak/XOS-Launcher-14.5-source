@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s ਐਪ ਕਿਰਿਆਸ਼ੀਲ ਹੈ</item>
+        <item quantity="other">%s ਐਪਾਂ ਕਿਰਿਆਸ਼ੀਲ ਹਨ</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">ਫ੍ਰੋਜ਼ %1$d ਐਪਸ, ਆਜ਼ਾਦ %2$.2f ਗੈਬਾ ਸਪੇਸ.</item>
+        <item quantity="other">ਫ੍ਰੋਜ਼ %1$d ਐਪਸ, ਆਜ਼ਾਦ %2$.2f ਗੈਬਾ ਸਪੇਸ.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">ਫ੍ਰੋਜ਼ %1$d ਐਪਸ, ਆਜ਼ਾਦ %2$d ਮੈਬਾ ਸਪੇਸ.</item>
+        <item quantity="other">ਫ੍ਰੋਜ਼ %1$d ਐਪਸ, ਆਜ਼ਾਦ %2$d ਮੈਬਾ ਸਪੇਸ.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d ਕਦਮ</item>
+        <item quantity="one">%d ਕਦਮ</item>
+        <item quantity="other">%d ਕਦਮ</item>
+    </plurals>
+</resources>

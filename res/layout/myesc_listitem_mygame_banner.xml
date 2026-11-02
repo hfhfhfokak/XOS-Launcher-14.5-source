@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/dp_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsion.theme.common.customview.RoundCornerImageView
+        android:id="@+id/banner_image"
+        android:background="@drawable/discover_az_up_banner_iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="image_description"
+        app:roundCornerRadius="@dimen/discover_iv_corners_radius"/>
+    <ImageView
+        android:id="@+id/iv_icon_play"
+        android:background="@drawable/game_recommed_can_play"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_15"
+        android:layout_height="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:scaleType="centerCrop"
+        android:layout_alignRight="@+id/banner_image"
+        android:layout_alignBottom="@+id/banner_image"/>
+</RelativeLayout>

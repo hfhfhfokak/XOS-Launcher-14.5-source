@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="72dp"
+    android:width="72dp"
+    android:autoMirrored="true"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <group>
+        <group
+            android:name="Path-2"
+            android:translateX="18"
+            android:translateY="10">
+            <path
+                android:name="Path"
+                android:fillColor="#e6e6e6"
+                android:pathData="M29.8 45 C31.4 46.6 31.4 49.1 29.8 50.7 C28.2 52.3 25.7 52.3 24.1 50.7 L2.1 28.7 C0.5 27.1 0.5 24.6 2.1 23 L24 1.2 C25.6 -0.4 28.1 -0.4 29.7 1.2 C31.3 2.8 31.3 5.3 29.7 6.9 L10.7 25.9 L29.8 45 Z"/>
+        </group>
+        <path
+            android:name="Rectangle"
+            android:fillColor="#ff0000"
+            android:pathData="M 0,0 L 72,0 L 72,72 L 0,72 z"
+            android:fillAlpha="0"/>
+    </group>
+</vector>

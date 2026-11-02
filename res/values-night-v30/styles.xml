@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Launcher.AppTheme" parent="@style/Base.Launcher.AppTheme">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="Launcher.Theme.AppCompat.Os.NoActionBar" parent="@style/Launcher.Theme.AppCompat.Os.NoActionBarInternal">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+</resources>

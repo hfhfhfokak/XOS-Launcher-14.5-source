@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s app está ativo</item>
+        <item quantity="other">%s apps estão ativos</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Congelar %1$d aplicativos liberados %2$despaço MB.</item>
+        <item quantity="other">Congelar %1$d aplicativos liberados %2$despaço MB.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d passos</item>
+        <item quantity="one">%d passo</item>
+        <item quantity="other">%d passos</item>
+    </plurals>
+</resources>

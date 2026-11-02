@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityTranslucent" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="actionModeBackground">@android:color/transparent</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:progressBarStyle">@style/ThemeProgressTheme</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:colorControlActivated">@color/purple</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+        <item name="android:colorAccent">@color/purple</item>
+        <item name="android:switchStyle">@style/Theme.Widget.Switch</item>
+        <item name="android:navigationBarColor">@color/th_navigation_background_color</item>
+        <item name="android:windowLightStatusBar">@bool/theme_light_status_bar</item>
+        <item name="android:windowLightNavigationBar">@bool/theme_light_nav_bar</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="os_platform_basic_color">@color/purple</item>
+        <item name="os_platform_disabled_color">@color/percentage_20_purple</item>
+    </style>
+    <style name="BaseActivityTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="CustomerSearchTheme" parent="@style/LauncherAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:scrollbarThumbVertical">@drawable/x_folder_scroll_bar</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="gdprTheme">@style/LauncherGdprStyle</item>
+        <item name="selectableItemBackground">@drawable/item_background_borderless_material</item>
+    </style>
+    <style name="Launcher.AppTheme" parent="@style/Base.Launcher.AppTheme">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:listMenuViewStyle">@style/LauListMenuViewStyle</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="Launcher.Theme.AppCompat.Os.NoActionBar" parent="@style/Launcher.Theme.AppCompat.Os.NoActionBarInternal">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="OsCurseSupport" parent="">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+    <style name="Theme.Miniapp.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/common_window_background_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/TextViewStyle.TextDirection</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:overScrollMode">2</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="actionModeBackground">@color/common_primary_color</item>
+        <item name="colorPrimary">@color/common_primary_color</item>
+        <item name="colorPrimaryDark">@color/common_primary_color</item>
+        <item name="editTextStyle">@style/EditTextStyle.Alignment</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/wp_sort_screen_padding"
+    android:paddingEnd="@dimen/wp_sort_screen_padding">
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/wallpaper_scroll_view"
+        android:paddingTop="@dimen/theme_common_item_padding"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/ic_down"
+        ptr:ptrScrollingWhileRefreshingEnabled="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/wallpaper_sort_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    <com.transsion.theme.common.customview.RefreshView
+        android:id="@+id/refresh_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

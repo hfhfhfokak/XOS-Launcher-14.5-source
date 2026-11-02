@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="end|center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/widget_shortcut_container"
+    android:tag="@string/popup_container_iterate_children"
+    android:background="@drawable/popup_background_material_u"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/system_shortcut_header_height"
+    android:elevation="@dimen/deep_shortcuts_elevation"/>

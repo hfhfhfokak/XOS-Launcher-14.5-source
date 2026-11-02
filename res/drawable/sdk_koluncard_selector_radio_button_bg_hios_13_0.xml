@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/sdk_koluncard_svg_radio_button_selected_hios_12_0"/>
+    <item android:drawable="@drawable/sdk_koluncard_svg_radio_button_unselected_hios_13_0"/>
+</selector>

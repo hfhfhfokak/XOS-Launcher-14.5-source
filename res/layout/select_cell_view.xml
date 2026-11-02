@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.base.PaletteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/text_size"
+    android:textColor="@color/white"
+    android:ellipsize="middle"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/selected_top_margin"
+    android:singleLine="true"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp"/>

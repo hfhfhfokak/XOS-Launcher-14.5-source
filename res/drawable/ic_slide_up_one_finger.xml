@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M53.832,34.219L50.7023,9.6592L36.7108,12.895L36.13,43.692L31.0333,39.257L20.3912,46.9487L32.6351,72L66.6683,72L71.7434,39.2733L53.832,34.219ZM45.5894,17L48.3825,38.9152L65,43.6046L61.5271,66L36.3809,66L28,48.8525L30.6881,46.9096L38.4203,53.6367L41.9886,51.2855L42.6216,17.6864L45.5894,17Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M12,4h5v29h-5z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M1.2816,13.1843l13.3598,-12.6438l13.0964,12.6623l-3.4755,3.5946l-9.6583,-9.3373l-9.8856,9.3557z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

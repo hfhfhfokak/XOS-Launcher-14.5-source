@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/ten_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/recent_app_gap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/all_apps_title_top_margin"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/recent_title_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launcher_search_title_grid_apps"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="@dimen/recent_all_title_header_padding"/>
+</LinearLayout>

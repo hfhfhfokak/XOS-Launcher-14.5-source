@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.AllAppsContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apps_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/all_apps_topbar"/>
+        <com.android.launcher3.allapps.AllAppsPageHead
+            android:id="@+id/az_pageHead"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ViewStub
+            android:layout_gravity="center"
+            android:id="@+id/all_apps_container_view_stub"
+            android:visibility="gone"
+            android:layout="@layout/all_apps_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/az_pageHead"/>
+    </LinearLayout>
+</com.android.launcher3.allapps.AllAppsContainerView>

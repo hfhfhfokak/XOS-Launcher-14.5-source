@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/theme_common_item_padding"
+    android:layout_marginStart="@dimen/theme_common_item_half_padding"
+    android:layout_marginEnd="@dimen/theme_common_item_half_padding">
+    <com.transsion.theme.common.ThemeCoverView
+        android:id="@+id/search_result_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_hundred_fifty_five_dp"
+        app:isNeedText="false"
+        app:radios="@dimen/theme_preview_corner_radius"/>
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/fourteen_sp"
+        android:textColor="@color/th_res_name_color"
+        android:id="@+id/search_result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/six_dp"
+        android:layout_marginBottom="@dimen/four_dp"
+        android:lines="1"
+        android:layout_below="@+id/search_result_image"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/two_dp"/>
+    <com.transsion.theme.common.customview.RoundCornerImageView
+        android:id="@+id/flag"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_downloaded_square"
+        android:layout_alignBottom="@+id/search_result_image"
+        android:layout_alignParentRight="true"
+        app:roundCornerRadius="@dimen/theme_preview_corner_radius"/>
+</RelativeLayout>

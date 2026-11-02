@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsion.cardlibrary.element.RoundImageElement
+        android:tag="@string/card_module_key_image_url"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearance="@style/RoundedStyleItem"
+        app:strokeColor="@null"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:background="@drawable/card_big_image_title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layoutDirection="locale">
+        <com.transsion.cardlibrary.element.RoundImageElement
+            android:tag="@string/card_module_key_logo"
+            android:layout_width="@dimen/card_library_18dp"
+            android:layout_height="@dimen/card_library_18dp"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="@dimen/card_library_14dp"
+            app:shapeAppearance="@style/RoundedStyleLogo"
+            app:strokeColor="@null"/>
+        <com.transsion.cardlibrary.element.TextElement
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:tag="@string/card_module_key_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart="@dimen/card_library_5dp"/>
+    </LinearLayout>
+</RelativeLayout>

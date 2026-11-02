@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OSTablayout" parent="">
+        <item name="tabIndicatorColor">?attr/os_platform_basic_color</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingEnd">21dp</item>
+        <item name="tabPaddingStart">21dp</item>
+        <item name="tabRippleColor">?attr/os_platform_ripple_color</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

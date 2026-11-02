@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.iconstyle.views.IconOutLineView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/shape_list_item_view"
+    android:layout_width="@dimen/icon_shape_item_out_line_width_height"
+    android:layout_height="@dimen/icon_shape_item_out_line_width_height"
+    app:outline_round_rect_radius="14dp"
+    app:outline_style="shape">
+    <ImageView
+        android:id="@+id/style_shape_icon"
+        android:layout_width="@dimen/icon_shape_list_item_width_height"
+        android:layout_height="@dimen/icon_shape_list_item_width_height"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"/>
+</com.transsion.xlauncher.iconstyle.views.IconOutLineView>

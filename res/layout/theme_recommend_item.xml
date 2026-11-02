@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/eight_dp"
+    android:paddingStart="@dimen/theme_common_item_half_padding"
+    android:paddingEnd="@dimen/theme_common_item_half_padding">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cell_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:shapeAppearance="@style/ThemePreviewShapeCornerLarge"/>
+        <com.transsion.theme.common.customview.RoundCornerImageView
+            android:id="@+id/download_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_downloaded_round"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:riv_corner_radius_bottom_right="@dimen/theme_preview_corner_radius"/>
+    </RelativeLayout>
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/twelve_sp"
+        android:textColor="@color/percentage_100_gray"
+        android:ellipsize="end"
+        android:id="@+id/cell_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/six_dp"
+        android:lines="1"
+        android:fontFamily="sans-serif"/>
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/twelve_sp"
+        android:textColor="@color/percentage_50_gray"
+        android:ellipsize="end"
+        android:id="@+id/cell_price"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:lines="1"
+        android:fontFamily="sans-serif"/>
+</LinearLayout>

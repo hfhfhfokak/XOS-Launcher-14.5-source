@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/all_apps_page_head_margin_start_end"
+        android:layout_marginEnd="@dimen/all_apps_page_head_margin_start_end"
+        app:tabIndicator="@drawable/taskbar_page_indicator"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="@dimen/dp_2"
+        app:tabTextAppearance="@style/TaskbarAllAppsTabTextAppearance"
+        style="@style/AllAppsTabLayoutTextStyle"/>
+</LinearLayout>

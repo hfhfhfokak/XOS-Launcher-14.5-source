@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="38dp"
+    android:width="38dp"
+    android:viewportWidth="114"
+    android:viewportHeight="114">
+    <path
+        android:fillColor="@drawable/_ic_local_wp_head_live_wallpaper__0_res_0x7f08011b"
+        android:pathData="M76.667,32C90.474,32 101.667,43.193 101.667,57C101.667,70.807 90.474,82 76.667,82C73.494,82 70.459,81.409 67.667,80.331C77.027,76.718 83.667,67.634 83.667,57C83.667,46.366 77.027,37.282 67.667,33.669C70.459,32.591 73.494,32 76.667,32Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.25"
+        android:fillAlpha="0.25"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="@drawable/_ic_local_wp_head_live_wallpaper__1_res_0x7f08011c"
+        android:pathData="M58.667,57m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.748"
+        android:fillAlpha="0.748"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M38.667,32C24.917,32 13.667,43.25 13.667,57C13.667,70.75 24.917,82 38.667,82C52.417,82 63.667,70.75 63.667,57C63.667,43.25 52.417,32 38.667,32Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

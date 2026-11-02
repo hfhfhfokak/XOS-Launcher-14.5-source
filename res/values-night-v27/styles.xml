@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Launcher.AppTheme" parent="@style/Base.Launcher.AppTheme">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Launcher.Theme.AppCompat.Os.NoActionBar" parent="@style/Launcher.Theme.AppCompat.Os.NoActionBarInternal">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="XNAppTheme" parent="@style/OS.Theme.Material.hios">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">?attr/OsBgPrimary</item>
+        <item name="android:navigationBarColor">?attr/OsBgPrimary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:isLightTheme">false</item>
+        <item name="colorPrimaryDark">?attr/OsBgPrimary</item>
+    </style>
+    <style name="XNAppTheme_itel" parent="@style/OS.Theme.Material.itel">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">?attr/OsBgPrimary</item>
+        <item name="android:navigationBarColor">?attr/OsBgPrimary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:isLightTheme">false</item>
+        <item name="colorPrimaryDark">?attr/OsBgPrimary</item>
+    </style>
+    <style name="XNAppTheme_xos" parent="@style/OS.Theme.Material.xos">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">?attr/OsBgPrimary</item>
+        <item name="android:navigationBarColor">?attr/OsBgPrimary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:isLightTheme">false</item>
+        <item name="colorPrimaryDark">?attr/OsBgPrimary</item>
+    </style>
+</resources>

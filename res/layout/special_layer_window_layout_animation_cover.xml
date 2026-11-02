@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout
+        android:id="@+id/placeViewCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout
+        android:id="@+id/placeView"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.3"/>
+</com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout>

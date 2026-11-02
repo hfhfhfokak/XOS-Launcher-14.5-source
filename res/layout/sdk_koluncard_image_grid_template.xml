@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/sdk_koluncard_card_layout_padding_lr"
+    android:paddingEnd="@dimen/sdk_koluncard_card_layout_padding_lr"
+    app:sdk_koluncard_background_color="@color/sdk_koluncard_card_background_color"
+    app:sdk_koluncard_corner_radius="@dimen/sdk_koluncard_card_corner_radius">
+    <include layout="@layout/sdk_koluncard_title_area"/>
+    <include layout="@layout/sdk_koluncard_reminders_area"/>
+    <include
+        android:id="@+id/sdk_koluncard_content_area"
+        layout="@layout/sdk_koluncard_content_image_grid"/>
+    <include layout="@layout/sdk_koluncard_branding_area"/>
+    <include layout="@layout/sdk_koluncard_special_state"/>
+    <include layout="@layout/sdk_koluncard_operation_area"/>
+    <include layout="@layout/sdk_koluncard_spacing_area"/>
+</com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout>

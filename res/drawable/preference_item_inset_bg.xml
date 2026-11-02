@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lau_hi_preference_item_normal_day_night"/>
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="4dp"
+            android:insetRight="4dp"
+            android:insetTop="4dp"
+            android:insetBottom="4dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/os_list_item_corners_radius_inset"/>
+                <solid android:color="@color/os_press_primary_color"/>
+            </shape>
+        </inset>
+    </item>
+</layer-list>

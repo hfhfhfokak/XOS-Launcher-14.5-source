@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">फ्रीज़ की गई ऐप्स%1$d, संचित की गई जगह %2$.2f GB|</item>
+        <item quantity="other">फ्रीज़ की गई ऐप्स%1$d, संचित की गई जगह %2$.2f GB|</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">फ्रीज़ की गई ऐप्स%1$d, संचित की गई जगह %2$d MB|</item>
+        <item quantity="other">फ्रीज़ की गई ऐप्स%1$d, संचित की गई जगह %2$d MB|</item>
+    </plurals>
+</resources>

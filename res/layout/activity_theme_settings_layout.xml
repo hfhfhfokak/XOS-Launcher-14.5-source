@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/theme_title_lr7_layout"/>
+    <View style="@style/HorizontalLine"/>
+    <RadioGroup
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/button_group"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/thirty_two_dp"
+        android:layout_marginTop="@dimen/fourteen_dp"
+        android:layout_marginBottom="@dimen/eight_dp">
+        <RadioButton
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/local_theme_text_color_selector"
+            android:gravity="center"
+            android:id="@+id/button_normal_theme"
+            android:background="@drawable/button_left_background"
+            android:layout_width="@dimen/one_hundred_thirty_dp"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="@string/activity_tab_theme"/>
+        <RadioButton
+            android:textSize="@dimen/fourteen_sp"
+            android:textColor="@color/local_theme_text_color_selector"
+            android:gravity="center"
+            android:id="@+id/button_icon_pack"
+            android:background="@drawable/button_right_background"
+            android:layout_width="@dimen/one_hundred_thirty_dp"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:text="@string/icon_pack_theme"/>
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

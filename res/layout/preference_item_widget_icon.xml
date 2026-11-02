@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/icon_frame"
+    android:visibility="gone"
+    android:layout_width="@dimen/preference_item_start_icon_wh"
+    android:layout_height="@dimen/preference_item_start_icon_wh"
+    android:layout_marginStart="@dimen/preference_item_start_icon_margin_start">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

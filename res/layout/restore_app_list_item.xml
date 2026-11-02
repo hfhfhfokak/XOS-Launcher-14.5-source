@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.library.settingbase.LauRoundLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/preference_item_bg_selector"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingStart="@dimen/restore_app_list_item_padding_start_end"
+    android:paddingEnd="@dimen/restore_app_list_item_padding_start_end"
+    android:layout_marginStart="@dimen/restore_app_list_item_margin_start_end"
+    android:layout_marginEnd="@dimen/restore_app_list_item_margin_start_end">
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"/>
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/os_text_color_primary"
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:textAlignment="viewStart"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+    <CheckBox
+        android:id="@+id/item_cb"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+</com.transsion.xlauncher.library.settingbase.LauRoundLinearLayout>

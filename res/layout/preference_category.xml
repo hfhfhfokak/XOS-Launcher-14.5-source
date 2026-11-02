@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/preference_item_padding_start"
+    android:layout_marginStart="@dimen/preference_item_margin_start_end"
+    android:layout_marginEnd="@dimen/preference_item_margin_start_end">
+    <TextView
+        android:gravity="start|bottom"
+        android:id="@+id/title"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/preference_item_header_height"
+        android:textAlignment="viewStart"
+        android:layout_marginStart="@dimen/preference_item_text_margin_start"
+        android:layout_marginEnd="@dimen/preference_item_end_icon_margin_end"
+        style="@style/PreferenceText.Category"/>
+</FrameLayout>

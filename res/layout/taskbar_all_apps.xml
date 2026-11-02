@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.launcher3.taskbar.allapps.TaskbarAllAppsSlideInView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:accessibilityPaneTitle="@string/all_apps_label">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/apps_bg_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.android.quickstep.src.com.android.launcher3.taskbar.allapps.TaskbarAllAppsContainerView
+            android:id="@+id/apps_view"
+            android:focusable="false"
+            android:saveEnabled="false"
+            android:clipChildren="true"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="54dp"/>
+    </FrameLayout>
+</com.android.quickstep.src.com.android.launcher3.taskbar.allapps.TaskbarAllAppsSlideInView>

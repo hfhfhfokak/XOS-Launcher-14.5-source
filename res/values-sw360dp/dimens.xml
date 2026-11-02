@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_list_unread_margin_right">6dp</dimen>
+    <dimen name="flow_ad_image_height">167.5dp</dimen>
+    <dimen name="folder_ad_title_margin_start">10dp</dimen>
+    <dimen name="folder_unread_margin_right">12dp</dimen>
+    <dimen name="folder_unread_margin_right_5x5">0.8dp</dimen>
+    <dimen name="freq_ad_button_height">30dp</dimen>
+    <dimen name="freq_ad_button_text_size">14dp</dimen>
+    <dimen name="freq_ad_expand_padding_bottom">14dp</dimen>
+    <dimen name="freq_ad_expand_padding_start">14dp</dimen>
+    <dimen name="freq_ad_expand_padding_top">14dp</dimen>
+    <dimen name="freq_ad_image_height">96dp</dimen>
+    <dimen name="freq_ad_image_width">183dp</dimen>
+    <dimen name="freq_ad_name_text_size">16dp</dimen>
+    <dimen name="hotseat_unread_margin_right">4dp</dimen>
+    <dimen name="os_gdpr_btn_width">143dp</dimen>
+    <dimen name="workspace_unread_margin_right">10dp</dimen>
+    <dimen name="workspace_unread_margin_right_5x5">2.8dp</dimen>
+    <dimen name="workspace_unread_margin_top">5dp</dimen>
+    <dimen name="workspace_unread_margin_top_5x5">5dp</dimen>
+</resources>

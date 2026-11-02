@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/preference_item_bg_selector"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fifty_eight_dp"
+    android:paddingStart="@dimen/theme_common_screen_padding"
+    android:paddingEnd="@dimen/theme_common_screen_padding">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/text_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/ThSettingContentTextStyle"/>
+    <Switch
+        android:layout_gravity="center_vertical"
+        android:id="@+id/state_switch"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

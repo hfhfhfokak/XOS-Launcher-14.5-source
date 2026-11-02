@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="60dp"
+    android:width="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <group
+        android:name="ic_最近打开的游戏"
+        android:translateX="0"
+        android:translateY="0">
+        <path
+            android:name="Oval"
+            android:fillColor="#00000000"
+            android:pathData="M 2.5,30 a 27.5,27.5 0 0 1 55,0 a 27.5,27.5 0 0 1 -55,0 z"
+            android:strokeColor="#666678"
+            android:strokeWidth="5"
+            android:fillType="evenOdd"/>
+        <path
+            android:name="Combined-Shape"
+            android:fillColor="#666678"
+            android:pathData="M33 28.8752104 L38.9046985 34.779909 C40.0437277 35.9189381 40.0437277 37.7656693 38.9046985 38.9046985 C37.7656693 40.0437277 35.9189381 40.0437277 34.779909 38.9046985 L28.4354148 32.5602044 C27.5744497 32.0329289 27 31.0835494 27 30 L27 18 C27 16.3431458 28.3431458 15 30 15 C31.6568542 15 33 16.3431458 33 18 L33 28.8752104 Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

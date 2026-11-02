@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="54"
+    android:viewportHeight="54">
+    <path
+        android:fillColor="@color/sdk_koluncard_hios_default_text_color_4"
+        android:pathData="M27,1C41.359,1 53,12.641 53,27C53,41.359 41.359,53 27,53C12.641,53 1,41.359 1,27C1,12.641 12.641,1 27,1ZM27,6C15.402,6 6,15.402 6,27C6,38.598 15.402,48 27,48C38.598,48 48,38.598 48,27C48,15.402 38.598,6 27,6Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

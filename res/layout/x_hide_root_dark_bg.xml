@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.hide.HideAppsRootView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hide_apps_root"
+    android:fitsSystemWindows="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/hide_apps_gaosi_bg"
+        android:background="@drawable/hide_apps_bg_shape_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        launcher:layout_ignoreInsets="true"/>
+</com.transsion.xlauncher.hide.HideAppsRootView>

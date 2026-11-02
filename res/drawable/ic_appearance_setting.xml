@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="#d8d8d8"
+        android:pathData="M-0.2,0.1h72v72h-72z"
+        android:fillAlpha="0"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@color/launcher_setting_icon_color"
+        android:pathData="M55.8,7.1v12h-6v-6h-28v46h28v-14h6v20h-40v-58C15.8,7.1 55.8,7.1 55.8,7.1zM53.1,21.1c0.5,3.3 1.7,5.8 3.6,7.7c1.9,1.9 4.5,3.1 7.7,3.6c-3.3,0.5 -5.8,1.7 -7.7,3.6c-1.9,1.9 -3.1,4.5 -3.6,7.7c-0.5,-3.3 -1.7,-5.8 -3.6,-7.7s-4.5,-3.1 -7.7,-3.6c3.3,-0.5 5.8,-1.7 7.7,-3.6S52.6,24.4 53.1,21.1z"/>
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.cardlibrary.module.banner.ViewPager2Container xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    app:cardBackgroundColor="@color/card_mini_banner_bg_color"
+    app:cardCornerRadius="@dimen/card_library_16dp"
+    app:cardElevation="0dp">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</com.transsion.cardlibrary.module.banner.ViewPager2Container>

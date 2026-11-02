@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.library.widget.PointLoadingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guide_loading_progress"
+    android:padding="5dp"
+    android:clickable="false"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginTop="@dimen/guide_loading_margin_top"
+    android:layout_centerHorizontal="true"/>

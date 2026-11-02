@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="@dimen/az_up_recommend_item_width"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:background="@drawable/discover_az_up_recent_iv_bg"
+        android:layout_width="@dimen/dp_52"
+        android:layout_height="@dimen/dp_52"
+        android:layout_marginTop="@dimen/dp_6"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iv_mask"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_52"
+        android:layout_height="@dimen/dp_52"
+        android:layout_marginTop="@dimen/dp_6"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iv_icon_hot"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"
+        android:src="@drawable/game_recommend_hot_ic"
+        android:layout_alignRight="@+id/iv_icon"/>
+    <TextView
+        android:textSize="@dimen/zs_dimen_11sp"
+        android:textColor="@color/os_btn_text_dark"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/recent_tv_title"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:visibility="invisible"
+        android:layout_width="@dimen/dp_72"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:maxLines="1"
+        android:layout_below="@+id/iv_icon"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

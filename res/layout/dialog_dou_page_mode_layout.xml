@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsion.xlauncher.library.widget.ElegantTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/double_page_layout_mode_dialog_title"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        style="@style/os_dialog_title"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/doupage_animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            app:layout_ignoreInsets="true"
+            app:lottie_loop="false"/>
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/os_text_primary_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/double_page_layout_mode_dialog_des"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        style="@style/os_dialog_body"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/lau_prompt_dialog_buttons_horizontal"/>
+</LinearLayout>

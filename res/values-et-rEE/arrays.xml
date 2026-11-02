@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ad_mark_drawables">
+        <item>@drawable/ic_ads_app_mark1</item>
+        <item>@drawable/ic_ads_app_mark2</item>
+        <item>@drawable/ic_ads_app_mark3</item>
+        <item>@drawable/ic_ads_app_mark4</item>
+        <item>@drawable/ic_ads_app_mark5</item>
+    </array>
+    <array name="deepshort_config">
+        <item>com.example.weizhu.test/id_test</item>
+        <item>com.transsnet.store/id_palmstore_shortcuts</item>
+        <item>com.transsnet.store/id_test</item>
+        <item>com.transsion.appupdate/id_palmstore_shortcuts</item>
+        <item>com.transsion.appupdate/id_aha_shortcuts</item>
+        <item>com.transsion.appupdate/id_test</item>
+        <item>com.transsion.plat.appupdate/id_palmstore_shortcuts</item>
+        <item>com.transsion.plat.appupdate/id_aha_shortcuts</item>
+        <item>com.transsion.plat.appupdate/id_test</item>
+        <item>com.transsion.mars.update/id_palmstore_shortcuts</item>
+        <item>com.transsion.mars.update/id_aha_shortcuts</item>
+        <item>com.transsion.mars.update/id_test</item>
+    </array>
+    <array name="disable_remove_shortcut_config">
+        <item>com.transsion.dualsystem</item>
+        <item>com.transsion.myapplication</item>
+    </array>
+    <array name="screen_effcet_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <array name="screen_effect">
+        <item>0</item>
+        <item>screen_effect_classic</item>
+        <item>1</item>
+        <item>screen_effect_overshoot</item>
+        <item>2</item>
+        <item>screen_effect_stack</item>
+        <item>3</item>
+        <item>screen_effect_cube</item>
+        <item>4</item>
+        <item>screen_effect_rotate</item>
+        <item>5</item>
+        <item>screen_effect_tumble</item>
+    </array>
+    <array name="scrren_effect_entries">
+        <item>@string/screen_effect_classic</item>
+        <item>@string/screen_effect_overshoot</item>
+        <item>@string/screen_effect_stack</item>
+        <item>@string/screen_effect_cube</item>
+        <item>@string/screen_effect_rotate</item>
+        <item>@string/screen_effect_tumble</item>
+    </array>
+    <array name="setting_gesture">
+        <item>@string/gesture_function_all_apps</item>
+        <item>@string/gesture_function_notification</item>
+        <item>@string/gesture_function_search</item>
+        <item>@string/gesture_function_voice_search</item>
+        <item>@string/gesture_function_launcher_setting</item>
+        <item>@string/hide_apps_title</item>
+        <item>@string/gesture_function_start_app</item>
+        <item>@string/gesture_function_do_nothing</item>
+    </array>
+    <array name="setting_text_color_primary">
+        <item>@string/setting_text_color_auto</item>
+        <item>@string/setting_text_color_white</item>
+        <item>@string/setting_text_color_black</item>
+        <item>@string/setting_text_color_custom</item>
+    </array>
+    <array name="settings_nav_direction">
+        <item>@string/nav_right</item>
+        <item>@string/nav_left</item>
+    </array>
+    <array name="shortcut_white_list">
+        <item>com.vapp.aide.intl</item>
+        <item>com.example.weizhu.test</item>
+        <item>com.transsnet.store</item>
+        <item>com.transsion.appupdate</item>
+        <item>com.transsion.plat.appupdate</item>
+        <item>com.transsion.mars.update</item>
+        <item>com.reallytek.wg</item>
+        <item>com.transsion.dualsystem</item>
+        <item>com.transsion.myapplication</item>
+    </array>
+    <array name="virtual_launcher_config">
+        <item>com.example.weizhu.test</item>
+        <item>com.transsnet.store</item>
+        <item>com.transsion.magicfont</item>
+        <item>com.android.settings</item>
+        <item>com.transsion.appupdate</item>
+        <item>com.transsion.plat.appupdate</item>
+        <item>com.transsion.mars.update</item>
+    </array>
+</resources>

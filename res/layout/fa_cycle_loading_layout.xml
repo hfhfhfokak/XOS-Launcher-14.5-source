@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+    <ImageView
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/left_cycle"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:src="@drawable/fa_oval_select_blue"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/center_cycle"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:src="@drawable/fa_oval_not_select"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/right_cycle"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:src="@drawable/fa_oval_not_select"/>
+</merge>

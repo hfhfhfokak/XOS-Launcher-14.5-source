@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <com.transsion.xlauncher.library.springview.SpringScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include
+                    android:id="@+id/adaptive_mode_layout"
+                    layout="@layout/folding_open_layout_mode_item_adaptive"/>
+                <include layout="@layout/preference_category_divider"/>
+                <include
+                    android:id="@+id/double_page_mode_layout"
+                    layout="@layout/folding_open_layout_mode_item_doupage"/>
+            </LinearLayout>
+        </com.transsion.xlauncher.library.springview.SpringScrollView>
+    </FrameLayout>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_apply"
+        android:layout_width="296dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="@dimen/folding_open_layout_mode_apply_btn_bottom_without_Insets"
+        android:text="@string/setting_desktop_mode_btn_apply"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/OS.Widget.Button.Contained.Big.Single"/>
+</LinearLayout>

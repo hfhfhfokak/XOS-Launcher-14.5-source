@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/theme_popup_background"
+    android:paddingTop="@dimen/eight_dp"
+    android:paddingBottom="@dimen/eight_dp"
+    android:layout_width="@dimen/one_hundred_ten_dp"
+    android:layout_height="wrap_content">
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/fourteen_sp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/search_theme"
+        android:background="@drawable/os_press_primary_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/activity_tab_theme"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        android:textAlignment="viewStart"
+        android:paddingStart="14dp"/>
+    <com.transsion.theme.common.customview.ElegantTextView
+        android:textSize="@dimen/fourteen_sp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/search_diy"
+        android:background="@drawable/os_press_primary_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/diy_single_text"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        android:textAlignment="viewStart"
+        android:paddingStart="14dp"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/all_apps_page_head_margin_start_end"
+        android:layout_marginEnd="@dimen/all_apps_page_head_margin_start_end"
+        app:tabTextAppearance="@style/AllAppsTabTextAppearance"
+        style="@style/AllAppsTabLayoutTextStyle"/>
+    <TextView
+        android:background="#33e1e1e1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/all_apps_page_head_margin_start_end"
+        android:layout_marginEnd="@dimen/all_apps_page_head_margin_start_end"/>
+</LinearLayout>

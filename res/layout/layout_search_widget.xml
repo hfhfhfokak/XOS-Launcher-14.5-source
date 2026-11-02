@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.widget.SearchWidgetView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/search_widget_height"
+    android:contentDescription="@string/home_screen_search"
+    app:swv_contentLongBitmap="@drawable/ic_google_icon_colorful"
+    app:swv_contentMarginLeft="@dimen/search_widget_start_bitmap_margin_left"
+    app:swv_contentShortBitmap="@drawable/ic_google_g"
+    app:swv_endBitmap="@drawable/ic_google_voice_search_colorful"
+    app:swv_endBitmapMarginRight="@dimen/search_widget_end_bitmap_margin_right"
+    app:swv_rectHeight="@dimen/search_widget_rect_height"
+    app:swv_rectPaddingLeft="@dimen/search_widget_rect_padding_left"
+    app:swv_rectRadius="@dimen/search_widget_rect_radius"
+    app:swv_ripperColor="@color/search_widget_ripper_color"
+    app:swv_shadowColor="@color/search_widget_shadow_color"
+    app:swv_shadowOffset="@dimen/search_widget_shadow_offset"/>

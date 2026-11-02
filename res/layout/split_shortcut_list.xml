@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.SplitShortCutHolderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="end"
+    android:layout_gravity="end|top"
+    android:orientation="horizontal"
+    android:id="@+id/split_short_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.android.quickstep.src.com.android.quickstep.views.SplitPairRecycleView
+        android:layout_gravity="center"
+        android:id="@+id/split_shortcut_list"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="@dimen/recent_split_shortcut_list_fading_edge_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:requiresFadingEdge="horizontal"
+        android:layoutDirection="rtl"
+        android:layout_marginStart="@dimen/recent_split_shortcut_layout_margin_start"
+        android:layout_marginEnd="@dimen/recent_split_shortcut_layout_margin_start"/>
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/cover"
+        android:background="@drawable/ic_recent_split_shortcut_background_drag_cover"
+        android:padding="@dimen/dimen_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_50"
+        android:text="@string/split_screen_short_container_notice"
+        android:layout_marginStart="@dimen/recent_split_shortcut_layout_margin_start"
+        android:layout_marginEnd="@dimen/recent_split_shortcut_layout_margin_start"/>
+</com.android.quickstep.src.com.android.quickstep.views.SplitShortCutHolderView>

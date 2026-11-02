@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">Okenge %d</item>
+        <item quantity="one">Okang %d</item>
+        <item quantity="other">Okenge %d</item>
+    </plurals>
+</resources>

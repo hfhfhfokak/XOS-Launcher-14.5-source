@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notify_image_layout"
+    android:visibility="gone"
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:layout_margin="6dp">
+    <com.transsion.xlauncher.admedia.widget.CircleView
+        android:id="@+id/notify_image_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/notify_image"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.transsion.xlauncher.admedia.widget.TemperatureView
+        android:id="@+id/notify_cpu"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.transsion.xlauncher.admedia.widget.BatteryView
+        android:id="@+id/notify_battery"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/notify_scan"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clean_notify_scan"/>
+</FrameLayout>

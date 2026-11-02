@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">App(oota) hojiirra jiran %s</item>
+        <item quantity="other">App(oota) hojiirra jiran %s</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Appoota %1$d dhaabi, Bakkaa %2$d MB bilisaa tasiisii.</item>
+        <item quantity="other">Appoota %1$d dhaabi, Bakkaa %2$d MB bilisaa tasiisii.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">Tartiiboota %d</item>
+        <item quantity="one">Tartiiba %d</item>
+        <item quantity="other">Tartiiboota %d</item>
+    </plurals>
+</resources>

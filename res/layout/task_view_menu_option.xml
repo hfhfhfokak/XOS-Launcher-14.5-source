@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/PopupItem"
+    android:orientation="horizontal"
+    android:background="@drawable/task_view_menu_option_bg"
+    android:paddingTop="@dimen/recent_task_menu_layout_padding"
+    android:paddingBottom="@dimen/recent_task_menu_layout_padding"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:paddingStart="@dimen/system_shortcut_header_icon_padding"
+    android:paddingEnd="@dimen/system_shortcut_header_icon_padding"
+    style="@style/TaskMenu.Option">
+    <View
+        android:layout_gravity="center_vertical"
+        android:id="@+id/icon"
+        android:layout_width="@dimen/recent_task_menu_icon_size"
+        android:layout_height="@dimen/recent_task_menu_icon_size"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/recent_menu_item_text_color"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/text"
+        android:paddingTop="@dimen/recent_task_menu_text_padding"
+        android:paddingBottom="@dimen/recent_task_menu_text_padding"
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:paddingStart="@dimen/recent_task_menu_icon_padding"
+        style="@style/BaseIcon"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:useLevel="false">
+    <size
+        android:height="@dimen/recent_split_shortcut_item_divider_height"
+        android:width="@dimen/recent_split_shortcut_item_divider_width"/>
+    <stroke android:width="0dp"/>
+    <solid android:color="@color/recent_split_shortcut_divider_color"/>
+</shape>

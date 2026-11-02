@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <size
+        android:height="@dimen/recent_task_small_window_background_size"
+        android:width="@dimen/recent_task_small_window_background_size"/>
+    <solid android:color="@color/recent_small_window_bg_color"/>
+</shape>

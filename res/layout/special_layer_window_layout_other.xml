@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout
+        android:id="@+id/rl_layer"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.android.quickstep.src.com.android.quickstep.views.CustomImageView
+            android:id="@+id/iv_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout>
+</com.android.quickstep.src.com.android.quickstep.views.RoundRelativeLayout>

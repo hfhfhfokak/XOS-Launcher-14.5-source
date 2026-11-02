@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s aplikacja jest aktywna</item>
+        <item quantity="few">%s aplikacje są aktywne</item>
+        <item quantity="many">%s aplikacji jest aktywnych</item>
+        <item quantity="other">%s aplikacji jest aktywne</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">Zamrożono aplikację %1$d, zwolniono %2$.2f GB miejsca.</item>
+        <item quantity="other">Zamrożono aplikacje (%1$d), zwolniono %2$.2f GB miejsca.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Zamrożono aplikację %1$d, zwolniono %2$d MB miejsca.</item>
+        <item quantity="other">Zamrożono aplikacje (%1$d), zwolniono %2$d MB miejsca.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">Kroki: %d</item>
+        <item quantity="one">%d krok</item>
+        <item quantity="other">Kroki: %d</item>
+    </plurals>
+</resources>

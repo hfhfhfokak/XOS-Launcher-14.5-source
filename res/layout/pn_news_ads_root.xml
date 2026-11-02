@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/ads_empty"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <com.zero.mediation.ad.view.TAdNativeView
+        android:id="@+id/ads_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/pn_dimen_14dp"
+        android:layout_marginEnd="@dimen/pn_dimen_14dp"/>
+    <FrameLayout
+        android:id="@+id/ads_container_pool"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:id="@+id/ads_line"
+        android:background="@color/news_line_color"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0.33dp"
+        android:layout_marginStart="@dimen/pn_dimen_14dp"
+        android:layout_marginEnd="@dimen/pn_dimen_14dp"/>
+</LinearLayout>

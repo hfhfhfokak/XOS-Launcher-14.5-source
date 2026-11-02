@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.popup.DeepShortcutView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shortcuts_pop_background"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/shortcut_system_item_height"
+    android:layout_weight="1">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_gravity="center"
+            android:id="@+id/icon"
+            android:layout_width="@dimen/shortcut_system_icon_size"
+            android:layout_height="@dimen/shortcut_system_icon_size"/>
+        <com.android.launcher3.BubbleTextView
+            android:textSize="@dimen/shortcut_system_text_size"
+            android:textColor="@color/popup_container_text_color"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/bubble_text"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/shortcut_system_text_margin_top"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:paddingStart="@dimen/text_safe_margin"
+            android:paddingEnd="@dimen/text_safe_margin"
+            android:layout_marginStart="@dimen/text_safe_margin"
+            android:layout_marginEnd="@dimen/text_safe_margin"
+            android:lineHeight="@dimen/shortcut_system_text_line_height"
+            launcher:display="locale"
+            launcher:iconSizeOverride="@dimen/shortcut_system_icon_size"
+            launcher:layoutHorizontal="true"/>
+    </LinearLayout>
+</com.transsion.xlauncher.popup.DeepShortcutView>

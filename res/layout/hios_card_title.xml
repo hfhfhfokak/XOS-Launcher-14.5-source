@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_36">
+    <ImageView
+        android:id="@+id/iv_card_icon"
+        android:layout_width="@dimen/dp_18"
+        android:layout_height="@dimen/dp_18"/>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="@dimen/zs_zero_12sp"
+            android:textColor="@color/team_text_color"
+            android:id="@+id/tv_card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="@dimen/dp_6"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_refresh_ic"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen_18"
+        android:layout_height="@dimen/dimen_18"
+        android:src="@drawable/ic_exchange_hios"
+        android:layout_marginEnd="@dimen/dp_20"/>
+</LinearLayout>

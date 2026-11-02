@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s aplikacij se izvaja</item>
+        <item quantity="other">%s aplikacij se izvaja</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">Qabow %1$d app,xorayn%2$.2f Booska GB</item>
+        <item quantity="other">Qabow %1$d app(ka),xorayn %2$.2f Booska GB .</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">Qabow %1$d app,xorayn %2$d Booska MB.</item>
+        <item quantity="other">Qabow %1$d app(ka),xorayn %2$d Booska MB.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d tillaabooyinka</item>
+        <item quantity="one">%d tallaabo</item>
+        <item quantity="other">%d tillaabooyinka</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/recent_split_shortcut_delete_icon_size"
+    android:width="@dimen/recent_split_shortcut_delete_icon_size"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M36,36m-25.2,0a25.2,25.2 0,1 1,50.4 0a25.2,25.2 0,1 1,-50.4 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillAlpha="0.7"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#606060"
+        android:pathData="M26.1005,26.1005C27.194,25.007 28.9668,25.007 30.0603,26.1005L36,32.0402L41.9397,26.1005C43.0332,25.007 44.806,25.007 45.8995,26.1005C46.993,27.194 46.993,28.9668 45.8995,30.0603L39.9598,36L45.8995,41.9397C46.993,43.0332 46.993,44.806 45.8995,45.8995C44.806,46.993 43.0332,46.993 41.9397,45.8995L36,39.9598L30.0603,45.8995C28.9668,46.993 27.194,46.993 26.1005,45.8995C25.007,44.806 25.007,43.0332 26.1005,41.9397L32.0402,36L26.1005,30.0603C25.007,28.9668 25.007,27.194 26.1005,26.1005Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

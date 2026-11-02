@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:gravity="center"
+        android:id="@+id/sdk_koluncard_icon_grid_secondary_info_u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_6"
+        android:maxLines="1"
+        style="@style/SdkKolunCardSecondaryInfoTextStyle"/>
+    <com.transsion.kolun.cardtemplate.customwidget.CustomCardImageView
+        android:layout_gravity="center"
+        android:id="@+id/sdk_koluncard_icon_grid_image_view"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:scaleType="centerCrop"
+        app:sdk_koluncard_corner_radius="@dimen/sdk_koluncard_image_out_corner_radius"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:gravity="center"
+        android:id="@+id/sdk_koluncard_icon_grid_secondary_info_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:maxLines="1"
+        style="@style/SdkKolunCardSecondaryInfoTextStyle"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/sdk_koluncard_special_state_layout"
+    android:paddingTop="@dimen/dp_30"
+    android:paddingBottom="@dimen/dp_30"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_m_7">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/sdk_koluncard_loading_progress_bar"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:indeterminateDrawable="@drawable/sdk_koluncard_progress_bar_anim"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:gravity="center"
+        android:id="@+id/sdk_koluncard_special_state_text_view"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The data is being loading."
+        style="@style/SdkKolunCardPrimaryInfoTextStyle"/>
+</LinearLayout>

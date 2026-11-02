@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="exo_controls_playback_speeds">
+        <item>۰٫۲۵ برابر</item>
+        <item>۰٫۵ برابر</item>
+        <item>۰٫۷۵ برابر</item>
+        <item>عادی</item>
+        <item>۱٫۲۵ برابر</item>
+        <item>۱٫۵ برابر</item>
+        <item>۲ برابر</item>
+    </array>
+    <array name="login_class">
+        <item>com.transsion.login.impl.FacebookLogin</item>
+    </array>
+    <array name="settings_nav_direction">
+        <item>@string/nav_right</item>
+        <item>@string/nav_left</item>
+    </array>
+</resources>

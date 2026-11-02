@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feeds_bg_alpha">0.9</string>
+    <string name="folder_resize_anim_file_path">night_folder_resize_anim/</string>
+    <string name="folder_resize_anim_json_name">night_folder_resize_anim.json</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:sdk_koluncard_background_color="@color/sdk_koluncard_2x2_todo_card_bg_color">
+    <RelativeLayout
+        android:id="@+id/sdk_koluncard_2x2_selectable_title_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_42"
+        android:layoutDirection="locale"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginEnd="@dimen/dp_12">
+        <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+            android:id="@+id/sdk_koluncard_2x2_selectable_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_18"
+            android:layout_toStartOf="@+id/sdk_koluncard_2x2_selectable_title_image"
+            app:sdk_koluncard_text_style="medium"
+            style="@style/SdkKolunCardSelectableTitleStyle2X2"/>
+        <ImageView
+            android:id="@+id/sdk_koluncard_2x2_selectable_title_image"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:src="@drawable/sdk_koluncard_selector_todo_add_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sdk_koluncard_2x2_selectable_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_108"
+        android:layout_marginTop="@dimen/dp_2"
+        android:splitMotionEvents="false"
+        android:layout_marginStart="@dimen/dp_12"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:nestedScrollingEnabled="false"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:gravity="center_horizontal"
+        android:id="@+id/sdk_koluncard_2x2_selectable_empty_text"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_36"
+        android:text="No data"
+        style="@style/SdkKolunCardSelectableTextStyle2X2"/>
+</com.transsion.kolun.cardtemplate.customwidget.RoundCornerLinearLayout>

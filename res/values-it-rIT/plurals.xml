@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fgs_manager_footer_label">
+        <item quantity="one">%s app attiva</item>
+        <item quantity="other">%s app attive</item>
+    </plurals>
+    <plurals name="folder_titile_description_gb">
+        <item quantity="one">App %1$d congelata, liberati %2$.2f GB di spazio.</item>
+        <item quantity="other">App %1$d congelata/e, liberati %2$.2f GB di spazio.</item>
+    </plurals>
+    <plurals name="folder_titile_description_mb">
+        <item quantity="one">App %1$d congelata, liberati %2$d MB di spazio.</item>
+        <item quantity="other">App %1$d congelata/e, liberati %2$d MB di spazio.</item>
+    </plurals>
+    <plurals name="steps_with_unit">
+        <item quantity="zero">%d passi</item>
+        <item quantity="one">%d passo</item>
+        <item quantity="other">%d passi</item>
+    </plurals>
+</resources>

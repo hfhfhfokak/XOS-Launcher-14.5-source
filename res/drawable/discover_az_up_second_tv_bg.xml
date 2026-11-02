@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners
+        android:bottomLeftRadius="@dimen/discover_iv_corners_radius"
+        android:bottomRightRadius="@dimen/discover_iv_corners_radius"/>
+    <gradient
+        android:startColor="@color/discover_tv_back_startcolor"
+        android:endColor="@color/discover_tv_back_endcolor"
+        android:angle="90"/>
+</shape>

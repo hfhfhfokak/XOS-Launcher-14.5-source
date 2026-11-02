@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="@dimen/hotseat_bg_insert_top_bottom"
+    android:insetBottom="@dimen/hotseat_bg_insert_top_bottom">
+    <shape android:shape="rectangle">
+        <corners android:radius="20dp"/>
+        <solid android:color="@color/hotset_bg_color"/>
+    </shape>
+</inset>

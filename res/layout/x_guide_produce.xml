@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.xlauncher.guide.Guide xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_ignoreInsets="true">
+    <ViewStub
+        android:id="@+id/guide_page_product"
+        android:layout="@layout/guide_page_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.transsion.xlauncher.guide.Guide>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/hide_select_page"
+    android:background="@color/hide_page_select_setting_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_toolbar"/>
+    <com.transsion.xlauncher.library.springview.SpringRecyclerView
+        android:scrollbarThumbVertical="@color/list_scroll_bar_hint"
+        android:id="@+id/select_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/preference_item_divider_height"/>
+</LinearLayout>

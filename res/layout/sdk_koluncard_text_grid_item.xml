@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.kolun.cardtemplate.customwidget.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:id="@+id/sdk_koluncard_text_grid_secondary_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_2"
+        android:maxLines="1"
+        style="@style/SdkKolunCardSecondaryInfoTextStyle"/>
+    <com.transsion.kolun.cardtemplate.customwidget.BasicTextView
+        android:id="@+id/sdk_koluncard_text_grid_primary_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        style="@style/SdkKolunCardPrimaryInfoTextStyle"/>
+</com.transsion.kolun.cardtemplate.customwidget.CustomLinearLayout>

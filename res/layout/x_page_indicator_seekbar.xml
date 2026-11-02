@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SeekBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="@null"
+    android:layout_width="10dp"
+    android:layout_height="wrap_content"
+    android:maxHeight="8dp"
+    android:progressDrawable="@drawable/holo_pregross"
+    android:minHeight="8dp"
+    android:thumb="@drawable/current_bar"
+    android:thumbOffset="-2dp"
+    android:layoutDirection="ltr"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    android:splitTrack="false"/>

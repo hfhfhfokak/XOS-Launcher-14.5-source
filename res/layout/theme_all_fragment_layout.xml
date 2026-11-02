@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/th_search_head_layout"/>
+    <com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView
+        android:id="@+id/theme_pinned_list"
+        android:clipChildren="@bool/clip_list_child"
+        android:clipToPadding="@bool/clip_list_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_head"
+        android:paddingStart="@dimen/theme_common_screen_padding_with_item_padding"
+        android:paddingEnd="@dimen/theme_common_screen_padding_with_item_padding"
+        app:pull_load_clip_child="false"/>
+    <com.transsion.theme.common.customview.RefreshView
+        android:id="@+id/refresh_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_head"/>
+</RelativeLayout>

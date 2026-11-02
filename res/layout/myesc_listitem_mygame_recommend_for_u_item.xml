@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/ll_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:background="@drawable/discover_az_up_iv_bg"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:textSize="@dimen/zs_zero_12sp"
+        android:textColor="@color/os_btn_text_dark"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tv_title"
+        android:paddingLeft="2dp"
+        android:layout_width="@dimen/dp_72"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="  "
+        android:maxLines="1"/>
+    <TextView
+        android:textSize="@dimen/zs_zero_12sp"
+        android:textColor="@color/os_btn_text_dark"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tv_play"
+        android:background="@drawable/discover_az_up_play_iv_bg"
+        android:paddingLeft="2dp"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/zero_az_up_play"
+        android:maxLines="1"/>
+</LinearLayout>

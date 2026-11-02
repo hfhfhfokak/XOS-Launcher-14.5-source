@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="38dp"
+    android:width="38dp"
+    android:viewportWidth="114"
+    android:viewportHeight="114">
+    <path
+        android:fillColor="@drawable/_ic_local_wp_head_gallery__0_res_0x7f08011a"
+        android:pathData="M66.118,34.321L49.033,66.04C46.176,71.343 48.16,77.957 53.463,80.813C55.052,81.669 56.829,82.118 58.634,82.118L93.324,82.118C98.252,82.118 102.247,78.123 102.247,73.195C102.247,71.671 101.857,70.173 101.114,68.843L81.764,34.201C79.361,29.898 73.925,28.359 69.622,30.762C68.139,31.591 66.923,32.825 66.118,34.321Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M30.859,34.433L12.145,68.941C9.796,73.273 11.404,78.689 15.736,81.039C17.042,81.747 18.504,82.118 19.989,82.118L79.196,82.118L79.196,82.118C75.052,82.118 71.945,80.363 69.873,76.853C68.112,73.868 60.333,59.723 46.537,34.415C44.178,30.089 38.759,28.493 34.432,30.852C32.92,31.676 31.679,32.919 30.859,34.433Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

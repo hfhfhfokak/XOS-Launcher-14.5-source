@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_34"
+    android:layout_marginBottom="@dimen/dp_8">
+    <com.scene.zeroscreen.view.ZsRoundCornerImageView
+        android:id="@+id/iv_app_use_icon"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitXY"
+        android:contentDescription="icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:zs_roundCornerRadius="@dimen/dp_4"/>
+    <TextView
+        android:textSize="@dimen/zs_app_use_name_item_text_size"
+        android:textColor="@color/zs_app_use_name_color_day_night"
+        android:ellipsize="end"
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dp_88"
+        android:minHeight="16.33dp"
+        android:text="airbnb"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/dp_6"
+        app:layout_constraintStart_toEndOf="@+id/iv_app_use_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/zs_app_use_time_item_text_size"
+        android:textColor="@color/zs_app_use_time_color_day_night"
+        android:ellipsize="end"
+        android:id="@+id/tv_app_use_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dp_88"
+        android:minHeight="12.33dp"
+        android:text="2h 30min"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        app:layout_constraintStart_toStartOf="@+id/tv_app_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_app_name"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

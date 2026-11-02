@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="48dp"
+    android:autoMirrored="true"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@color/ic_selector_more_menu"
+        android:pathData="M24,14C25.841,14 27.3333,12.5076 27.3333,10.6667C27.3333,8.8257 25.841,7.3333 24,7.3333C22.159,7.3333 20.6667,8.8257 20.6667,10.6667C20.6667,12.5076 22.159,14 24,14ZM24,40.6667C25.841,40.6667 27.3333,39.1743 27.3333,37.3333C27.3333,35.4924 25.841,34 24,34C22.159,34 20.6667,35.4924 20.6667,37.3333C20.6667,39.1743 22.159,40.6667 24,40.6667ZM24,27.3333C25.841,27.3333 27.3333,25.841 27.3333,24C27.3333,22.159 25.841,20.6667 24,20.6667C22.159,20.6667 20.6667,22.159 20.6667,24C20.6667,25.841 22.159,27.3333 24,27.3333Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"/>
+</vector>

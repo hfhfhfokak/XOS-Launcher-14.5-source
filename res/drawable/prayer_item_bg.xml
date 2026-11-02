@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="84dp"
+    android:width="78dp"
+    android:viewportWidth="234"
+    android:viewportHeight="252">
+    <path
+        android:fillColor="@drawable/_prayer_item_bg__0_res_0x7f080218"
+        android:pathData="M24,0L210,0A24,24 0,0 1,234 24L234,228A24,24 0,0 1,210 252L24,252A24,24 0,0 1,0 228L0,24A24,24 0,0 1,24 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        layout="@layout/include_toolbar"/>
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="216dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/set_as_bg_img"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/OS.Widget.Button.Contained.Big.Single"/>
+    <com.transsion.xlauncher.library.springview.SpringRecyclerView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/content_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_set"
+        android:layout_below="@+id/toolbar"/>
+</RelativeLayout>

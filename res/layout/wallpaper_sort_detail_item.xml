@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsion.theme.common.ThemeCoverView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wallpaper_cover"
+    android:paddingBottom="@dimen/theme_common_item_padding"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/theme_common_item_half_padding"
+    android:paddingEnd="@dimen/theme_common_item_half_padding"
+    app:isNeedText="false"
+    app:radios="@dimen/theme_preview_corner_radius"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:id="@+id/active"
+        android:drawable="@drawable/x_info_top_bar_active"/>
+    <item
+        android:state_selected="false"
+        android:id="@+id/inactive"
+        android:drawable="@drawable/x_info_top_bar_inactive"/>
+    <transition
+        android:drawable="@drawable/x_info_top_bar_active_to_inactive_vector"
+        android:toId="@+id/inactive"
+        android:fromId="@+id/active"/>
+    <transition
+        android:drawable="@drawable/x_info_top_bar_inactive_to_active_vector"
+        android:toId="@+id/active"
+        android:fromId="@+id/inactive"/>
+</animated-selector>

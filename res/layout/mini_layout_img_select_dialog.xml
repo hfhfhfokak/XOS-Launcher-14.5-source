@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/shape_mini_select_dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/mini_dp_160">
+    <TextView
+        android:id="@+id/tv_choose_library"
+        android:text="@string/mini_choose_from_library"
+        style="@style/style_select_img_dialog_item"/>
+    <View
+        android:background="@color/mini_color_e4e6eb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mini_dp_0_5"/>
+    <TextView
+        android:enabled="false"
+        android:id="@+id/tv_recover_default"
+        android:text="@string/mini_recover_default_image"
+        style="@style/style_select_img_dialog_item"/>
+    <View
+        android:background="@color/mini_color_bg_02"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mini_dp_8"/>
+    <TextView
+        android:id="@+id/tv_choose_cancel"
+        android:layout_height="@dimen/mini_dp_56"
+        android:text="@string/mini_choose_img_cancel"
+        style="@style/style_select_img_dialog_item"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

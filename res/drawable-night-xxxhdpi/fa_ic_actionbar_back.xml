@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="72dp"
+    android:width="72dp"
+    android:autoMirrored="true"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <group android:name="ic_actionBar_back">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M44.6 59.574311 L22.6 37.574311 C21.8 36.774311 21.8 35.474311 22.6 34.774311 L44.6 12.774311 C45.4 11.974311 47.4136954 11.5328201 48.5 12.774311 C49.5863046 14.015802 49.8 15.874311 49 16.674311 L29.5 36.1558728 L48.5 55.674311 C49.3 56.474311 49.6267941 58.5883662 48.5 59.574311 C47.3732059 60.5602559 45.4 60.374311 44.6 59.574311 Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillType="nonZero"/>
+        <path
+            android:name="Rectangle"
+            android:fillColor="#d8d8d8"
+            android:pathData="M 0,0 L 72,0 L 72,72 L 0,72 z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillAlpha="0"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

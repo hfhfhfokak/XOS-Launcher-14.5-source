@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vertical_clock_data_format_12">E, MMM dd aaa</string>
+    <string name="vertical_clock_data_format_24">E, MMM dd</string>
+</resources>

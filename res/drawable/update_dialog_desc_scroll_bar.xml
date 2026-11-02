@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/update_dialog_desc_list_scroll_bar_radius"/>
+    <solid android:color="@color/update_dialog_desc_list_scroll_bar_color"/>
+    <size
+        android:height="@dimen/update_dialog_desc_list_scroll_bar_height"
+        android:width="@dimen/update_dialog_desc_list_scroll_bar_width"/>
+</shape>
